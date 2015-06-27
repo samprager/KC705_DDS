@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
+
+<Project Version="7" Minor="1" Path="C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="147a320fec014045a86cec6aef00abd1"/>
+    <Option Name="Part" Val="xc7k325tffg900-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="SimulatorLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/src/pulse2pulse.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/pulse2pulse.vhd"/>
+          <Attr Name="ImportTime" Val="1286244360"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/fmc150_stellar_cmd.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/fmc150_stellar_cmd.vhd"/>
+          <Attr Name="ImportTime" Val="1286244092"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/duc_complex_mixer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/duc_complex_mixer.vhd"/>
+          <Attr Name="ImportTime" Val="1329367160"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/ddc_complex_mixer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/ddc_complex_mixer.vhd"/>
+          <Attr Name="ImportTime" Val="1329352608"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/duc_umts_k7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/duc_umts_k7.vhd"/>
+          <Attr Name="ImportTime" Val="1329438074"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/ddc_umts_k7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/ddc_umts_k7.vhd"/>
+          <Attr Name="ImportTime" Val="1329436974"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/dac3283_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/dac3283_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1286243964"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/cdce72010_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/cdce72010_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1286933246"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/amc7823_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/amc7823_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1286243916"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/ads62p49_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/ads62p49_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1319486464"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/vio/vio.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm_adac/mmcm_adac.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm/mmcm.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/ila/ila.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/fmc150_spi_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/fmc150_spi_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1324319026"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/DUC_DDC.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Doug/AugBASH/DavidDowSIM/DUC_DDC.vhd"/>
+          <Attr Name="ImportTime" Val="1378500416"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/src/ADC_auto_calibration.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/ADC_auto_calibration.vhd"/>
+          <Attr Name="ImportTime" Val="1324319010"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/kc705_fmc150_ILA3.VHD">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../kc705_fmc150_ILA3.VHD"/>
+          <Attr Name="ImportTime" Val="1378758585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/sources_1/ports.xml">
+        <FileInfo SFType="PortsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/project_3/project_3.data/sources_1/ports.xml"/>
+          <Attr Name="ImportTime" Val="1348800880"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_0/dac3283_init.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_0/dac3283_init.coe"/>
+          <Attr Name="ImportTime" Val="1352916442"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_4/ads62p49_init.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_4/ads62p49_init.coe"/>
+          <Attr Name="ImportTime" Val="1352916448"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_3/amc7823_init.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_3/amc7823_init.coe"/>
+          <Attr Name="ImportTime" Val="1352916442"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_2/cdce72010_init_ext_491_52MHz.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_2/cdce72010_init_ext_491_52MHz.coe"/>
+          <Attr Name="ImportTime" Val="1352916444"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_1/cdce72010_init_int_491_52MHz.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_1/cdce72010_init_int_491_52MHz.coe"/>
+          <Attr Name="ImportTime" Val="1352916448"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/ddc_imf2/ddc_imf2.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/duc_imf1/conf1_imf1.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/duc_imf2/conf1_imf2.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/duc_imf3/conf1_imf3.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/duc_srrc/duc_srrc.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/ddc_imf1/ddc_imf1.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cores/ddc_srrc/ddc_srrc.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/vio/vio.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/ila/ila.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm_adac/mmcm_adac.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/mmcm/mmcm.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_6/ddc_imf1.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/cmpy_v5_0_0/complex_multiplier_DUC.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_1/dds_ddc.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_0/dds_duc.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/cmpy_v5_0_1/complex_multiplier.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_5/ddc_imf2.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_4/ddc_srrc.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_3/duc_imf1.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_2/duc_imf2.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_1/duc_imf3.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_0/duc_srrc.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_4/ads62p49_init_mem.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_3/amc7823_init_mem.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_2/cdce72010_init_mem_ext.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_1/cdce72010_init_mem_int.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_0/dac3283_init_mem.upgrade_log"/>
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_2/DDS.upgrade_log"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="KC705_fmc150"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type=""/>
+      <File Path="$PSRCDIR/constrs_1/imports/k7_TRD/k7dsp_rtl_tutorial.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial.xdc"/>
+          <Attr Name="ImportTime" Val="1336955600"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/constrs_1/designprops.xml">
+        <FileInfo SFType="CompatPartsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/project_3/project_3.data/constrs_1/designprops.xml"/>
+          <Attr Name="ImportTime" Val="1348800880"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/constrs_1/usercols.xml">
+        <FileInfo SFType="UserColsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/project_3/project_3.data/constrs_1/usercols.xml"/>
+          <Attr Name="ImportTime" Val="1348800880"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/k7_TRD/k7dsp_rtl_tutorial.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/testbench/KC705_fmc150_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../Doug/TDPs/DSP/Brad/k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/ISE/src/testbench/KC705_fmc150_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1324093924"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/KC705_fmc150_tb_wave.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="KC705_fmc150_tb"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SimulationRunTime" Val="40000 ns"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/KC705_fmc150_tb_wave.wcfg"/>
+        <Option Name="NGOutputHDLFormat" Val="vhdl"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="SP_DDS" Type="BlockSrcs" RelSrcDir="$PSRCDIR/SP_DDS">
+      <File Path="$PSRCDIR/sources_1/ip/SP_DDS/SP_DDS.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="SP_DDS"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ddc_imf1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ddc_imf1">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_6/ddc_imf1.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ddc_imf1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="complex_multiplier_DUC" Type="BlockSrcs" RelSrcDir="$PSRCDIR/complex_multiplier_DUC">
+      <File Path="$PSRCDIR/sources_1/ip/cmpy_v5_0_0/complex_multiplier_DUC.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="complex_multiplier_DUC"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="dds_ddc" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dds_ddc">
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_1/dds_ddc.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/dds_compiler_v5_0_1/dds_ddc.xci"/>
+          <Attr Name="ImportTime" Val="1362444319"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="dds_ddc"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="dds_duc" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dds_duc">
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_0/dds_duc.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/dds_compiler_v5_0_0/dds_duc.xci"/>
+          <Attr Name="ImportTime" Val="1362444328"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="dds_duc"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="complex_multiplier" Type="BlockSrcs" RelSrcDir="$PSRCDIR/complex_multiplier">
+      <File Path="$PSRCDIR/sources_1/ip/cmpy_v5_0_1/complex_multiplier.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="complex_multiplier"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ddc_imf2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ddc_imf2">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_5/ddc_imf2.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ddc_imf2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ddc_srrc" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ddc_srrc">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_4/ddc_srrc.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ddc_srrc"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="duc_imf1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/duc_imf1">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_3/duc_imf1.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="duc_imf1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="duc_imf2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/duc_imf2">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_2/duc_imf2.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="duc_imf2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="duc_imf3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/duc_imf3">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_1/duc_imf3.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="duc_imf3"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="duc_srrc" Type="BlockSrcs" RelSrcDir="$PSRCDIR/duc_srrc">
+      <File Path="$PSRCDIR/sources_1/ip/fir_compiler_v6_3_0/duc_srrc.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="duc_srrc"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="ads62p49_init_mem" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ads62p49_init_mem">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_4/ads62p49_init_mem.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_4/ads62p49_init_mem.xci"/>
+          <Attr Name="ImportTime" Val="1362444239"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="ads62p49_init_mem"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="amc7823_init_mem" Type="BlockSrcs" RelSrcDir="$PSRCDIR/amc7823_init_mem">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_3/amc7823_init_mem.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_3/amc7823_init_mem.xci"/>
+          <Attr Name="ImportTime" Val="1362444255"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="amc7823_init_mem"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="cdce72010_init_mem_ext" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cdce72010_init_mem_ext">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_2/cdce72010_init_mem_ext.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_2/cdce72010_init_mem_ext.xci"/>
+          <Attr Name="ImportTime" Val="1362444265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="cdce72010_init_mem_ext"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="cdce72010_init_mem_int" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cdce72010_init_mem_int">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_1/cdce72010_init_mem_int.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_1/cdce72010_init_mem_int.xci"/>
+          <Attr Name="ImportTime" Val="1362444273"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="cdce72010_init_mem_int"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="dac3283_init_mem" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dac3283_init_mem">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_v6_3_0/dac3283_init_mem.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../k7dsp_rtl_tutorial/RTL/Reference_Design/implementation/VHDL/Vivado/Vivado.srcs/sources_1/ip/blk_mem_gen_v6_3_0/dac3283_init_mem.xci"/>
+          <Attr Name="ImportTime" Val="1355508188"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="dac3283_init_mem"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="DDS" Type="BlockSrcs" RelSrcDir="$PSRCDIR/DDS">
+      <File Path="$PSRCDIR/sources_1/ip/dds_compiler_v5_0_2/DDS.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Test/Vivado/Vivado.srcs/sources_1/ip/dds_compiler_v5_0_2/DDS.xci"/>
+          <Attr Name="ImportTime" Val="1362444301"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="DDS"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k325tffg900-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="SP_DDS_synth_1" Type="Ft3:Synth" SrcSet="SP_DDS" Part="xc7k325tffg900-2" ConstrsSet="SP_DDS" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/SP_DDS_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="ddc_imf1_synth_1" Type="Ft3:Synth" SrcSet="ddc_imf1" Part="xc7k325tffg900-2" ConstrsSet="ddc_imf1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ddc_imf1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="complex_multiplier_DUC_synth_1" Type="Ft3:Synth" SrcSet="complex_multiplier_DUC" Part="xc7k325tffg900-2" ConstrsSet="complex_multiplier_DUC" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/complex_multiplier_DUC_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="dds_ddc_synth_1" Type="Ft3:Synth" SrcSet="dds_ddc" Part="xc7k325tffg900-2" ConstrsSet="dds_ddc" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/dds_ddc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="dds_duc_synth_1" Type="Ft3:Synth" SrcSet="dds_duc" Part="xc7k325tffg900-2" ConstrsSet="dds_duc" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/dds_duc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="complex_multiplier_synth_1" Type="Ft3:Synth" SrcSet="complex_multiplier" Part="xc7k325tffg900-2" ConstrsSet="complex_multiplier" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/complex_multiplier_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="ddc_imf2_synth_1" Type="Ft3:Synth" SrcSet="ddc_imf2" Part="xc7k325tffg900-2" ConstrsSet="ddc_imf2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ddc_imf2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="ddc_srrc_synth_1" Type="Ft3:Synth" SrcSet="ddc_srrc" Part="xc7k325tffg900-2" ConstrsSet="ddc_srrc" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ddc_srrc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="duc_imf1_synth_1" Type="Ft3:Synth" SrcSet="duc_imf1" Part="xc7k325tffg900-2" ConstrsSet="duc_imf1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/duc_imf1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="duc_imf2_synth_1" Type="Ft3:Synth" SrcSet="duc_imf2" Part="xc7k325tffg900-2" ConstrsSet="duc_imf2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/duc_imf2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="duc_imf3_synth_1" Type="Ft3:Synth" SrcSet="duc_imf3" Part="xc7k325tffg900-2" ConstrsSet="duc_imf3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/duc_imf3_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="duc_srrc_synth_1" Type="Ft3:Synth" SrcSet="duc_srrc" Part="xc7k325tffg900-2" ConstrsSet="duc_srrc" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/duc_srrc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="ads62p49_init_mem_synth_1" Type="Ft3:Synth" SrcSet="ads62p49_init_mem" Part="xc7k325tffg900-2" ConstrsSet="ads62p49_init_mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ads62p49_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="amc7823_init_mem_synth_1" Type="Ft3:Synth" SrcSet="amc7823_init_mem" Part="xc7k325tffg900-2" ConstrsSet="amc7823_init_mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/amc7823_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="cdce72010_init_mem_ext_synth_1" Type="Ft3:Synth" SrcSet="cdce72010_init_mem_ext" Part="xc7k325tffg900-2" ConstrsSet="cdce72010_init_mem_ext" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/cdce72010_init_mem_ext_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="cdce72010_init_mem_int_synth_1" Type="Ft3:Synth" SrcSet="cdce72010_init_mem_int" Part="xc7k325tffg900-2" ConstrsSet="cdce72010_init_mem_int" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/cdce72010_init_mem_int_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="dac3283_init_mem_synth_1" Type="Ft3:Synth" SrcSet="dac3283_init_mem" Part="xc7k325tffg900-2" ConstrsSet="dac3283_init_mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/dac3283_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="DDS_synth_1" Type="Ft3:Synth" SrcSet="DDS" Part="xc7k325tffg900-2" ConstrsSet="DDS" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/DDS_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2013"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="SP_DDS_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="SP_DDS" Description="Vivado Implementation Defaults" SynthRun="SP_DDS_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ddc_imf1_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="ddc_imf1" Description="Vivado Implementation Defaults" SynthRun="ddc_imf1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="complex_multiplier_DUC_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="complex_multiplier_DUC" Description="Vivado Implementation Defaults" SynthRun="complex_multiplier_DUC_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="dds_ddc_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="dds_ddc" Description="Vivado Implementation Defaults" SynthRun="dds_ddc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="dds_duc_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="dds_duc" Description="Vivado Implementation Defaults" SynthRun="dds_duc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="complex_multiplier_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="complex_multiplier" Description="Vivado Implementation Defaults" SynthRun="complex_multiplier_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ddc_imf2_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="ddc_imf2" Description="Vivado Implementation Defaults" SynthRun="ddc_imf2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ddc_srrc_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="ddc_srrc" Description="Vivado Implementation Defaults" SynthRun="ddc_srrc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="duc_imf1_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="duc_imf1" Description="Vivado Implementation Defaults" SynthRun="duc_imf1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="duc_imf2_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="duc_imf2" Description="Vivado Implementation Defaults" SynthRun="duc_imf2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="duc_imf3_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="duc_imf3" Description="Vivado Implementation Defaults" SynthRun="duc_imf3_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="duc_srrc_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="duc_srrc" Description="Vivado Implementation Defaults" SynthRun="duc_srrc_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ads62p49_init_mem_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="ads62p49_init_mem" Description="Vivado Implementation Defaults" SynthRun="ads62p49_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="amc7823_init_mem_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="amc7823_init_mem" Description="Vivado Implementation Defaults" SynthRun="amc7823_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="cdce72010_init_mem_ext_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="cdce72010_init_mem_ext" Description="Vivado Implementation Defaults" SynthRun="cdce72010_init_mem_ext_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="cdce72010_init_mem_int_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="cdce72010_init_mem_int" Description="Vivado Implementation Defaults" SynthRun="cdce72010_init_mem_int_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="dac3283_init_mem_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="dac3283_init_mem" Description="Vivado Implementation Defaults" SynthRun="dac3283_init_mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="DDS_impl_1" Type="Ft2:EntireDesign" Part="xc7k325tffg900-2" ConstrsSet="DDS" Description="Vivado Implementation Defaults" SynthRun="DDS_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
+</Project>

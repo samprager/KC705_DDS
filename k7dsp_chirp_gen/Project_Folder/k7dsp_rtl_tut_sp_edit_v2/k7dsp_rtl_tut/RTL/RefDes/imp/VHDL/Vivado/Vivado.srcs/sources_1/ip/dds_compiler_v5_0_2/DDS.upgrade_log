@@ -1,0 +1,140 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Fri Jun 26 18:14:56 2015
+| Host         : radar-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'DDS'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of DDS (xilinx.com:ip:dds_compiler:6.0) from (Rev. 2) to (Rev. 5)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+WARNING: Attempt to set value '9' on disabled parameter 'Latency' is ignored for 'DDS'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:dds_compiler:6.0 -user_name DDS
+set_property -dict "\
+  CONFIG.POR_mode false \
+  CONFIG.Output_Frequency12 0 \
+  CONFIG.Output_Frequency13 0 \
+  CONFIG.Output_Frequency14 0 \
+  CONFIG.Output_Frequency15 0 \
+  CONFIG.Output_Frequency16 0 \
+  CONFIG.Phase_Offset_Angles1 0 \
+  CONFIG.Optimization_Goal Speed \
+  CONFIG.Phase_Offset_Angles2 0 \
+  CONFIG.Parameter_Entry System_Parameters \
+  CONFIG.PINC10 0 \
+  CONFIG.Phase_Offset_Angles3 0 \
+  CONFIG.Has_Phase_Out false \
+  CONFIG.PINC11 0 \
+  CONFIG.Phase_Offset_Angles4 0 \
+  CONFIG.PINC12 0 \
+  CONFIG.Phase_Offset_Angles5 0 \
+  CONFIG.PINC13 0 \
+  CONFIG.Phase_Offset_Angles6 0 \
+  CONFIG.Output_Selection Sine_and_Cosine \
+  CONFIG.PINC14 0 \
+  CONFIG.Phase_Offset_Angles7 0 \
+  CONFIG.PINC15 0 \
+  CONFIG.Phase_Offset_Angles8 0 \
+  CONFIG.PINC16 0 \
+  CONFIG.Phase_Offset_Angles9 0 \
+  CONFIG.M_PHASE_Has_TUSER Not_Required \
+  CONFIG.Negative_Cosine false \
+  CONFIG.PartsPresent Phase_Generator_and_SIN_COS_LUT \
+  CONFIG.POFF1 0 \
+  CONFIG.POFF2 0 \
+  CONFIG.Frequency_Resolution 1271.56575521 \
+  CONFIG.POFF3 0 \
+  CONFIG.POFF4 0 \
+  CONFIG.DSP48_Use Maximal \
+  CONFIG.POFF5 0 \
+  CONFIG.Latency 9 \
+  CONFIG.S_PHASE_Has_TUSER Not_Required \
+  CONFIG.Phase_Offset_Angles10 0 \
+  CONFIG.POFF6 0 \
+  CONFIG.Has_ACLKEN true \
+  CONFIG.Negative_Sine false \
+  CONFIG.Phase_Offset_Angles11 0 \
+  CONFIG.POFF7 0 \
+  CONFIG.Phase_Offset_Angles12 0 \
+  CONFIG.POFF8 0 \
+  CONFIG.Phase_Offset_Angles13 0 \
+  CONFIG.POFF9 0 \
+  CONFIG.Phase_Offset_Angles14 0 \
+  CONFIG.Phase_Increment Fixed \
+  CONFIG.Phase_Offset_Angles15 0 \
+  CONFIG.Phase_Offset_Angles16 0 \
+  CONFIG.Latency_Configuration Auto \
+  CONFIG.Mode_of_Operation Standard \
+  CONFIG.Memory_Type Auto \
+  CONFIG.Output_Frequency1 6.144 \
+  CONFIG.Output_Frequency2 0 \
+  CONFIG.DATA_Has_TLAST Not_Required \
+  CONFIG.Output_Frequency3 0 \
+  CONFIG.Has_ARESETn false \
+  CONFIG.Output_Frequency4 0 \
+  CONFIG.Output_Frequency5 0 \
+  CONFIG.Output_Frequency6 0 \
+  CONFIG.Phase_Width 18 \
+  CONFIG.Output_Frequency7 0 \
+  CONFIG.DDS_Clock_Rate 245.76 \
+  CONFIG.Output_Frequency8 0 \
+  CONFIG.Output_Frequency9 0 \
+  CONFIG.PINC1 1100110011001 \
+  CONFIG.Spurious_Free_Dynamic_Range 96 \
+  CONFIG.PINC2 0 \
+  CONFIG.OUTPUT_FORM Twos_Complement \
+  CONFIG.S_PHASE_TUSER_Width 1 \
+  CONFIG.PINC3 0 \
+  CONFIG.PINC4 0 \
+  CONFIG.PINC5 0 \
+  CONFIG.Phase_offset None \
+  CONFIG.Noise_Shaping Auto \
+  CONFIG.PINC6 0 \
+  CONFIG.PINC7 0 \
+  CONFIG.PINC8 0 \
+  CONFIG.period 1 \
+  CONFIG.PINC9 0 \
+  CONFIG.Component_Name DDS \
+  CONFIG.explicit_period false \
+  CONFIG.S_CONFIG_Sync_Mode On_Vector \
+  CONFIG.Output_Width 16 \
+  CONFIG.GUI_Behaviour Coregen \
+  CONFIG.Amplitude_Mode Full_Range \
+  CONFIG.M_DATA_Has_TUSER Not_Required \
+  CONFIG.POFF10 0 \
+  CONFIG.Has_TREADY false \
+  CONFIG.POFF11 0 \
+  CONFIG.POFF12 0 \
+  CONFIG.POFF13 0 \
+  CONFIG.POFF14 0 \
+  CONFIG.POFF15 0 \
+  CONFIG.Modulus 9 \
+  CONFIG.POFF16 0 \
+  CONFIG.Output_Frequency10 0 \
+  CONFIG.Output_Frequency11 0 \
+  CONFIG.Resync false \
+  CONFIG.Channels 1 " [get_ips DDS]
+
+

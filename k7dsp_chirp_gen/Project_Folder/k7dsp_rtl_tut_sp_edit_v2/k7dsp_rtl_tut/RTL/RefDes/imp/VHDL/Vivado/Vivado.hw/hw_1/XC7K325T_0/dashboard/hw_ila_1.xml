@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="2" height="613"
+                layout="JideBoxLayout" vgap="6" width="427">
+                <Gadget height="71" key="Trigger Capture Status" width="427">
+                    <Ila capture_condition="AND" capture_mode="ALWAYS"
+                        data_depth="2048" trigger_condition="AND"
+                        trigger_mode="BASIC_ONLY" trigger_position="0"
+                        trigout_mode="DISABLED" tsm_file="" window_count="1"/>
+                </Gadget>
+                <Gadget height="334" key="Basic Trigger Setup" width="427">
+                    <Probe name="adc_chb_re_mux_polarity_1"/>
+                    <Probe name="adc_dout_i_245_76_MSPS[13:0]"/>
+                    <Probe name="baseband_out_i_sig_dly1[15:0]"/>
+                    <Probe name="baseband_out_q_sig_dly1[15:0]"/>
+                    <Probe name="baseband_out_valid_sig_dly1_1"/>
+                    <Probe name="dac_din_i[15:0]"/>
+                    <Probe name="dac_din_q[15:0]"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>
