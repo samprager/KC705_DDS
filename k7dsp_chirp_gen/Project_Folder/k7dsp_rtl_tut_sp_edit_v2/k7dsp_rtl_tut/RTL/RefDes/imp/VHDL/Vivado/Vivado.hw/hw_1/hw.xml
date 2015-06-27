@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hwsession version="1" minor="1">
+  <probeset name="hwsession" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+      </probeOptions>
+      <nets>
+        <net name="adc_chb_re_mux_polarity"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="adc_chb_re_mux_polarity_1"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq14&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq14&apos;bXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq14&apos;bXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="adc_dout_i_245_76_MSPS[13]"/>
+        <net name="adc_dout_i_245_76_MSPS[12]"/>
+        <net name="adc_dout_i_245_76_MSPS[11]"/>
+        <net name="adc_dout_i_245_76_MSPS[10]"/>
+        <net name="adc_dout_i_245_76_MSPS[9]"/>
+        <net name="adc_dout_i_245_76_MSPS[8]"/>
+        <net name="adc_dout_i_245_76_MSPS[7]"/>
+        <net name="adc_dout_i_245_76_MSPS[6]"/>
+        <net name="adc_dout_i_245_76_MSPS[5]"/>
+        <net name="adc_dout_i_245_76_MSPS[4]"/>
+        <net name="adc_dout_i_245_76_MSPS[3]"/>
+        <net name="adc_dout_i_245_76_MSPS[2]"/>
+        <net name="adc_dout_i_245_76_MSPS[1]"/>
+        <net name="adc_dout_i_245_76_MSPS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq14&apos;bXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+      </probeOptions>
+      <nets>
+        <net name="adc_dout_q_245_76_MSPS[13]"/>
+        <net name="adc_dout_q_245_76_MSPS[12]"/>
+        <net name="adc_dout_q_245_76_MSPS[11]"/>
+        <net name="adc_dout_q_245_76_MSPS[10]"/>
+        <net name="adc_dout_q_245_76_MSPS[9]"/>
+        <net name="adc_dout_q_245_76_MSPS[8]"/>
+        <net name="adc_dout_q_245_76_MSPS[7]"/>
+        <net name="adc_dout_q_245_76_MSPS[6]"/>
+        <net name="adc_dout_q_245_76_MSPS[5]"/>
+        <net name="adc_dout_q_245_76_MSPS[4]"/>
+        <net name="adc_dout_q_245_76_MSPS[3]"/>
+        <net name="adc_dout_q_245_76_MSPS[2]"/>
+        <net name="adc_dout_q_245_76_MSPS[1]"/>
+        <net name="adc_dout_q_245_76_MSPS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="baseband_out_i_sig_dly1[15]"/>
+        <net name="baseband_out_i_sig_dly1[14]"/>
+        <net name="baseband_out_i_sig_dly1[13]"/>
+        <net name="baseband_out_i_sig_dly1[12]"/>
+        <net name="baseband_out_i_sig_dly1[11]"/>
+        <net name="baseband_out_i_sig_dly1[10]"/>
+        <net name="baseband_out_i_sig_dly1[9]"/>
+        <net name="baseband_out_i_sig_dly1[8]"/>
+        <net name="baseband_out_i_sig_dly1[7]"/>
+        <net name="baseband_out_i_sig_dly1[6]"/>
+        <net name="baseband_out_i_sig_dly1[5]"/>
+        <net name="baseband_out_i_sig_dly1[4]"/>
+        <net name="baseband_out_i_sig_dly1[3]"/>
+        <net name="baseband_out_i_sig_dly1[2]"/>
+        <net name="baseband_out_i_sig_dly1[1]"/>
+        <net name="baseband_out_i_sig_dly1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="baseband_out_q_sig_dly1[15]"/>
+        <net name="baseband_out_q_sig_dly1[14]"/>
+        <net name="baseband_out_q_sig_dly1[13]"/>
+        <net name="baseband_out_q_sig_dly1[12]"/>
+        <net name="baseband_out_q_sig_dly1[11]"/>
+        <net name="baseband_out_q_sig_dly1[10]"/>
+        <net name="baseband_out_q_sig_dly1[9]"/>
+        <net name="baseband_out_q_sig_dly1[8]"/>
+        <net name="baseband_out_q_sig_dly1[7]"/>
+        <net name="baseband_out_q_sig_dly1[6]"/>
+        <net name="baseband_out_q_sig_dly1[5]"/>
+        <net name="baseband_out_q_sig_dly1[4]"/>
+        <net name="baseband_out_q_sig_dly1[3]"/>
+        <net name="baseband_out_q_sig_dly1[2]"/>
+        <net name="baseband_out_q_sig_dly1[1]"/>
+        <net name="baseband_out_q_sig_dly1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+      </probeOptions>
+      <nets>
+        <net name="baseband_out_valid_sig_dly1"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="baseband_out_valid_sig_dly1_1"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dac_din_i[15]"/>
+        <net name="dac_din_i[14]"/>
+        <net name="dac_din_i[13]"/>
+        <net name="dac_din_i[12]"/>
+        <net name="dac_din_i[11]"/>
+        <net name="dac_din_i[10]"/>
+        <net name="dac_din_i[9]"/>
+        <net name="dac_din_i[8]"/>
+        <net name="dac_din_i[7]"/>
+        <net name="dac_din_i[6]"/>
+        <net name="dac_din_i[5]"/>
+        <net name="dac_din_i[4]"/>
+        <net name="dac_din_i[3]"/>
+        <net name="dac_din_i[2]"/>
+        <net name="dac_din_i[1]"/>
+        <net name="dac_din_i[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;bXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dac_din_q[15]"/>
+        <net name="dac_din_q[14]"/>
+        <net name="dac_din_q[13]"/>
+        <net name="dac_din_q[12]"/>
+        <net name="dac_din_q[11]"/>
+        <net name="dac_din_q[10]"/>
+        <net name="dac_din_q[9]"/>
+        <net name="dac_din_q[8]"/>
+        <net name="dac_din_q[7]"/>
+        <net name="dac_din_q[6]"/>
+        <net name="dac_din_q[5]"/>
+        <net name="dac_din_q[4]"/>
+        <net name="dac_din_q[3]"/>
+        <net name="dac_din_q[2]"/>
+        <net name="dac_din_q[1]"/>
+        <net name="dac_din_q[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq14&apos;bXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+      </probeOptions>
+      <nets>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[13]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[12]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[11]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[10]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[9]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[8]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[7]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[6]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[5]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[4]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[3]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[2]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[1]"/>
+        <net name="n_0_adc_dout_i_245_76_MSPS_reg[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="ADC_CLK_iDelay[4]"/>
+        <net name="ADC_CLK_iDelay[3]"/>
+        <net name="ADC_CLK_iDelay[2]"/>
+        <net name="ADC_CLK_iDelay[1]"/>
+        <net name="ADC_CLK_iDelay[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="ADC_Ch_A_iDelay[4]"/>
+        <net name="ADC_Ch_A_iDelay[3]"/>
+        <net name="ADC_Ch_A_iDelay[2]"/>
+        <net name="ADC_Ch_A_iDelay[1]"/>
+        <net name="ADC_Ch_A_iDelay[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="ADC_Ch_B_iDelay[4]"/>
+        <net name="ADC_Ch_B_iDelay[3]"/>
+        <net name="ADC_Ch_B_iDelay[2]"/>
+        <net name="ADC_Ch_B_iDelay[1]"/>
+        <net name="ADC_Ch_B_iDelay[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="Busy_signal"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="HEX"/>
+      </probeOptions>
+      <nets>
+        <net name="Busy_signal_1"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="HEX"/>
+      </probeOptions>
+      <nets>
+        <net name="SPI_Register_Data_from_FM150[31]"/>
+        <net name="SPI_Register_Data_from_FM150[30]"/>
+        <net name="SPI_Register_Data_from_FM150[29]"/>
+        <net name="SPI_Register_Data_from_FM150[28]"/>
+        <net name="SPI_Register_Data_from_FM150[27]"/>
+        <net name="SPI_Register_Data_from_FM150[26]"/>
+        <net name="SPI_Register_Data_from_FM150[25]"/>
+        <net name="SPI_Register_Data_from_FM150[24]"/>
+        <net name="SPI_Register_Data_from_FM150[23]"/>
+        <net name="SPI_Register_Data_from_FM150[22]"/>
+        <net name="SPI_Register_Data_from_FM150[21]"/>
+        <net name="SPI_Register_Data_from_FM150[20]"/>
+        <net name="SPI_Register_Data_from_FM150[19]"/>
+        <net name="SPI_Register_Data_from_FM150[18]"/>
+        <net name="SPI_Register_Data_from_FM150[17]"/>
+        <net name="SPI_Register_Data_from_FM150[16]"/>
+        <net name="SPI_Register_Data_from_FM150[15]"/>
+        <net name="SPI_Register_Data_from_FM150[14]"/>
+        <net name="SPI_Register_Data_from_FM150[13]"/>
+        <net name="SPI_Register_Data_from_FM150[12]"/>
+        <net name="SPI_Register_Data_from_FM150[11]"/>
+        <net name="SPI_Register_Data_from_FM150[10]"/>
+        <net name="SPI_Register_Data_from_FM150[9]"/>
+        <net name="SPI_Register_Data_from_FM150[8]"/>
+        <net name="SPI_Register_Data_from_FM150[7]"/>
+        <net name="SPI_Register_Data_from_FM150[6]"/>
+        <net name="SPI_Register_Data_from_FM150[5]"/>
+        <net name="SPI_Register_Data_from_FM150[4]"/>
+        <net name="SPI_Register_Data_from_FM150[3]"/>
+        <net name="SPI_Register_Data_from_FM150[2]"/>
+        <net name="SPI_Register_Data_from_FM150[1]"/>
+        <net name="SPI_Register_Data_from_FM150[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="ADS62P49"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="AMC7823"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="CDCE72010"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value="OutputDisplay:Toggle;"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="DAC3283"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="RW"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="0004"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+      </probeOptions>
+      <nets>
+        <net name="Register_Address[15]"/>
+        <net name="Register_Address[14]"/>
+        <net name="Register_Address[13]"/>
+        <net name="Register_Address[12]"/>
+        <net name="Register_Address[11]"/>
+        <net name="Register_Address[10]"/>
+        <net name="Register_Address[9]"/>
+        <net name="Register_Address[8]"/>
+        <net name="Register_Address[7]"/>
+        <net name="Register_Address[6]"/>
+        <net name="Register_Address[5]"/>
+        <net name="Register_Address[4]"/>
+        <net name="Register_Address[3]"/>
+        <net name="Register_Address[2]"/>
+        <net name="Register_Address[1]"/>
+        <net name="Register_Address[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="00000077"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+      </probeOptions>
+      <nets>
+        <net name="SPI_Register_Data_to_FMC150[31]"/>
+        <net name="SPI_Register_Data_to_FMC150[30]"/>
+        <net name="SPI_Register_Data_to_FMC150[29]"/>
+        <net name="SPI_Register_Data_to_FMC150[28]"/>
+        <net name="SPI_Register_Data_to_FMC150[27]"/>
+        <net name="SPI_Register_Data_to_FMC150[26]"/>
+        <net name="SPI_Register_Data_to_FMC150[25]"/>
+        <net name="SPI_Register_Data_to_FMC150[24]"/>
+        <net name="SPI_Register_Data_to_FMC150[23]"/>
+        <net name="SPI_Register_Data_to_FMC150[22]"/>
+        <net name="SPI_Register_Data_to_FMC150[21]"/>
+        <net name="SPI_Register_Data_to_FMC150[20]"/>
+        <net name="SPI_Register_Data_to_FMC150[19]"/>
+        <net name="SPI_Register_Data_to_FMC150[18]"/>
+        <net name="SPI_Register_Data_to_FMC150[17]"/>
+        <net name="SPI_Register_Data_to_FMC150[16]"/>
+        <net name="SPI_Register_Data_to_FMC150[15]"/>
+        <net name="SPI_Register_Data_to_FMC150[14]"/>
+        <net name="SPI_Register_Data_to_FMC150[13]"/>
+        <net name="SPI_Register_Data_to_FMC150[12]"/>
+        <net name="SPI_Register_Data_to_FMC150[11]"/>
+        <net name="SPI_Register_Data_to_FMC150[10]"/>
+        <net name="SPI_Register_Data_to_FMC150[9]"/>
+        <net name="SPI_Register_Data_to_FMC150[8]"/>
+        <net name="SPI_Register_Data_to_FMC150[7]"/>
+        <net name="SPI_Register_Data_to_FMC150[6]"/>
+        <net name="SPI_Register_Data_to_FMC150[5]"/>
+        <net name="SPI_Register_Data_to_FMC150[4]"/>
+        <net name="SPI_Register_Data_to_FMC150[3]"/>
+        <net name="SPI_Register_Data_to_FMC150[2]"/>
+        <net name="SPI_Register_Data_to_FMC150[1]"/>
+        <net name="SPI_Register_Data_to_FMC150[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="11110"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="Set_CH_A_iDelay[4]"/>
+        <net name="Set_CH_A_iDelay[3]"/>
+        <net name="Set_CH_A_iDelay[2]"/>
+        <net name="Set_CH_A_iDelay[1]"/>
+        <net name="Set_CH_A_iDelay[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="00000"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="Set_CH_B_iDelay[4]"/>
+        <net name="Set_CH_B_iDelay[3]"/>
+        <net name="Set_CH_B_iDelay[2]"/>
+        <net name="Set_CH_B_iDelay[1]"/>
+        <net name="Set_CH_B_iDelay[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="OUTPUT_VALUE" value="00000"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+      </probeOptions>
+      <nets>
+        <net name="Set_CLK_iDelay[4]"/>
+        <net name="Set_CLK_iDelay[3]"/>
+        <net name="Set_CLK_iDelay[2]"/>
+        <net name="Set_CLK_iDelay[1]"/>
+        <net name="Set_CLK_iDelay[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>
