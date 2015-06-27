@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DARoots Version="1" Minor="30">
-  <FileSet Name="mmcm_adac" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mmcm_adac">
-    <Config>
-      <Option Name="TopModule" Val="mmcm_adac"/>
-      <Option Name="UseBlackboxStub" Val="1"/>
-    </Config>
-  </FileSet>
-</DARoots>
