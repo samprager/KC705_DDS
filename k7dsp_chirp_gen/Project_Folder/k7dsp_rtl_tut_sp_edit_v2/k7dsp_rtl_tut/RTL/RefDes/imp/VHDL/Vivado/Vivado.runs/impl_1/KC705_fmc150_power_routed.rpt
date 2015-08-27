@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
-| Date             : Fri Jun 26 20:09:03 2015
+| Date             : Wed Aug 26 18:28:20 2015
 | Host             : radar-PC running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file KC705_fmc150_power_routed.rpt -pb KC705_fmc150_power_summary_routed.pb
 | Design           : KC705_fmc150
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.389 |
-| Dynamic (W)              | 1.221 |
+| Total On-Chip Power (W)  | 1.388 |
+| Dynamic (W)              | 1.220 |
 | Device Static (W)        | 0.168 |
 | Total Off-Chip Power (W) | 0.012 |
 | Effective TJA (C/W)      | 1.8   |
@@ -50,23 +50,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.117 |       13 |       --- |             --- |
-| Slice Logic              |     0.045 |    16425 |       --- |             --- |
-|   LUT as Logic           |     0.035 |     3456 |    203800 |            1.69 |
-|   Register               |     0.006 |     9161 |    407600 |            2.24 |
+| Clocks                   |     0.114 |       13 |       --- |             --- |
+| Slice Logic              |     0.046 |    16619 |       --- |             --- |
+|   LUT as Logic           |     0.035 |     3458 |    203800 |            1.69 |
+|   Register               |     0.006 |     9267 |    407600 |            2.27 |
 |   LUT as Distributed RAM |     0.003 |      312 |     64000 |            0.48 |
-|   LUT as Shift Register  |     0.001 |      710 |     64000 |            1.10 |
-|   CARRY4                 |    <0.001 |      144 |     50950 |            0.28 |
-|   F7/F8 Muxes            |    <0.001 |       70 |    203800 |            0.03 |
+|   LUT as Shift Register  |     0.001 |      727 |     64000 |            1.13 |
+|   CARRY4                 |    <0.001 |      147 |     50950 |            0.28 |
+|   F7/F8 Muxes            |    <0.001 |      112 |    203800 |            0.05 |
 |   BUFG                   |    <0.001 |        4 |        32 |           12.50 |
-|   Others                 |     0.000 |      829 |       --- |             --- |
-| Signals                  |     0.101 |    12552 |       --- |             --- |
-| Block RAM                |     0.166 |     18.5 |       445 |            4.15 |
+|   Others                 |     0.000 |      846 |       --- |             --- |
+| Signals                  |     0.103 |    12629 |       --- |             --- |
+| Block RAM                |     0.166 |     19.5 |       445 |            4.38 |
 | MMCM                     |     0.217 |        2 |        10 |           20.00 |
 | DSPs                     |     0.045 |       32 |       840 |            3.80 |
 | I/O                      |     0.529 |       98 |       500 |           19.60 |
 | Static Power             |     0.168 |          |           |                 |
-| Total                    |     1.389 |          |           |                 |
+| Total                    |     1.388 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.546 |       0.471 |      0.075 |
+| Vccint    |       1.000 |     0.545 |       0.470 |      0.075 |
 | Vccaux    |       1.800 |     0.238 |       0.209 |      0.029 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.147 |       0.146 |      0.001 |
@@ -133,18 +133,18 @@ Table of Contents
 +---------------------------------------------------------+--------------------------------------+-----------------+
 | Clock                                                   | Domain                               | Constraint (ns) |
 +---------------------------------------------------------+--------------------------------------+-----------------+
-| dbg_hub/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK   | dbg_hub/inst/bscan_inst/DRCK         |            30.0 |
-| dbg_hub/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/UPDATE | dbg_hub/inst/bscan_inst/UPDATE       |            60.0 |
-| CLK_OUT3_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT3_mmcm_adac |             4.1 |
-| CLK_OUT2_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT2_mmcm_adac |             8.1 |
-| CLK_OUT1_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT1_mmcm_adac |            65.1 |
-| CLK_OUT4_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT4_mmcm_adac |             2.0 |
 | CLK_OUT2_mmcm                                           | mmcm_inst/U0/CLK_OUT2_mmcm           |             5.0 |
-| clkfbout_mmcm_adac                                      | mmcm_adac_inst/U0/clkfbout_mmcm_adac |             4.1 |
+| CLK_OUT1_mmcm                                           | mmcm_inst/U0/CLK_OUT1_mmcm           |            10.0 |
 | sysclk_p                                                | clk_in1                              |             5.0 |
 | sysclk_p                                                | sysclk_p                             |             5.0 |
 | clk_ab_p                                                | clk_ab_p                             |             4.1 |
-| CLK_OUT1_mmcm                                           | mmcm_inst/U0/CLK_OUT1_mmcm           |            10.0 |
+| CLK_OUT1_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT1_mmcm_adac |            65.1 |
+| clkfbout_mmcm_adac                                      | mmcm_adac_inst/U0/clkfbout_mmcm_adac |             4.1 |
+| CLK_OUT3_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT3_mmcm_adac |             4.1 |
+| CLK_OUT2_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT2_mmcm_adac |             8.1 |
+| dbg_hub/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK   | dbg_hub/inst/bscan_inst/DRCK         |            30.0 |
+| CLK_OUT4_mmcm_adac                                      | mmcm_adac_inst/U0/CLK_OUT4_mmcm_adac |             2.0 |
+| dbg_hub/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/UPDATE | dbg_hub/inst/bscan_inst/UPDATE       |            60.0 |
 | clkfbout_mmcm                                           | mmcm_inst/U0/clkfbout_mmcm           |             5.0 |
 +---------------------------------------------------------+--------------------------------------+-----------------+
 
@@ -158,10 +158,10 @@ Table of Contents
 +------------------------------------------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                                                         | Power (W) |
 +------------------------------------------------------------------------------------------------------------------------------+-----------+
-| KC705_fmc150                                                                                                                 |     1.221 |
-|   ADC_auto_calibration_chA                                                                                                   |     0.002 |
+| KC705_fmc150                                                                                                                 |     1.220 |
+|   ADC_auto_calibration_chA                                                                                                   |     0.001 |
 |   ADC_auto_calibration_chB                                                                                                   |     0.001 |
-|   DUC_DDC_inst                                                                                                               |     0.415 |
+|   DUC_DDC_inst                                                                                                               |     0.414 |
 |     DDS_inst                                                                                                                 |     0.000 |
 |       U0                                                                                                                     |     0.000 |
 |     SP_DDS_inst                                                                                                              |     0.135 |
@@ -179,7 +179,7 @@ Table of Contents
 |               i_rtl.i_quarter_table.i_piped_map.i_original_cos_ms                                                            |    <0.001 |
 |               i_rtl.i_quarter_table.i_piped_map.i_original_sin_ls                                                            |    <0.001 |
 |               i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                                                            |    <0.001 |
-|     ddc_umts_k7_inst                                                                                                         |     0.159 |
+|     ddc_umts_k7_inst                                                                                                         |     0.155 |
 |       complex_mixer_ddc_i                                                                                                    |     0.037 |
 |         complex_mult                                                                                                         |     0.010 |
 |           U0                                                                                                                 |     0.010 |
@@ -200,19 +200,19 @@ Table of Contents
 |         dds0                                                                                                                 |     0.025 |
 |           U0                                                                                                                 |     0.025 |
 |             i_synth                                                                                                          |     0.025 |
-|               i_dds                                                                                                          |     0.025 |
+|               i_dds                                                                                                          |     0.024 |
 |                 I_PHASEGEN.i_raster_accum.i_accum                                                                            |     0.001 |
 |                   i_ph_consolidate_stage4                                                                                    |    <0.001 |
 |                   i_phase_adjust.i_ph_adj_minus_mod_stage2                                                                   |    <0.001 |
 |                   i_phase_adjust.i_ph_adj_stage3                                                                             |    <0.001 |
-|                 I_SINCOS.i_std_rom.i_rom                                                                                     |     0.024 |
+|                 I_SINCOS.i_std_rom.i_rom                                                                                     |     0.023 |
 |                   i_rtl.i_double_table.i_addr_reg_a                                                                          |    <0.001 |
 |                   i_rtl.i_double_table.i_addr_reg_b                                                                          |    <0.001 |
 |               i_has_nd_rdy_pipe.valid_phase_read_del                                                                         |    <0.001 |
-|       ddc_imf1_i                                                                                                             |     0.030 |
-|         U0                                                                                                                   |     0.030 |
-|           i_synth                                                                                                            |     0.030 |
-|             g_halfband_decimation.i_halfband_decimation                                                                      |     0.030 |
+|       ddc_imf1_i                                                                                                             |     0.029 |
+|         U0                                                                                                                   |     0.029 |
+|           i_synth                                                                                                            |     0.029 |
+|             g_halfband_decimation.i_halfband_decimation                                                                      |     0.029 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[7].i_delay                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[8].i_delay                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[9].i_delay                                                            |    <0.001 |
@@ -322,10 +322,10 @@ Table of Contents
 |                 gen_dram.ram_reg_0_15_8_8                                                                                    |    <0.001 |
 |                 gen_dram.ram_reg_0_15_9_9                                                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.i_phase_buff_read                                                                     |    <0.001 |
-|       ddc_imf2_i                                                                                                             |     0.042 |
-|         U0                                                                                                                   |     0.042 |
-|           i_synth                                                                                                            |     0.042 |
-|             g_halfband_decimation.i_halfband_decimation                                                                      |     0.042 |
+|       ddc_imf2_i                                                                                                             |     0.041 |
+|         U0                                                                                                                   |     0.041 |
+|           i_synth                                                                                                            |     0.041 |
+|             g_halfband_decimation.i_halfband_decimation                                                                      |     0.041 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[7].i_delay                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[8].i_delay                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.g_cntrl_signals[9].i_delay                                                            |    <0.001 |
@@ -437,10 +437,10 @@ Table of Contents
 |                 gen_dram.ram_reg_0_15_8_8                                                                                    |    <0.001 |
 |                 gen_dram.ram_reg_0_15_9_9                                                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.i_phase_buff_read                                                                     |    <0.001 |
-|       ddc_srrc_i                                                                                                             |     0.049 |
-|         U0                                                                                                                   |     0.049 |
-|           i_synth                                                                                                            |     0.049 |
-|             g_polyphase_decimation.i_polyphase_decimation                                                                    |     0.049 |
+|       ddc_srrc_i                                                                                                             |     0.047 |
+|         U0                                                                                                                   |     0.047 |
+|           i_synth                                                                                                            |     0.047 |
+|             g_polyphase_decimation.i_polyphase_decimation                                                                    |     0.047 |
 |               g_s_data_chan_fifo.i_s_data_chan_fifo                                                                          |     0.003 |
 |                 fifo0                                                                                                        |     0.002 |
 |               g_semi_parallel_and_smac.g_cntrl_data_sym_addr.i_cntrl_data_sym_addr                                           |    <0.001 |
@@ -507,11 +507,11 @@ Table of Contents
 |               g_semi_parallel_and_smac.g_paths[0].g_mem_array[2].i_mem                                                       |    <0.001 |
 |                 g_individual.g_mem_b.i_mem_b                                                                                 |    <0.001 |
 |                 g_individual.i_mem_a                                                                                         |    <0.001 |
-|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[3].i_mem                                                       |     0.006 |
+|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[3].i_mem                                                       |     0.005 |
 |                 g_individual.g_mem_b.i_mem_b                                                                                 |     0.003 |
 |                 g_individual.i_mem_a                                                                                         |     0.003 |
-|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[4].i_mem                                                       |     0.002 |
-|                 g_individual.i_mem_a                                                                                         |     0.002 |
+|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[4].i_mem                                                       |     0.003 |
+|                 g_individual.i_mem_a                                                                                         |     0.003 |
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[0].g_coln_cntrl_and_addr[0].i_coln_cntrl_and_addr      |     0.000 |
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[0].g_data.i_data_casc_dly                              |    <0.001 |
 |                 g_buff.i_buff                                                                                                |    <0.001 |
@@ -523,7 +523,7 @@ Table of Contents
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[1].g_sym_data.g_sym_data_casc.i_data_sym_casc_dly      |    <0.001 |
 |                 g_buff.i_buff                                                                                                |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[2].g_coln_cntrl_and_addr[2].i_coln_cntrl_and_addr      |     0.000 |
-|               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[2].g_wrap_buff.i_data_wrap_buff                        |     0.003 |
+|               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[2].g_wrap_buff.i_data_wrap_buff                        |     0.002 |
 |                 i_bypass_phase                                                                                               |    <0.001 |
 |                 i_mem_allign                                                                                                 |    <0.001 |
 |                 i_old_data_clred_dly                                                                                         |    <0.001 |
@@ -574,8 +574,8 @@ Table of Contents
 |               g_semi_parallel_and_smac.i_first_phase_dly                                                                     |    <0.001 |
 |               g_semi_parallel_and_smac.i_latch_op                                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.i_load                                                                                |    <0.001 |
-|     duc_umts_k7_inst                                                                                                         |     0.117 |
-|       complex_mixer_duc                                                                                                      |     0.022 |
+|     duc_umts_k7_inst                                                                                                         |     0.119 |
+|       complex_mixer_duc                                                                                                      |     0.021 |
 |         complex_mult                                                                                                         |     0.006 |
 |           U0                                                                                                                 |     0.006 |
 |             i_synth                                                                                                          |     0.006 |
@@ -612,11 +612,11 @@ Table of Contents
 |                   i_rtl.i_double_table.i_addr_reg_a                                                                          |    <0.001 |
 |                   i_rtl.i_double_table.i_addr_reg_b                                                                          |    <0.001 |
 |               i_has_nd_rdy_pipe.valid_phase_read_del                                                                         |    <0.001 |
-|       duc_imf1_i                                                                                                             |     0.035 |
-|         U0                                                                                                                   |     0.035 |
-|           i_synth                                                                                                            |     0.035 |
-|             g_halfband_interpolation.i_halfband_interpolation                                                                |     0.035 |
-|               g_opbuff.i_buffer                                                                                              |     0.005 |
+|       duc_imf1_i                                                                                                             |     0.037 |
+|         U0                                                                                                                   |     0.037 |
+|           i_synth                                                                                                            |     0.037 |
+|             g_halfband_interpolation.i_halfband_interpolation                                                                |     0.037 |
+|               g_opbuff.i_buffer                                                                                              |     0.006 |
 |                 gen_dram.ram_reg_0_3_0_0                                                                                     |    <0.001 |
 |                 gen_dram.ram_reg_0_3_10_10                                                                                   |    <0.001 |
 |                 gen_dram.ram_reg_0_3_11_11                                                                                   |    <0.001 |
@@ -667,7 +667,7 @@ Table of Contents
 |                 g_individual.i_mem_a                                                                                         |     0.002 |
 |               g_semi_parallel_and_smac.g_paths[0].g_smac.i_maccum                                                            |     0.007 |
 |                 i_addsub_mult_accum                                                                                          |     0.006 |
-|                 i_coefin_int                                                                                                 |    <0.001 |
+|                 i_coefin_int                                                                                                 |     0.001 |
 |               g_semi_parallel_and_smac.g_paths[0].g_smac.i_pre_add_bypass                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[0].g_coln_cntrl_and_addr[0].i_coln_cntrl_and_addr      |     0.000 |
 |               g_semi_parallel_and_smac.g_paths[1].g_data_array.g_madd[0].g_wrap_buff.i_data_wrap_buff                        |    <0.001 |
@@ -677,7 +677,7 @@ Table of Contents
 |                 g_individual.i_mem_a                                                                                         |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[1].g_smac.i_maccum                                                            |     0.007 |
 |                 i_addsub_mult_accum                                                                                          |     0.006 |
-|                 i_coefin_int                                                                                                 |    <0.001 |
+|                 i_coefin_int                                                                                                 |     0.001 |
 |               g_semi_parallel_and_smac.g_paths[1].g_smac.i_pre_add_bypass                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.i_accumulate                                                                          |    <0.001 |
 |               g_semi_parallel_and_smac.i_centre_tap                                                                          |    <0.001 |
@@ -764,10 +764,10 @@ Table of Contents
 |               g_semi_parallel_and_smac.i_data_in                                                                             |    <0.001 |
 |               g_semi_parallel_and_smac.i_latch_op                                                                            |    <0.001 |
 |               g_semi_parallel_and_smac.i_load                                                                                |    <0.001 |
-|       duc_imf3_i                                                                                                             |     0.017 |
-|         U0                                                                                                                   |     0.017 |
-|           i_synth                                                                                                            |     0.017 |
-|             g_halfband_interpolation.i_halfband_interpolation                                                                |     0.017 |
+|       duc_imf3_i                                                                                                             |     0.018 |
+|         U0                                                                                                                   |     0.018 |
+|           i_synth                                                                                                            |     0.018 |
+|             g_halfband_interpolation.i_halfband_interpolation                                                                |     0.018 |
 |               g_opbuff.i_buffer                                                                                              |     0.001 |
 |                 gen_dram.ram_reg_0_3_0_0                                                                                     |    <0.001 |
 |                 gen_dram.ram_reg_0_3_10_10                                                                                   |    <0.001 |
@@ -817,8 +817,8 @@ Table of Contents
 |               g_semi_parallel_and_smac.g_paths[0].g_mem_array[0].i_mem                                                       |    <0.001 |
 |                 g_individual.g_mem_b.i_mem_b                                                                                 |    <0.001 |
 |                 g_individual.i_mem_a                                                                                         |    <0.001 |
-|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[1].i_mem                                                       |     0.001 |
-|                 g_individual.i_mem_a                                                                                         |     0.001 |
+|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[1].i_mem                                                       |     0.002 |
+|                 g_individual.i_mem_a                                                                                         |     0.002 |
 |               g_semi_parallel_and_smac.g_paths[0].g_rounder.i_rounder                                                        |    <0.001 |
 |                 i_rounder                                                                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[0].g_smac.i_maccum                                                            |    <0.001 |
@@ -866,8 +866,8 @@ Table of Contents
 |               g_semi_parallel_and_smac.g_paths[0].g_mem_array[0].i_mem                                                       |    <0.001 |
 |                 g_individual.g_mem_b.i_mem_b                                                                                 |    <0.001 |
 |                 g_individual.i_mem_a                                                                                         |    <0.001 |
-|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[1].i_mem                                                       |     0.003 |
-|                 g_individual.i_mem_a                                                                                         |     0.003 |
+|               g_semi_parallel_and_smac.g_paths[0].g_mem_array[1].i_mem                                                       |     0.002 |
+|                 g_individual.i_mem_a                                                                                         |     0.002 |
 |               g_semi_parallel_and_smac.g_paths[0].g_rounder.i_rounder                                                        |    <0.001 |
 |                 i_rounder                                                                                                    |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[0].g_smac.i_maccum                                                            |     0.001 |
@@ -882,7 +882,7 @@ Table of Contents
 |                 g_individual.i_mem_a                                                                                         |    <0.001 |
 |               g_semi_parallel_and_smac.g_paths[1].g_rounder.i_rounder                                                        |    <0.001 |
 |                 i_rounder                                                                                                    |    <0.001 |
-|               g_semi_parallel_and_smac.g_paths[1].g_smac.i_maccum                                                            |    <0.001 |
+|               g_semi_parallel_and_smac.g_paths[1].g_smac.i_maccum                                                            |     0.001 |
 |                 i_addsub_mult_accum                                                                                          |    <0.001 |
 |                 i_coefin_int                                                                                                 |    <0.001 |
 |               g_semi_parallel_and_smac.i_accumulate                                                                          |    <0.001 |
@@ -1028,9 +1028,9 @@ Table of Contents
 |         p2p2                                                                                                                 |    <0.001 |
 |       pulse2pulse_inst0                                                                                                      |    <0.001 |
 |       pulse2pulse_inst1                                                                                                      |    <0.001 |
-|   ila_dac_baseband_ADC                                                                                                       |     0.018 |
-|     U0                                                                                                                       |     0.018 |
-|       ila_core_inst                                                                                                          |     0.018 |
+|   ila_dac_baseband_ADC                                                                                                       |     0.019 |
+|     U0                                                                                                                       |     0.019 |
+|       ila_core_inst                                                                                                          |     0.019 |
 |         ila_trace_memory_inst                                                                                                |     0.002 |
 |           SUBCORE_RAM_BLK_MEM_1.trace_block_memory                                                                           |     0.002 |
 |             inst_blk_mem_gen                                                                                                 |     0.002 |
@@ -1045,6 +1045,8 @@ Table of Contents
 |                   ramloop[3].ram.r                                                                                           |    <0.001 |
 |                     prim_noinit.ram                                                                                          |    <0.001 |
 |                   ramloop[4].ram.r                                                                                           |    <0.001 |
+|                     prim_noinit.ram                                                                                          |    <0.001 |
+|                   ramloop[5].ram.r                                                                                           |    <0.001 |
 |                     prim_noinit.ram                                                                                          |    <0.001 |
 |         u_ila_cap_ctrl                                                                                                       |     0.003 |
 |           U_CDONE                                                                                                            |    <0.001 |
@@ -1107,6 +1109,7 @@ Table of Contents
 |           MU_SRL[4].mu_srl_reg                                                                                               |    <0.001 |
 |           MU_SRL[5].mu_srl_reg                                                                                               |    <0.001 |
 |           MU_SRL[6].mu_srl_reg                                                                                               |    <0.001 |
+|           MU_SRL[7].mu_srl_reg                                                                                               |    <0.001 |
 |           MU_STATUS[0].mu_width_reg                                                                                          |    <0.001 |
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
 |           MU_STATUS[2].mu_tpid_reg                                                                                           |    <0.001 |
@@ -1121,11 +1124,15 @@ Table of Contents
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
 |           MU_STATUS[6].mu_width_reg                                                                                          |    <0.001 |
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
+|           MU_STATUS[7].mu_tpid_reg                                                                                           |    <0.001 |
+|             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
 |           TC_SRL[0].tc_srl_reg                                                                                               |    <0.001 |
 |           U_XSDB_SLAVE                                                                                                       |    <0.001 |
 |           reg_0                                                                                                              |    <0.001 |
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
 |           reg_1                                                                                                              |    <0.001 |
+|             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
+|           reg_10                                                                                                             |    <0.001 |
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
 |           reg_11                                                                                                             |    <0.001 |
 |             I_EN_STAT_EQ1.U_STAT                                                                                             |    <0.001 |
@@ -1200,7 +1207,7 @@ Table of Contents
 |           asyncrounous_transfer.halt_out_transfer_inst                                                                       |    <0.001 |
 |           halt_detection_inst                                                                                                |    <0.001 |
 |         u_trig                                                                                                               |     0.004 |
-|           U_TM                                                                                                               |     0.003 |
+|           U_TM                                                                                                               |     0.004 |
 |             G_NMU[0].U_M                                                                                                     |    <0.001 |
 |               allx_typeA_match_detection.cs_allx_typeA_inst                                                                  |    <0.001 |
 |                 DUT                                                                                                          |    <0.001 |
@@ -1282,6 +1289,19 @@ Table of Contents
 |                     u_srlB                                                                                                   |    <0.001 |
 |                     u_srlC                                                                                                   |    <0.001 |
 |                     u_srlD                                                                                                   |    <0.001 |
+|             G_NMU[7].U_M                                                                                                     |    <0.001 |
+|               allx_typeA_match_detection.cs_allx_typeA_inst                                                                  |    <0.001 |
+|                 DUT                                                                                                          |    <0.001 |
+|                   I_WHOLE_SLICE.G_SLICE_IDX[0].U_ALL_SRL_SLICE                                                               |    <0.001 |
+|                     u_srlA                                                                                                   |    <0.001 |
+|                     u_srlB                                                                                                   |    <0.001 |
+|                     u_srlC                                                                                                   |    <0.001 |
+|                     u_srlD                                                                                                   |    <0.001 |
+|                   I_WHOLE_SLICE.G_SLICE_IDX[1].U_ALL_SRL_SLICE                                                               |    <0.001 |
+|                     u_srlA                                                                                                   |    <0.001 |
+|                     u_srlB                                                                                                   |    <0.001 |
+|                     u_srlC                                                                                                   |    <0.001 |
+|                     u_srlD                                                                                                   |    <0.001 |
 |           genblk1[0].U_TC                                                                                                    |    <0.001 |
 |             allx_typeA_match_detection.cs_allx_typeA_inst                                                                    |    <0.001 |
 |               DUT                                                                                                            |    <0.001 |
@@ -1295,8 +1315,8 @@ Table of Contents
 |     U0                                                                                                                       |     0.115 |
 |   mmcm_inst                                                                                                                  |     0.110 |
 |     U0                                                                                                                       |     0.110 |
-|   vio_inst                                                                                                                   |     0.005 |
-|     inst                                                                                                                     |     0.005 |
+|   vio_inst                                                                                                                   |     0.004 |
+|     inst                                                                                                                     |     0.004 |
 |       DECODER_INST                                                                                                           |    <0.001 |
 |       PROBE_IN_INST                                                                                                          |     0.003 |
 |       PROBE_IN_WIDTH_INST                                                                                                    |    <0.001 |

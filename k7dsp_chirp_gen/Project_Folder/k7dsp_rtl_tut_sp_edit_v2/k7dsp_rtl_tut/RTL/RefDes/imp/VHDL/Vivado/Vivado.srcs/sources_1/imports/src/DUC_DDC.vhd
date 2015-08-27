@@ -234,9 +234,18 @@ signal chirp_count  :std_logic_vector(10 downto 0) := (others=>'0');
 
 -- tuning word coeff = 3 for 46.08 MHz BW, and 4 for 61.44 MHz BW
 constant tuning_word_coeff :std_logic_vector(31 downto 0) := (0=> '1',1=>'1',others=>'0');  
+--constant tuning_word_coeff :std_logic_vector(31 downto 0) := (2=>'1',others=>'0');
+
+-- Try doubling freq slope and number of samples. tuning word coeff = 6
+--constant tuning_word_coeff :std_logic_vector(31 downto 0) := (1=>'1',2=>'1',others=>'0');
 
 -- test tuning word coeff = 1. Note: must calculate BW
 --constant tuning_word_coeff :std_logic_vector(31 downto 0) := (0=> '1',others=>'0'); 
+
+-- Push the initial freq beyon baseband
+constant freq_offset  :std_logic_vector(31 downto 0) := (8=>'1',others=>'0'); 
+
+
 
 -- Use if using library ieee.numeric_std.all:
 --signal tuning_word  :unsigned(31 downto 0) := (others=>'0');
@@ -413,6 +422,7 @@ process (rst,clk)
        -- chirp_busy <= '0';
         
         chirp_count <= (others => '0');
+        
         tuning_word <= (others => '0');
         --phase_acc <= (others => '0');
         phase_acc_long <= (others => '0');
@@ -436,7 +446,12 @@ process (rst,clk)
         
         if (chirp_count(10 downto 0) = "11111111111") then
         --if (chirp_count(11 downto 0) = "111111111111") then
+        
             tuning_word(31 downto 0) <= (others => '0');
+            -- Push the initial freq beyon baseband
+        elsif (chirp_count(10 downto 0) = "00000000000") then  
+        --elsif (chirp_count(11 downto 0) = "000000000000") then 
+            tuning_word(31 downto 0) <= freq_offset(31 downto 0); 
         else
             tuning_word(31 downto 0) <= tuning_word(31 downto 0) + tuning_word_coeff;
         end if;

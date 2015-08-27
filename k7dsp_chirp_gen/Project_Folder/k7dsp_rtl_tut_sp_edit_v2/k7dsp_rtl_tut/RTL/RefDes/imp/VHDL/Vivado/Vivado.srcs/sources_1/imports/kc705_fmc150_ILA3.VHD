@@ -235,7 +235,9 @@ COMPONENT ila
     probe3  : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
     probe4  : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
     probe5  : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
-    probe6  : IN STD_LOGIC_VECTOR(13 DOWNTO 0)
+    probe6  : IN STD_LOGIC_VECTOR(13 DOWNTO 0);
+    -- Added by SP
+    probe7  : IN STD_LOGIC_VECTOR(13 DOWNTO 0)
   );
 END COMPONENT;
 
@@ -1861,7 +1863,10 @@ ila_dac_baseband_ADC : ila
     probe3  => baseband_out_q_sig_dly1,              -- 16-bit
     probe4  => baseband_out_valid_sig_dly1_1,--(0 => baseband_out_valid_sig_dly1),   -- 1-bit
     probe5  => adc_chb_re_mux_polarity_1,--(0 => adc_chb_re_mux_polarity),       -- 1-bit
-    probe6  => adc_dout_i_245_76_MSPS               -- 14-bit
+    probe6  => adc_dout_i_245_76_MSPS,               -- 14-bit
+    
+    -- Added by SP
+    probe7  => adc_dout_q_245_76_MSPS               -- 14-bit
    );
     baseband_out_valid_sig_dly1_1(0) <= baseband_out_valid_sig_dly1;
     adc_chb_re_mux_polarity_1(0) <= adc_chb_re_mux_polarity;

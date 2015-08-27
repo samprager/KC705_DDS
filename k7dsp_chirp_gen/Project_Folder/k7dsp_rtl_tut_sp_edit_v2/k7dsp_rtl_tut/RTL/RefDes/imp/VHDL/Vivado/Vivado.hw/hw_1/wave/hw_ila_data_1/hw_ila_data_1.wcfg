@@ -8,7 +8,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="5" />
+   <WVObjectSize size="6" />
    <wave_markers>
    </wave_markers>
    <wvobject db_ref_id="1" fp_name="dac_din_i" type="array">
@@ -44,6 +44,13 @@
    <wvobject db_ref_id="1" fp_name="adc_dout_i_245_76_MSPS" type="array">
       <obj_property name="ElementShortName">adc_dout_i_245_76_MSPS[13:0]</obj_property>
       <obj_property name="ObjectShortName">adc_dout_i_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="adc_dout_q_245_76_MSPS" type="array">
+      <obj_property name="ElementShortName">adc_dout_q_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dout_q_245_76_MSPS[13:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
       <obj_property name="CellHeight">100</obj_property>

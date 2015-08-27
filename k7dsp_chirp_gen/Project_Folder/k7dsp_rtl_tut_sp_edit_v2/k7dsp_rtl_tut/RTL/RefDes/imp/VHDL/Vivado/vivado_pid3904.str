@@ -6306,3 +6306,8 @@ dismissDialog("Exit Vivado"); // an:bF (cg:JFrame)
 #-------------------------------------------------------------------------------
 ui.frmwork.CommandFailedException:  (See C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/vivado_pid3904.debug)
 */
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: RUN_COMPLETED
+
+// Exiting Vivado with a status code 0 at 6/26/15 8:37:24 PM...
+// Elapsed time: 02:27:56

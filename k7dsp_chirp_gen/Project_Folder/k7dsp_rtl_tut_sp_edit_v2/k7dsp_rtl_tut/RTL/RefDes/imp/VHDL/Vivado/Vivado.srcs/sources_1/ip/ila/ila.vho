@@ -56,6 +56,7 @@ COMPONENT ila
   PORT (
     clk : IN STD_LOGIC;
     probe1 : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    probe7 : IN STD_LOGIC_VECTOR(13 DOWNTO 0);
     probe0 : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
     probe2 : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
     probe3 : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
@@ -74,6 +75,7 @@ your_instance_name : ila
   PORT MAP (
     clk => clk,
     probe1 => probe1,
+    probe7 => probe7,
     probe0 => probe0,
     probe2 => probe2,
     probe3 => probe3,

@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
-| Date         : Fri Jun 26 20:07:30 2015
+| Date         : Wed Aug 26 18:26:46 2015
 | Host         : radar-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_io -file KC705_fmc150_io_placed.rpt
 | Design       : KC705_fmc150
