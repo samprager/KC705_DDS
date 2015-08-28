@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
-| Date         : Wed Aug 26 18:25:09 2015
+| Date         : Thu Aug 27 16:53:15 2015
 | Host         : radar-PC running 64-bit Service Pack 1  (build 7601)
 | Command      : report_utilization -file KC705_fmc150_utilization_synth.rpt -pb KC705_fmc150_utilization_synth.pb
 | Design       : KC705_fmc150
@@ -29,8 +29,8 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 2897 |     0 |    203800 |  1.42 |
-|   LUT as Logic             | 2683 |     0 |    203800 |  1.31 |
+| Slice LUTs*                | 2894 |     0 |    203800 |  1.42 |
+|   LUT as Logic             | 2680 |     0 |    203800 |  1.31 |
 |   LUT as Memory            |  214 |     0 |     64000 |  0.33 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |  214 |     0 |           |       |
@@ -137,18 +137,18 @@ Table of Contents
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
-| FDRE       | 3334 |        Flop & Latch |
+| FDRE       | 3333 |        Flop & Latch |
 | FDCE       | 1151 |        Flop & Latch |
-| LUT6       |  993 |                 LUT |
-| LUT3       |  522 |                 LUT |
-| LUT4       |  452 |                 LUT |
+| LUT6       |  991 |                 LUT |
+| LUT3       |  521 |                 LUT |
+| LUT4       |  451 |                 LUT |
 | LUT5       |  399 |                 LUT |
 | LUT1       |  386 |                 LUT |
-| LUT2       |  374 |                 LUT |
+| LUT2       |  375 |                 LUT |
 | SRL16E     |  183 |  Distributed Memory |
 | SRLC32E    |  113 |  Distributed Memory |
 | CARRY4     |  107 |          CarryLogic |
-| FDSE       |   71 |        Flop & Latch |
+| FDSE       |   72 |        Flop & Latch |
 | MUXF7      |   50 |               MuxFx |
 | FDPE       |   47 |        Flop & Latch |
 | OBUF       |   25 |                  IO |

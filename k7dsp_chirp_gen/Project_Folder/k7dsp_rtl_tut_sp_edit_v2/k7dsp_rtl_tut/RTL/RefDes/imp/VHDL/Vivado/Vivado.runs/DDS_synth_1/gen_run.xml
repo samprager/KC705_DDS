@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="DDS_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1435367917">
-  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/DDS_synth_1/constrs_in.xml"/>
   <File Type="RDS-UTIL-PB" Name="DDS_utilization_synth.pb"/>
-  <File Type="RUN-SRCS" Name="$PDATADIR/runs/DDS_synth_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/DDS_synth_1/constrs_in.xml"/>
   <File Type="RDS-UTIL" Name="DDS_utilization_synth.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/DDS_synth_1/sources.xml"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/DDS_synth_1/DDS_synth_1.psg"/>
-  <File Type="PA-TCL" Name="DDS.tcl"/>
   <File Type="VDS-TIMINGSUMMARY" Name="DDS_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="DDS.tcl"/>
   <File Type="RDS-RDS" Name="DDS.vds"/>
   <File Type="RDS-DCP" Name="DDS.dcp"/>
   <File Type="VDS-TIMING-PB" Name="DDS_timing_summary_synth.pb"/>

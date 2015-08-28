@@ -2,8 +2,8 @@
 # Vivado v2014.2 (64-bit)
 # SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
 # IP Build 924643 on Fri May 30 09:20:16 MDT 2014
-# Start of session at: Wed Aug 26 18:23:07 2015
-# Process ID: 3224
+# Start of session at: Thu Aug 27 16:51:13 2015
+# Process ID: 3492
 # Log file: C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/KC705_fmc150.vds
 # Journal file: C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -125,7 +125,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 285.988 ; gain = 152.832
+Starting RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 285.414 ; gain = 153.152
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'KC705_fmc150' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/kc705_fmc150_ILA3.VHD:217]
 	Parameter MAX_PATTERN_CNT bound to: 2000 - type: integer 
@@ -3317,10 +3317,10 @@ INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_
 INFO: [Synth 8-256] done synthesizing module 'fmc150_stellar_cmd__parameterized0' (15#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/fmc150_stellar_cmd.vhd:67]
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst0' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:321]
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst1' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:465]
-INFO: [Synth 8-3491] module 'cdce72010_init_mem_int' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/cdce72010_init_mem_int_stub.vhdl:5' bound to instance 'cdce72010_init_mem_int_inst' of component 'cdce72010_init_mem_int' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:479]
-INFO: [Synth 8-638] synthesizing module 'cdce72010_init_mem_int' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/cdce72010_init_mem_int_stub.vhdl:14]
-INFO: [Synth 8-3491] module 'cdce72010_init_mem_ext' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/cdce72010_init_mem_ext_stub.vhdl:5' bound to instance 'cdce72010_init_mem_ext_inst' of component 'cdce72010_init_mem_ext' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:489]
-INFO: [Synth 8-638] synthesizing module 'cdce72010_init_mem_ext' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/cdce72010_init_mem_ext_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'cdce72010_init_mem_int' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/cdce72010_init_mem_int_stub.vhdl:5' bound to instance 'cdce72010_init_mem_int_inst' of component 'cdce72010_init_mem_int' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:479]
+INFO: [Synth 8-638] synthesizing module 'cdce72010_init_mem_int' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/cdce72010_init_mem_int_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'cdce72010_init_mem_ext' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/cdce72010_init_mem_ext_stub.vhdl:5' bound to instance 'cdce72010_init_mem_ext_inst' of component 'cdce72010_init_mem_ext' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:489]
+INFO: [Synth 8-638] synthesizing module 'cdce72010_init_mem_ext' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/cdce72010_init_mem_ext_stub.vhdl:14]
 INFO: [Synth 8-256] done synthesizing module 'cdce72010_ctrl__parameterized0' (16#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/cdce72010_ctrl.vhd:64]
 	Parameter START_ADDR bound to: 28'b0000000000000000000000000000 
 	Parameter STOP_ADDR bound to: 28'b1111111111111111111111111111 
@@ -3334,8 +3334,8 @@ INFO: [Synth 8-3491] module 'fmc150_stellar_cmd' declared at 'C:/k7dsp_rtl_tut_s
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst0' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:301]
 INFO: [Synth 8-226] default block is never used [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:335]
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst1' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:443]
-INFO: [Synth 8-3491] module 'ads62p49_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ads62p49_init_mem_stub.vhdl:5' bound to instance 'ads62p49_init_mem_inst' of component 'ads62p49_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:458]
-INFO: [Synth 8-638] synthesizing module 'ads62p49_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ads62p49_init_mem_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'ads62p49_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ads62p49_init_mem_stub.vhdl:5' bound to instance 'ads62p49_init_mem_inst' of component 'ads62p49_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:458]
+INFO: [Synth 8-638] synthesizing module 'ads62p49_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ads62p49_init_mem_stub.vhdl:14]
 INFO: [Synth 8-256] done synthesizing module 'ads62p49_ctrl__parameterized0' (17#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ads62p49_ctrl.vhd:61]
 	Parameter START_ADDR bound to: 28'b0000000000000000000000000000 
 	Parameter STOP_ADDR bound to: 28'b1111111111111111111111111111 
@@ -3349,8 +3349,8 @@ INFO: [Synth 8-3491] module 'fmc150_stellar_cmd' declared at 'C:/k7dsp_rtl_tut_s
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst0' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:287]
 INFO: [Synth 8-226] default block is never used [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:321]
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst1' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:424]
-INFO: [Synth 8-3491] module 'dac3283_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dac3283_init_mem_stub.vhdl:5' bound to instance 'dac3283_init_mem_inst' of component 'dac3283_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:439]
-INFO: [Synth 8-638] synthesizing module 'dac3283_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dac3283_init_mem_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'dac3283_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dac3283_init_mem_stub.vhdl:5' bound to instance 'dac3283_init_mem_inst' of component 'dac3283_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:439]
+INFO: [Synth 8-638] synthesizing module 'dac3283_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dac3283_init_mem_stub.vhdl:14]
 INFO: [Synth 8-256] done synthesizing module 'dac3283_ctrl__parameterized0' (18#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/dac3283_ctrl.vhd:58]
 	Parameter START_ADDR bound to: 28'b0000000000000000000000000000 
 	Parameter STOP_ADDR bound to: 28'b1111111111111111111111111111 
@@ -3364,53 +3364,53 @@ INFO: [Synth 8-3491] module 'fmc150_stellar_cmd' declared at 'C:/k7dsp_rtl_tut_s
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst0' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:303]
 INFO: [Synth 8-226] default block is never used [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:337]
 INFO: [Synth 8-3491] module 'pulse2pulse' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/pulse2pulse.vhd:30' bound to instance 'pulse2pulse_inst1' of component 'pulse2pulse' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:441]
-INFO: [Synth 8-3491] module 'amc7823_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/amc7823_init_mem_stub.vhdl:5' bound to instance 'amc7823_init_mem_inst' of component 'amc7823_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:456]
-INFO: [Synth 8-638] synthesizing module 'amc7823_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/amc7823_init_mem_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'amc7823_init_mem' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/amc7823_init_mem_stub.vhdl:5' bound to instance 'amc7823_init_mem_inst' of component 'amc7823_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:456]
+INFO: [Synth 8-638] synthesizing module 'amc7823_init_mem' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/amc7823_init_mem_stub.vhdl:14]
 INFO: [Synth 8-256] done synthesizing module 'amc7823_ctrl__parameterized0' (19#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/amc7823_ctrl.vhd:61]
 INFO: [Synth 8-256] done synthesizing module 'fmc150_spi_ctrl' (20#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/fmc150_spi_ctrl.vhd:91]
 INFO: [Synth 8-113] binding component instance 'idelayctrl_inst' to cell 'IDELAYCTRL' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/kc705_fmc150_ILA3.VHD:1725]
 INFO: [Synth 8-3491] module 'DUC_DDC' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:67' bound to instance 'DUC_DDC_inst' of component 'DUC_DDC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/kc705_fmc150_ILA3.VHD:1750]
 INFO: [Synth 8-638] synthesizing module 'DUC_DDC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:94]
-INFO: [Synth 8-3491] module 'DDS' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/DDS_stub.vhdl:5' bound to instance 'DDS_inst' of component 'DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:343]
-INFO: [Synth 8-638] synthesizing module 'DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/DDS_stub.vhdl:15]
-INFO: [Synth 8-3491] module 'SP_DDS' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/SP_DDS_stub.vhdl:5' bound to instance 'SP_DDS_inst' of component 'SP_DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:357]
-INFO: [Synth 8-638] synthesizing module 'SP_DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/SP_DDS_stub.vhdl:17]
-INFO: [Synth 8-3491] module 'duc_umts_k7' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:80' bound to instance 'duc_umts_k7_inst' of component 'duc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:515]
+INFO: [Synth 8-3491] module 'DDS' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/DDS_stub.vhdl:5' bound to instance 'DDS_inst' of component 'DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:345]
+INFO: [Synth 8-638] synthesizing module 'DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/DDS_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'SP_DDS' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/SP_DDS_stub.vhdl:5' bound to instance 'SP_DDS_inst' of component 'SP_DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:359]
+INFO: [Synth 8-638] synthesizing module 'SP_DDS' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/SP_DDS_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'duc_umts_k7' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:80' bound to instance 'duc_umts_k7_inst' of component 'duc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:520]
 INFO: [Synth 8-638] synthesizing module 'duc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:97]
-INFO: [Synth 8-3491] module 'duc_srrc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_srrc_stub.vhdl:5' bound to instance 'duc_srrc_i' of component 'duc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:226]
-INFO: [Synth 8-638] synthesizing module 'duc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_srrc_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'duc_imf1' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf1_stub.vhdl:5' bound to instance 'duc_imf1_i' of component 'duc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:239]
-INFO: [Synth 8-638] synthesizing module 'duc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf1_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'duc_imf2' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf2_stub.vhdl:5' bound to instance 'duc_imf2_i' of component 'duc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:255]
-INFO: [Synth 8-638] synthesizing module 'duc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf2_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'duc_imf3' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf3_stub.vhdl:5' bound to instance 'duc_imf3_i' of component 'duc_imf3' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:274]
-INFO: [Synth 8-638] synthesizing module 'duc_imf3' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/duc_imf3_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'duc_srrc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_srrc_stub.vhdl:5' bound to instance 'duc_srrc_i' of component 'duc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'duc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_srrc_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'duc_imf1' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf1_stub.vhdl:5' bound to instance 'duc_imf1_i' of component 'duc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'duc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf1_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'duc_imf2' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf2_stub.vhdl:5' bound to instance 'duc_imf2_i' of component 'duc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'duc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf2_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'duc_imf3' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf3_stub.vhdl:5' bound to instance 'duc_imf3_i' of component 'duc_imf3' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:274]
+INFO: [Synth 8-638] synthesizing module 'duc_imf3' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/duc_imf3_stub.vhdl:18]
 INFO: [Synth 8-3491] module 'complex_mixer' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:88' bound to instance 'complex_mixer_duc' of component 'complex_mixer' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:307]
 INFO: [Synth 8-638] synthesizing module 'complex_mixer' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:103]
-INFO: [Synth 8-3491] module 'dds_duc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dds_duc_stub.vhdl:5' bound to instance 'dds0' of component 'dds_duc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:171]
-INFO: [Synth 8-638] synthesizing module 'dds_duc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dds_duc_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'complex_multiplier_DUC' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/complex_multiplier_DUC_stub.vhdl:5' bound to instance 'complex_mult' of component 'complex_multiplier_DUC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:203]
-INFO: [Synth 8-638] synthesizing module 'complex_multiplier_DUC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/complex_multiplier_DUC_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'dds_duc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dds_duc_stub.vhdl:5' bound to instance 'dds0' of component 'dds_duc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'dds_duc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dds_duc_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'complex_multiplier_DUC' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/complex_multiplier_DUC_stub.vhdl:5' bound to instance 'complex_mult' of component 'complex_multiplier_DUC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'complex_multiplier_DUC' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/complex_multiplier_DUC_stub.vhdl:21]
 INFO: [Synth 8-256] done synthesizing module 'complex_mixer' (21#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_complex_mixer.vhd:103]
 WARNING: [Synth 8-3936] Found unconnected internal register 'm_axis_data_tdata_duc_imf3_245_76MHz_reg' and it is trimmed from '48' to '42' bits. [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:303]
 INFO: [Synth 8-256] done synthesizing module 'duc_umts_k7' (22#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/duc_umts_k7.vhd:97]
-INFO: [Synth 8-3491] module 'ddc_umts_k7' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:84' bound to instance 'ddc_umts_k7_inst' of component 'ddc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:590]
+INFO: [Synth 8-3491] module 'ddc_umts_k7' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:84' bound to instance 'ddc_umts_k7_inst' of component 'ddc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:595]
 INFO: [Synth 8-638] synthesizing module 'ddc_umts_k7' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:100]
 INFO: [Synth 8-3491] module 'complex_mixer_ddc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:90' bound to instance 'complex_mixer_ddc_i' of component 'complex_mixer_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:216]
 INFO: [Synth 8-638] synthesizing module 'complex_mixer_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:105]
-INFO: [Synth 8-3491] module 'dds_ddc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dds_ddc_stub.vhdl:5' bound to instance 'dds0' of component 'dds_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:170]
-INFO: [Synth 8-638] synthesizing module 'dds_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/dds_ddc_stub.vhdl:17]
-INFO: [Synth 8-3491] module 'complex_multiplier' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/complex_multiplier_stub.vhdl:5' bound to instance 'complex_mult' of component 'complex_multiplier' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:185]
-INFO: [Synth 8-638] synthesizing module 'complex_multiplier' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/complex_multiplier_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'dds_ddc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dds_ddc_stub.vhdl:5' bound to instance 'dds0' of component 'dds_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'dds_ddc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/dds_ddc_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'complex_multiplier' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/complex_multiplier_stub.vhdl:5' bound to instance 'complex_mult' of component 'complex_multiplier' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'complex_multiplier' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/complex_multiplier_stub.vhdl:18]
 INFO: [Synth 8-256] done synthesizing module 'complex_mixer_ddc' (23#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_complex_mixer.vhd:105]
-INFO: [Synth 8-3491] module 'ddc_imf2' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_imf2_stub.vhdl:5' bound to instance 'ddc_imf2_i' of component 'ddc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:258]
-INFO: [Synth 8-638] synthesizing module 'ddc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_imf2_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'ddc_imf1' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_imf1_stub.vhdl:5' bound to instance 'ddc_imf1_i' of component 'ddc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:268]
-INFO: [Synth 8-638] synthesizing module 'ddc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_imf1_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'ddc_srrc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_srrc_stub.vhdl:5' bound to instance 'ddc_srrc_i' of component 'ddc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:278]
-INFO: [Synth 8-638] synthesizing module 'ddc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3224-radar-PC/realtime/ddc_srrc_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'ddc_imf2' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_imf2_stub.vhdl:5' bound to instance 'ddc_imf2_i' of component 'ddc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'ddc_imf2' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_imf2_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'ddc_imf1' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_imf1_stub.vhdl:5' bound to instance 'ddc_imf1_i' of component 'ddc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'ddc_imf1' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_imf1_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'ddc_srrc' declared at 'C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_srrc_stub.vhdl:5' bound to instance 'ddc_srrc_i' of component 'ddc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:278]
+INFO: [Synth 8-638] synthesizing module 'ddc_srrc' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/.Xil/Vivado-3492-radar-PC/realtime/ddc_srrc_stub.vhdl:18]
 INFO: [Synth 8-256] done synthesizing module 'ddc_umts_k7' (24#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/ddc_umts_k7.vhd:100]
-INFO: [Synth 8-4471] merging register 'signal_vout2_reg' into 'signal_vout_reg' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:314]
+INFO: [Synth 8-4471] merging register 'signal_vout2_reg' into 'signal_vout_reg' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:316]
 WARNING: [Synth 8-3848] Net IF_OUT_VALID in module/entity DUC_DDC does not have driver. [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:83]
 INFO: [Synth 8-256] done synthesizing module 'DUC_DDC' (25#1) [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/src/DUC_DDC.vhd:94]
 INFO: [Synth 8-3491] module 'ila' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/ila/synth/ila.vhd:53' bound to instance 'ila_dac_baseband_ADC' of component 'ila' [C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/imports/kc705_fmc150_ILA3.VHD:1857]
@@ -11482,7 +11482,7 @@ WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[6]
 WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[5]
 WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[4]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:05 ; elapsed = 00:01:07 . Memory (MB): peak = 492.129 ; gain = 358.973
+Finished RTL Elaboration : Time (s): cpu = 00:01:05 ; elapsed = 00:01:07 . Memory (MB): peak = 491.828 ; gain = 359.566
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Optimization
@@ -11650,7 +11650,7 @@ Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg900-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:22 ; elapsed = 00:01:24 . Memory (MB): peak = 671.523 ; gain = 538.367
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:22 ; elapsed = 00:01:24 . Memory (MB): peak = 671.203 ; gain = 538.941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -11663,10 +11663,10 @@ Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/k7dsp_rtl_
 Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/dont_touch.xdc, line 24).
 Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/synth_1/dont_touch.xdc, line 32).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:26 ; elapsed = 00:01:28 . Memory (MB): peak = 671.523 ; gain = 538.367
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 671.203 ; gain = 538.941
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:28 . Memory (MB): peak = 671.523 ; gain = 538.367
+Finished RTL Optimization : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 671.203 ; gain = 538.941
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ADC_auto_calibration__parameterized0'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ADC_auto_calibration__parameterized2'
@@ -11723,7 +11723,7 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 5     
+	   2 Input     32 Bit       Adders := 4     
 	   2 Input     19 Bit       Adders := 2     
 	   2 Input     17 Bit       Adders := 2     
 	   2 Input     16 Bit       Adders := 1     
@@ -11745,7 +11745,7 @@ Detailed RTL Component Info :
 	               64 Bit    Registers := 5     
 	               48 Bit    Registers := 7     
 	               42 Bit    Registers := 1     
-	               32 Bit    Registers := 18    
+	               32 Bit    Registers := 17    
 	               28 Bit    Registers := 10    
 	               19 Bit    Registers := 2     
 	               17 Bit    Registers := 4     
@@ -11768,34 +11768,34 @@ Detailed RTL Component Info :
 	   2 Input     64 Bit        Muxes := 4     
 	   4 Input     32 Bit        Muxes := 3     
 	   6 Input     32 Bit        Muxes := 1     
-	   2 Input     32 Bit        Muxes := 27    
+	   2 Input     32 Bit        Muxes := 24    
 	   2 Input     28 Bit        Muxes := 1     
 	  25 Input     16 Bit        Muxes := 2     
-	   4 Input     16 Bit        Muxes := 2     
 	  35 Input     16 Bit        Muxes := 1     
-	   2 Input     16 Bit        Muxes := 29    
 	   3 Input     16 Bit        Muxes := 10    
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 29    
 	   2 Input     14 Bit        Muxes := 6     
 	   3 Input     13 Bit        Muxes := 1     
 	   5 Input     12 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 4     
 	   8 Input     11 Bit        Muxes := 2     
-	   2 Input      8 Bit        Muxes := 2     
 	  18 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
 	   2 Input      7 Bit        Muxes := 2     
 	   6 Input      6 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 4     
 	   2 Input      5 Bit        Muxes := 12    
 	   2 Input      4 Bit        Muxes := 33    
-	   9 Input      3 Bit        Muxes := 2     
-	   6 Input      3 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 10    
 	   8 Input      3 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 10    
+	   2 Input      3 Bit        Muxes := 10    
+	   6 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 2     
 	   4 Input      2 Bit        Muxes := 3     
-	   2 Input      1 Bit        Muxes := 238   
+	   2 Input      2 Bit        Muxes := 10    
 	   6 Input      1 Bit        Muxes := 6     
 	   4 Input      1 Bit        Muxes := 31    
+	   2 Input      1 Bit        Muxes := 239   
 	   8 Input      1 Bit        Muxes := 23    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -12107,20 +12107,17 @@ Detailed RTL Component Info :
 Module DUC_DDC 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 1     
 	   2 Input     16 Bit       Adders := 1     
 	   2 Input     11 Bit       Adders := 1     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
-	               32 Bit    Registers := 1     
 	               16 Bit    Registers := 13    
 	               11 Bit    Registers := 1     
 	                1 Bit    Registers := 21    
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 3     
 	   2 Input     16 Bit        Muxes := 13    
-	   2 Input      1 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 14    
 Module labtools_xsdb_slave_lib_v3_0_chipscope_xsdb_slave__parameterized0 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -12685,7 +12682,7 @@ BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:01:28 ; elapsed = 00:01:31 . Memory (MB): peak = 671.824 ; gain = 538.668
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:01:28 ; elapsed = 00:01:30 . Memory (MB): peak = 672.395 ; gain = 540.133
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -12711,9 +12708,9 @@ WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[6]
 WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[5]
 WARNING: [Synth 8-3331] design KC705_fmc150 has unconnected port gpio_dip_sw[4]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:33 . Memory (MB): peak = 671.824 ; gain = 538.668
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:33 . Memory (MB): peak = 672.395 ; gain = 540.133
 ---------------------------------------------------------------------------------
-Finished Parallel Reinfer  : Time (s): cpu = 00:01:31 ; elapsed = 00:01:33 . Memory (MB): peak = 671.824 ; gain = 538.668
+Finished Parallel Reinfer  : Time (s): cpu = 00:01:30 ; elapsed = 00:01:33 . Memory (MB): peak = 672.395 ; gain = 540.133
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
@@ -12849,10 +12846,10 @@ WARNING: [Synth 8-3332] Sequential element (\fmc150_spi_ctrl_inst/ads62p49_ctrl_
 WARNING: [Synth 8-3332] Sequential element (\fmc150_spi_ctrl_inst/ads62p49_ctrl_inst/fmc150_stellar_cmd_inst/out_cmd_reg[50] ) is unused and will be removed from module KC705_fmc150.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:01:39 . Memory (MB): peak = 690.340 ; gain = 557.184
+Finished Area Optimization : Time (s): cpu = 00:01:35 ; elapsed = 00:01:39 . Memory (MB): peak = 691.609 ; gain = 559.348
 ---------------------------------------------------------------------------------
-Finished Parallel Area Opt  : Time (s): cpu = 00:01:36 ; elapsed = 00:01:39 . Memory (MB): peak = 690.340 ; gain = 557.184
-Finished Parallel Section  : Time (s): cpu = 00:01:36 ; elapsed = 00:01:39 . Memory (MB): peak = 690.340 ; gain = 557.184
+Finished Parallel Area Opt  : Time (s): cpu = 00:01:35 ; elapsed = 00:01:39 . Memory (MB): peak = 691.609 ; gain = 559.348
+Finished Parallel Section  : Time (s): cpu = 00:01:35 ; elapsed = 00:01:39 . Memory (MB): peak = 691.609 ; gain = 559.348
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -12864,16 +12861,16 @@ WARNING: [Synth 8-3321] Empty from list for constraint at line 78 of c:/k7dsp_rt
 WARNING: [Synth 8-3321] Empty from list for constraint at line 79 of c:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/ila/constraints/ila.xdc. [c:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/ila/constraints/ila.xdc:79]
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 725.695 ; gain = 592.539
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 724.949 ; gain = 592.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:47 ; elapsed = 00:01:50 . Memory (MB): peak = 730.664 ; gain = 597.508
+Finished Timing Optimization : Time (s): cpu = 00:01:47 ; elapsed = 00:01:50 . Memory (MB): peak = 729.875 ; gain = 597.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 773.000 ; gain = 639.844
+Finished Technology Mapping : Time (s): cpu = 00:01:51 ; elapsed = 00:01:56 . Memory (MB): peak = 772.047 ; gain = 639.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -12891,7 +12888,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 773.000 ; gain = 639.844
+Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 772.047 ; gain = 639.785
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -12904,13 +12901,13 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:53 ; elapsed = 00:01:57 . Memory (MB): peak = 773.000 ; gain = 639.844
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 772.047 ; gain = 639.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 773.000 ; gain = 639.844
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 772.047 ; gain = 639.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
@@ -12991,11 +12988,11 @@ Report Cell Usage:
 |27    |ISERDESE2                   |     7|
 |28    |ISERDESE2_1                 |     7|
 |29    |LUT1                        |   386|
-|30    |LUT2                        |   374|
-|31    |LUT3                        |   522|
-|32    |LUT4                        |   452|
+|30    |LUT2                        |   375|
+|31    |LUT3                        |   521|
+|32    |LUT4                        |   451|
 |33    |LUT5                        |   399|
-|34    |LUT6                        |   993|
+|34    |LUT6                        |   991|
 |35    |MMCME2_ADV                  |     2|
 |36    |MUXF7                       |    50|
 |37    |MUXF8                       |     9|
@@ -13007,8 +13004,8 @@ Report Cell Usage:
 |43    |SRLC32E                     |    17|
 |44    |FDCE                        |  1151|
 |45    |FDPE                        |    47|
-|46    |FDRE                        |  3334|
-|47    |FDSE                        |    71|
+|46    |FDRE                        |  3333|
+|47    |FDSE                        |    72|
 |48    |LDC                         |    15|
 |49    |IBUF                        |    17|
 |50    |IBUFDS                      |    16|
@@ -13020,7 +13017,7 @@ Report Instance Areas:
 +------+-------------------------------------------------------------------+------------------------------------------------------------------+------+
 |      |Instance                                                           |Module                                                            |Cells |
 +------+-------------------------------------------------------------------+------------------------------------------------------------------+------+
-|1     |top                                                                |                                                                  |  8987|
+|1     |top                                                                |                                                                  |  8984|
 |2     |  vio_inst                                                         |vio                                                               |  1058|
 |3     |    inst                                                           |vio_v3_0_vio__parameterized0                                      |  1058|
 |4     |      U_XSDB_SLAVE                                                 |labtools_xsdb_slave_lib_v3_0_chipscope_xsdb_slave                 |    78|
@@ -13248,7 +13245,7 @@ Report Instance Areas:
 |226   |        xsdb_memory_read_inst                                      |cs_generic_memory_read                                            |   197|
 |227   |  ADC_auto_calibration_chA                                         |ADC_auto_calibration__parameterized2                              |   174|
 |228   |  ADC_auto_calibration_chB                                         |ADC_auto_calibration__parameterized0                              |   160|
-|229   |  DUC_DDC_inst                                                     |DUC_DDC                                                           |  1425|
+|229   |  DUC_DDC_inst                                                     |DUC_DDC                                                           |  1422|
 |230   |    ddc_umts_k7_inst                                               |ddc_umts_k7                                                       |   424|
 |231   |      complex_mixer_ddc_i                                          |complex_mixer_ddc                                                 |   184|
 |232   |    duc_umts_k7_inst                                               |duc_umts_k7                                                       |   489|
@@ -13284,10 +13281,10 @@ Report Instance Areas:
 |262   |      pulse2pulse_inst1                                            |pulse2pulse_0                                                     |    12|
 +------+-------------------------------------------------------------------+------------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 773.000 ; gain = 639.844
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:01:58 . Memory (MB): peak = 772.047 ; gain = 639.785
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 733 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 773.000 ; gain = 639.844
+Synthesis Optimization Complete : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 772.047 ; gain = 639.785
 INFO: [Netlist 29-17] Analyzing 308 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Opt 31-35] Removing redundant IBUF, mmcm_inst/U0/clkin1_ibufg, from the path connected to top-level port: sysclk_p 
@@ -13307,8 +13304,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 695 Infos, 209 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 788.461 ; gain = 542.754
+synth_design: Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 787.746 ; gain = 542.383
 # write_checkpoint KC705_fmc150.dcp
 # report_utilization -file KC705_fmc150_utilization_synth.rpt -pb KC705_fmc150_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 788.461 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Aug 26 18:25:09 2015...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 787.746 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 27 16:53:15 2015...
