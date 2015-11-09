@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="VIO">
+        <Dashboard columnResizable="1" key="VIO" rowResizable="0" title="VIO">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="1" height="613"
+                layout="JideBoxLayout" vgap="6" width="729">
+                <Gadget height="471" key="VIO Probes" name="VIO Probes" width="729">
+                    <Probe core="hw_vio_1" name="ADC_CLK_iDelay[4:0]"/>
+                    <Probe core="hw_vio_1" name="ADC_Ch_A_iDelay[4:0]"/>
+                    <Probe core="hw_vio_1" name="ADC_Ch_B_iDelay[4:0]"/>
+                    <Probe core="hw_vio_1" name="Busy_signal_1"/>
+                    <Probe core="hw_vio_1" name="SPI_Register_Data_from_FM150[31:0]"/>
+                    <Probe core="hw_vio_1" name="ADS62P49"/>
+                    <Probe core="hw_vio_1" name="AMC7823"/>
+                    <Probe core="hw_vio_1" name="CDCE72010"/>
+                    <Probe core="hw_vio_1" name="DAC3283"/>
+                    <Probe core="hw_vio_1" name="RW"/>
+                    <Probe core="hw_vio_1" name="Register_Address[15:0]"/>
+                    <Probe core="hw_vio_1" name="SPI_Register_Data_to_FMC150[31:0]"/>
+                    <Probe core="hw_vio_1" name="Set_CH_A_iDelay[4:0]"/>
+                    <Probe core="hw_vio_1" name="Set_CH_B_iDelay[4:0]"/>
+                    <Probe core="hw_vio_1" name="Set_CLK_iDelay[4:0]"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/k7dsp_rtl_tut_sp_edit_v2/k7dsp_rtl_tut/RTL/RefDes/imp/VHDL/Vivado/Vivado.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="dac_din_i" type="array">
+      <obj_property name="ElementShortName">dac_din_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_din_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dac_din_q" type="array">
+      <obj_property name="ElementShortName">dac_din_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_din_q[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeMin">628888</obj_property>
+      <obj_property name="AnalogYRRangeMax">630695</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="baseband_out_i_sig_dly1" type="array">
+      <obj_property name="ElementShortName">baseband_out_i_sig_dly1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">baseband_out_i_sig_dly1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="baseband_out_q_sig_dly1" type="array">
+      <obj_property name="ElementShortName">baseband_out_q_sig_dly1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">baseband_out_q_sig_dly1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="adc_dout_i_245_76_MSPS" type="array">
+      <obj_property name="ElementShortName">adc_dout_i_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dout_i_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="adc_dout_q_245_76_MSPS" type="array">
+      <obj_property name="ElementShortName">adc_dout_q_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dout_q_245_76_MSPS[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/kc705_ibert/ibert_bank_115_116/ibert_bank_115_116_example/ibert_bank_115_116_example.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_1" LaunchDir="C:/kc705_ibert/ibert_bank_115_116/ibert_bank_115_116_example/ibert_bank_115_116_example.runs/impl_1" FlowId="Vivado Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+	</Run>
+</Runs>
+

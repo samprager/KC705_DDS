@@ -1,0 +1,84 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 1064
+
+Current time: 	9/27/15 12:16:01 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1276x777
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	Sam
+User directory: E:/Xilinx FPGA Programs/kc705_bist
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 377 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.9s
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'E:\Xilinx FPGA Programs\kc705_bist\kc705_bist.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {E:\Xilinx FPGA Programs\kc705_bist\kc705_bist.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 429 MB. GUI used memory: 23 MB. Current time: 9/27/15 12:16:03 PM
+// [GUI Memory]: 26 mb (+24562kb) [00:00:20]
+// [Engine Memory]: 432 mb (+301017kb) [00:00:20]
+// [GUI Memory]: 28 mb (+1845kb) [00:00:43]
+// [Engine Memory]: 449 mb (+17846kb) [00:00:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 466 MB. GUI used memory: 23 MB. Current time: 9/27/15 12:16:36 PM
+// [Engine Memory]: 522 mb (+77152kb) [00:01:10]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 mb (+21587kb) [00:01:14]
+// [Engine Memory]: 523 mb (+1249kb) [00:01:14]
+// [GUI Memory]: 49 mb (+865kb) [00:01:17]
+// [Engine Memory]: 560 mb (+37990kb) [00:01:17]
+// [GUI Memory]: 56 mb (+7229kb) [00:01:18]
+// [Engine Memory]: 590 mb (+31711kb) [00:01:18]
+// [Engine Memory]: 595 mb (+5554kb) [00:01:19]
+// [GUI Memory]: 76 mb (+21330kb) [00:01:21]
+// [Engine Memory]: 608 mb (+13185kb) [00:01:21]
+// [Engine Memory]: 617 mb (+10051kb) [00:01:23]
+// [GUI Memory]: 85 mb (+9312kb) [00:01:24]
+// [GUI Memory]: 92 mb (+6877kb) [00:01:26]
+// Tcl Message: open_project {E:\Xilinx FPGA Programs\kc705_bist\kc705_bist.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/kc705_bist' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Xilinx FPGA Programs/kc705_bist/gtxe2_top_v1_00_a'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'. 
+// [GUI Memory]: 93 mb (+1089kb) [00:01:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 45 MB. Current time: 9/27/15 12:17:18 PM
+// Tcl Message: open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:01:19 . Memory (MB): peak = 947.375 ; gain = 158.145 
+// [Engine Memory]: 619 mb (+1376kb) [00:01:34]
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Opening project 'E:\\Xilinx FPGA Programs\\kc705_bist\\kc705_bist.xpr'"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 93 mb (+415kb) [00:06:19]
+// [GUI Memory]: 93 mb (+337kb) [00:13:49]
+// [GUI Memory]: 96 mb (+2542kb) [00:14:15]
+// [Engine Memory]: 619 mb (+98kb) [00:14:39]
+// [Engine Memory]: 619 mb (+266kb) [00:15:05]

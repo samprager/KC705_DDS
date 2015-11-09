@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="vio_v2_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/vio_v2_0_0">
+    <Config>
+      <Option Name="TopModule" Val="vio_v2_0_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+</DARoots>

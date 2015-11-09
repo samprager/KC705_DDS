@@ -1,0 +1,2250 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 928826 Thu Jun  5 18:17:50 MDT 2014
+| Date         : Sat Jun 07 13:19:14 2014
+| Host         : XCOJAMESM22 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_timing_summary -warn_on_violation -file example_ibert_bank_115_116_timing_summary_routed.rpt -pb example_ibert_bank_115_116_timing_summary_routed.pb
+| Design       : example_ibert_bank_115_116
+| Device       : 7k325t-ffg900
+| Speed File   : -2  PRODUCTION 1.11 2014-03-13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking unexpandable_clocks
+13. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There is 1 register/latch pin with no clock driven by root clock pin: u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/UPDATE (HIGH)
+
+
+2. checking constant clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 2 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but has a clock definition.
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking unexpandable_clocks
+--------------------------------
+ There are 0 unexpandable clock pairs.
+
+
+13. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      2.224        0.000                      0                37693        0.008        0.000                      0                37693        1.100        0.000                       0                 23628  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock        Waveform(ns)         Period(ns)      Frequency(MHz)
+-----        ------------         ----------      --------------
+D_CLK        {0.000 2.500}        5.000           200.000         
+  clkfbout   {0.000 2.500}        5.000           200.000         
+  dclk_mmcm  {0.000 5.000}        10.000          100.000         
+J_CLK        {0.000 15.000}       30.000          33.333          
+Q0_RXCLK0    {0.000 4.000}        8.000           125.000         
+Q0_RXCLK1    {0.000 4.000}        8.000           125.000         
+Q0_RXCLK2    {0.000 4.000}        8.000           125.000         
+Q0_RXCLK3    {0.000 4.000}        8.000           125.000         
+Q0_TX0       {0.000 4.000}        8.000           125.000         
+Q1_RXCLK0    {0.000 4.000}        8.000           125.000         
+Q1_RXCLK1    {0.000 4.000}        8.000           125.000         
+Q1_RXCLK2    {0.000 4.000}        8.000           125.000         
+Q1_RXCLK3    {0.000 4.000}        8.000           125.000         
+Q1_TX0       {0.000 4.000}        8.000           125.000         
+REFCLK0_0    {0.000 5.000}        10.000          100.000         
+REFCLK0_1    {0.000 5.000}        10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+D_CLK                                                                                                                                                           1.100        0.000                       0                     3  
+  clkfbout                                                                                                                                                      3.929        0.000                       0                     2  
+  dclk_mmcm         2.224        0.000                      0                22550        0.008        0.000                      0                22550        4.232        0.000                       0                 13800  
+J_CLK              26.176        0.000                      0                  565        0.050        0.000                      0                  565       14.232        0.000                       0                   284  
+Q0_RXCLK0           4.457        0.000                      0                 1171        0.071        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q0_RXCLK1           4.326        0.000                      0                 1171        0.093        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q0_RXCLK2           4.196        0.000                      0                 1171        0.092        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q0_RXCLK3           4.660        0.000                      0                 1171        0.083        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q0_TX0              4.432        0.000                      0                 2488        0.085        0.000                      0                 2488        3.600        0.000                       0                  1502  
+Q1_RXCLK0           4.431        0.000                      0                 1171        0.087        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q1_RXCLK1           4.385        0.000                      0                 1171        0.085        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q1_RXCLK2           5.277        0.000                      0                 1171        0.080        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q1_RXCLK3           4.315        0.000                      0                 1171        0.069        0.000                      0                 1171        3.358        0.000                       0                   815  
+Q1_TX0              4.696        0.000                      0                 2488        0.092        0.000                      0                 2488        3.600        0.000                       0                  1502  
+REFCLK0_0                                                                                                                                                       8.462        0.000                       0                     6  
+REFCLK0_1                                                                                                                                                       8.462        0.000                       0                    11  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group         From Clock         To Clock               WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------         ----------         --------               -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**async_default**  J_CLK              J_CLK                   26.420        0.000                      0                   98        0.253        0.000                      0                   98  
+**async_default**  dclk_mmcm          dclk_mmcm                7.054        0.000                      0                  136        0.128        0.000                      0                  136  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  D_CLK
+  To Clock:  D_CLK
+
+Setup :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+Hold  :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+PW    :            0  Failing Endpoints,  Worst Slack        1.100ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         D_CLK
+Waveform:           { 0 2.5 }
+Period:             5.000
+Sources:            { SYSCLKP_I }
+
+Check Type        Corner  Lib Pin              Reference Pin  Required  Actual  Slack   Location         Pin
+Min Period        n/a     MMCME2_ADV/CLKFBOUT  n/a            1.071     5.000   3.929   MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKFBOUT
+Max Period        n/a     MMCME2_ADV/CLKIN1    n/a            100.000   5.000   95.000  MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1    n/a            1.400     2.500   1.100   MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1    n/a            1.400     2.500   1.100   MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout
+  To Clock:  clkfbout
+
+Setup :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+Hold  :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+PW    :            0  Failing Endpoints,  Worst Slack        3.929ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout
+Waveform:           { 0 2.5 }
+Period:             5.000
+Sources:            { u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKFBOUT }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required  Actual  Slack   Location         Pin
+Min Period  n/a     MMCME2_ADV/CLKFBIN  n/a            1.071     5.000   3.929   MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKFBIN
+Max Period  n/a     MMCME2_ADV/CLKFBIN  n/a            100.000   5.000   95.000  MMCME2_ADV_X1Y1  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  dclk_mmcm
+  To Clock:  dclk_mmcm
+
+Setup :            0  Failing Endpoints,  Worst Slack        2.224ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.008ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        4.232ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             2.224ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/UUT_MASTER/U_XSDB_ADDRESS_CONTROLLER/addr_reg[4]/C
+                            (rising edge-triggered cell FDRE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do_reg[11]/R
+                            (rising edge-triggered cell FDRE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             dclk_mmcm
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (dclk_mmcm rise@10.000ns - dclk_mmcm rise@0.000ns)
+  Data Path Delay:        7.145ns  (logic 0.309ns (4.325%)  route 6.836ns (95.675%))
+  Logic Levels:           2  (LUT4=1 LUT5=1)
+  Clock Path Skew:        -0.284ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.052ns = ( 15.052 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.673ns
+    Clock Pessimism Removal (CPR):    0.336ns
+  Clock Uncertainty:      0.066ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.112ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.906     0.906 r  u_ibufgds/O
+                         net (fo=1, routed)           1.081     1.987    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.077     2.064 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           2.130     4.194    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.093     4.287 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       1.386     5.673    u_ibert_core/inst/UUT_MASTER/U_XSDB_ADDRESS_CONTROLLER/MA_DCLK_I
+    SLICE_X93Y294                                                     r  u_ibert_core/inst/UUT_MASTER/U_XSDB_ADDRESS_CONTROLLER/addr_reg[4]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X93Y294        FDRE (Prop_fdre_C_Q)         0.223     5.896 f  u_ibert_core/inst/UUT_MASTER/U_XSDB_ADDRESS_CONTROLLER/addr_reg[4]/Q
+                         net (fo=98, routed)          6.166    12.062    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/SL_IPORT_I[8]
+    SLICE_X108Y171       LUT5 (Prop_lut5_I1_O)        0.043    12.105 f  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do[9]_i_2/O
+                         net (fo=9, routed)           0.353    12.458    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/n_0_reg_do[9]_i_2
+    SLICE_X110Y171       LUT4 (Prop_lut4_I0_O)        0.043    12.501 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do[15]_i_1/O
+                         net (fo=6, routed)           0.317    12.817    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/n_0_reg_do[15]_i_1
+    SLICE_X110Y171       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do_reg[11]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock dclk_mmcm rise edge)
+                                                     10.000    10.000 r  
+    AD12                                              0.000    10.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000    10.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.803    10.803 r  u_ibufgds/O
+                         net (fo=1, routed)           0.986    11.789    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.073    11.862 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           2.005    13.867    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.083    13.950 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       1.102    15.052    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/SL_IPORT_I[1]
+    SLICE_X110Y171                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do_reg[11]/C
+                         clock pessimism              0.336    15.389    
+                         clock uncertainty           -0.066    15.322    
+    SLICE_X110Y171       FDRE (Setup_fdre_C_R)       -0.281    15.041    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_CHANNEL_REGS/U_XSDB_SLAVE/reg_do_reg[11]
+  -------------------------------------------------------------------
+                         required time                         15.041    
+                         arrival time                         -12.817    
+  -------------------------------------------------------------------
+                         slack                                  2.224    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.008ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_RXUSRCLK2_FREQ_COUNTER/FREQ_CNT_O_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]/D
+                            (rising edge-triggered cell FDRE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             dclk_mmcm
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (dclk_mmcm rise@0.000ns - dclk_mmcm rise@0.000ns)
+  Data Path Delay:        0.207ns  (logic 0.091ns (43.992%)  route 0.116ns (56.008%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.190ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.855ns
+    Source Clock Delay      (SCD):    2.459ns
+    Clock Pessimism Removal (CPR):    0.205ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.388     0.388 r  u_ibufgds/O
+                         net (fo=1, routed)           0.503     0.891    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.050     0.941 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           0.940     1.881    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     1.907 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       0.552     2.459    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_RXUSRCLK2_FREQ_COUNTER/SL_IPORT_I[0]
+    SLICE_X97Y199                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_RXUSRCLK2_FREQ_COUNTER/FREQ_CNT_O_reg[10]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X97Y199        FDRE (Prop_fdre_C_Q)         0.091     2.550 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_RXUSRCLK2_FREQ_COUNTER/FREQ_CNT_O_reg[10]/Q
+                         net (fo=2, routed)           0.116     2.666    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/DIN_I[10]
+    SLICE_X97Y200        FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.470     0.470 r  u_ibufgds/O
+                         net (fo=1, routed)           0.553     1.023    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.053     1.076 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           1.007     2.083    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.030     2.113 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       0.742     2.855    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/S_DCLK_I
+    SLICE_X97Y200                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]/C
+                         clock pessimism             -0.205     2.649    
+    SLICE_X97Y200        FDRE (Hold_fdre_C_D)         0.009     2.658    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_CHANNEL_REGS/reg_310/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10]
+  -------------------------------------------------------------------
+                         required time                         -2.658    
+                         arrival time                           2.666    
+  -------------------------------------------------------------------
+                         slack                                  0.008    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         dclk_mmcm
+Waveform:           { 0 5 }
+Period:             10.000
+Sources:            { u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0 }
+
+Check Type        Corner  Lib Pin               Reference Pin  Required  Actual  Slack    Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/DRPCLK  n/a            5.714     10.000  4.286    GTXE2_CHANNEL_X0Y0  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/DRPCLK
+Max Period        n/a     MMCME2_ADV/CLKOUT0    n/a            213.360   10.000  203.360  MMCME2_ADV_X1Y1     u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+Low Pulse Width   Slow    RAMD32/CLK            n/a            0.768     5.000   4.232    SLICE_X78Y306       u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMA/CLK
+High Pulse Width  Fast    RAMD32/CLK            n/a            0.768     5.000   4.232    SLICE_X78Y306       u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMA/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  J_CLK
+  To Clock:  J_CLK
+
+Setup :            0  Failing Endpoints,  Worst Slack       26.176ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.050ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack       14.232ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             26.176ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/C
+                            (rising edge-triggered cell FDCE clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i_reg/D
+                            (rising edge-triggered cell FDCE clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Path Group:             J_CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            30.000ns  (J_CLK rise@30.000ns - J_CLK rise@0.000ns)
+  Data Path Delay:        3.790ns  (logic 0.481ns (12.690%)  route 3.309ns (87.310%))
+  Logic Levels:           6  (LUT2=1 LUT6=5)
+  Clock Path Skew:        -0.062ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.749ns = ( 35.749 - 30.000 ) 
+    Source Clock Delay      (SCD):    6.702ns
+    Clock Pessimism Removal (CPR):    0.891ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           5.682     5.682    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.314     5.996 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.706     6.702    u_ibert_core/inst/U_ICON/U_CMD/DRCK_IN
+    SLICE_X57Y301                                                     r  u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X57Y301        FDCE (Prop_fdce_C_Q)         0.223     6.925 f  u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/Q
+                         net (fo=4, routed)           0.615     7.540    u_ibert_core/inst/U_ICON/U_CMD/iCORE_ID[3]
+    SLICE_X57Y302        LUT6 (Prop_lut6_I1_O)        0.043     7.583 f  u_ibert_core/inst/U_ICON/U_CMD/CONTROL_OUT[14]_INST_0_i_1/O
+                         net (fo=8, routed)           0.822     8.404    u_ibert_core/inst/U_ICON/U_CMD/n_0_CONTROL_OUT[14]_INST_0_i_1
+    SLICE_X67Y303        LUT6 (Prop_lut6_I5_O)        0.043     8.447 r  u_ibert_core/inst/U_ICON/U_CMD/CONTROL_OUT[9]_INST_0/O
+                         net (fo=28, routed)          0.429     8.876    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD5/CONTROL_IN_I[5]
+    SLICE_X73Y301        LUT2 (Prop_lut2_I0_O)        0.043     8.919 r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in[15]_i_1/O
+                         net (fo=17, routed)          0.191     9.110    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/I2[0]
+    SLICE_X73Y300        LUT6 (Prop_lut6_I2_O)        0.043     9.153 r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/RAM_reg_0_15_0_5_i_1/O
+                         net (fo=37, routed)          0.811     9.964    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/E[0]
+    SLICE_X69Y304        LUT6 (Prop_lut6_I5_O)        0.043    10.007 r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/ram_full_fb_i_i_2/O
+                         net (fo=1, routed)           0.442    10.449    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/n_0_ram_full_fb_i_i_2
+    SLICE_X70Y304        LUT6 (Prop_lut6_I0_O)        0.043    10.492 r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/ram_full_fb_i_i_1/O
+                         net (fo=1, routed)           0.000    10.492    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i
+    SLICE_X70Y304        FDCE                                         r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock J_CLK rise edge)     30.000    30.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000    30.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           4.816    34.816    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.289    35.105 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.644    35.749    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/CONTROL_IN_I[0]
+    SLICE_X70Y304                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i_reg/C
+                         clock pessimism              0.891    36.640    
+                         clock uncertainty           -0.035    36.604    
+    SLICE_X70Y304        FDCE (Setup_fdce_C_D)        0.064    36.668    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i_reg
+  -------------------------------------------------------------------
+                         required time                         36.668    
+                         arrival time                         -10.492    
+  -------------------------------------------------------------------
+                         slack                                 26.176    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.050ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/shift_reg_in_reg[5]/C
+                            (rising edge-triggered cell FDCE clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMC/I
+                            (rising edge-triggered cell RAMD32 clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Path Group:             J_CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (J_CLK rise@0.000ns - J_CLK rise@0.000ns)
+  Data Path Delay:        0.152ns  (logic 0.091ns (60.014%)  route 0.061ns (39.986%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.011ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    4.224ns
+    Source Clock Delay      (SCD):    3.661ns
+    Clock Pessimism Removal (CPR):    0.552ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           3.219     3.219    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.090     3.309 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.352     3.661    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/CONTROL_IN_I[0]
+    SLICE_X75Y301                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/shift_reg_in_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X75Y301        FDCE (Prop_fdce_C_Q)         0.091     3.752 r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/shift_reg_in_reg[5]/Q
+                         net (fo=2, routed)           0.061     3.812    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/DIC0
+    SLICE_X74Y301        RAMD32                                       r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMC/I
+  -------------------------------------------------------------------    -------------------
+
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           3.737     3.737    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.093     3.830 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.394     4.224    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/WCLK
+    SLICE_X74Y301                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMC/CLK
+                         clock pessimism             -0.552     3.672    
+    SLICE_X74Y301        RAMD32 (Hold_ramd32_CLK_I)
+                                                      0.091     3.763    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMC
+  -------------------------------------------------------------------
+                         required time                         -3.763    
+                         arrival time                           3.812    
+  -------------------------------------------------------------------
+                         slack                                  0.050    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         J_CLK
+Waveform:           { 0 15 }
+Period:             30.000
+Sources:            { u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK }
+
+Check Type        Corner  Lib Pin     Reference Pin  Required  Actual  Slack   Location       Pin
+Min Period        n/a     BUFR/I      n/a            1.851     30.000  28.149  BUFR_X0Y25     u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/I
+Low Pulse Width   Slow    RAMD32/CLK  n/a            0.768     15.000  14.232  SLICE_X74Y301  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMA/CLK
+High Pulse Width  Fast    RAMD32/CLK  n/a            0.768     15.000  14.232  SLICE_X74Y301  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_15_0_5/RAMA/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q0_RXCLK0
+  To Clock:  Q0_RXCLK0
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.457ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.071ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.457ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[13]/D
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q0_RXCLK0 rise@8.000ns - Q0_RXCLK0 rise@0.000ns)
+  Data Path Delay:        3.486ns  (logic 0.345ns (9.896%)  route 3.141ns (90.104%))
+  Logic Levels:           2  (LUT4=1 LUT6=1)
+  Clock Path Skew:        -0.055ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.149ns = ( 9.149 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.297ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y37         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.607     1.297    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X106Y165                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X106Y165       FDRE (Prop_fdre_C_Q)         0.259     1.556 f  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[0]/Q
+                         net (fo=73, routed)          1.974     3.530    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/I1[0]
+    SLICE_X88Y160        LUT4 (Prop_lut4_I3_O)        0.043     3.573 f  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/prbs[30]_i_3__0/O
+                         net (fo=71, routed)          1.168     4.740    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/I2
+    SLICE_X81Y159        LUT6 (Prop_lut6_I2_O)        0.043     4.783 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/DATA_O[13]_i_1__0/O
+                         net (fo=1, routed)           0.000     4.783    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern[13]
+    SLICE_X81Y159        FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK0 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y37         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.552     9.149    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X81Y159                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[13]/C
+                         clock pessimism              0.093     9.242    
+                         clock uncertainty           -0.035     9.207    
+    SLICE_X81Y159        FDRE (Setup_fdre_C_D)        0.034     9.241    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[13]
+  -------------------------------------------------------------------
+                         required time                          9.241    
+                         arrival time                          -4.783    
+  -------------------------------------------------------------------
+                         slack                                  4.457    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.071ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[39]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[39]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q0_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q0_RXCLK0 rise@0.000ns - Q0_RXCLK0 rise@0.000ns)
+  Data Path Delay:        0.216ns  (logic 0.107ns (49.475%)  route 0.109ns (50.525%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.029ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.661ns
+    Source Clock Delay      (SCD):    0.460ns
+    Clock Pessimism Removal (CPR):    0.172ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y37         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.292     0.460    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X86Y156                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[39]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X86Y156        FDRE (Prop_fdre_C_Q)         0.107     0.567 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[39]/Q
+                         net (fo=2, routed)           0.109     0.676    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[39]
+    SLICE_X82Y156        SRL16E                                       r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[39]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y37         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.441     0.661    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X82Y156                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[39]_srl3/CLK
+                         clock pessimism             -0.172     0.489    
+    SLICE_X82Y156        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.116     0.605    u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[39]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.605    
+                         arrival time                           0.676    
+  -------------------------------------------------------------------
+                         slack                                  0.071    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q0_RXCLK0
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y0  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X82Y153       u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[16]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X82Y153       u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[16]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q0_RXCLK1
+  To Clock:  Q0_RXCLK1
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.326ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.093ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.326ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[25]/D
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK1
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q0_RXCLK1 rise@8.000ns - Q0_RXCLK1 rise@0.000ns)
+  Data Path Delay:        3.611ns  (logic 0.373ns (10.331%)  route 3.238ns (89.669%))
+  Logic Levels:           2  (LUT4=1 LUT6=1)
+  Clock Path Skew:        -0.093ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.169ns = ( 9.169 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.355ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y1   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y38         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.665     1.355    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X123Y150                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X123Y150       FDRE (Prop_fdre_C_Q)         0.204     1.559 f  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/Q
+                         net (fo=72, routed)          1.995     3.554    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/I1[1]
+    SLICE_X116Y156       LUT4 (Prop_lut4_I0_O)        0.126     3.680 f  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/prbs[30]_i_3__0/O
+                         net (fo=71, routed)          1.243     4.923    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/I2
+    SLICE_X118Y154       LUT6 (Prop_lut6_I2_O)        0.043     4.966 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/DATA_O[25]_i_1__0/O
+                         net (fo=1, routed)           0.000     4.966    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern[25]
+    SLICE_X118Y154       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[25]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK1 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y1   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y38         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.572     9.169    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X118Y154                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[25]/C
+                         clock pessimism              0.093     9.262    
+                         clock uncertainty           -0.035     9.227    
+    SLICE_X118Y154       FDRE (Setup_fdre_C_D)        0.065     9.292    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[25]
+  -------------------------------------------------------------------
+                         required time                          9.292    
+                         arrival time                          -4.966    
+  -------------------------------------------------------------------
+                         slack                                  4.326    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.093ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/prbs_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/data_o_reg[13]/D
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK1
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q0_RXCLK1 rise@0.000ns - Q0_RXCLK1 rise@0.000ns)
+  Data Path Delay:        0.191ns  (logic 0.128ns (66.970%)  route 0.063ns (33.030%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.011ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.675ns
+    Source Clock Delay      (SCD):    0.471ns
+    Clock Pessimism Removal (CPR):    0.193ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y1   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y38         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.303     0.471    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/RX_CLK_I
+    SLICE_X107Y153                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/prbs_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X107Y153       FDRE (Prop_fdre_C_Q)         0.100     0.571 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/prbs_reg[0]/Q
+                         net (fo=6, routed)           0.063     0.634    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/n_0_prbs_reg[0]
+    SLICE_X106Y153       LUT2 (Prop_lut2_I0_O)        0.028     0.662 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/data_o[13]_i_1__3/O
+                         net (fo=1, routed)           0.000     0.662    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/p_39_out[13]
+    SLICE_X106Y153       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/data_o_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y1   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y38         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.455     0.675    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/RX_CLK_I
+    SLICE_X106Y153                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/data_o_reg[13]/C
+                         clock pessimism             -0.193     0.482    
+    SLICE_X106Y153       FDRE (Hold_fdre_C_D)         0.087     0.569    u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_15bit/bit40.p15_40/data_o_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -0.569    
+                         arrival time                           0.662    
+  -------------------------------------------------------------------
+                         slack                                  0.093    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q0_RXCLK1
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y1  u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X132Y154      u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X122Y153      u_ibert_core/inst/QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[24]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q0_RXCLK2
+  To Clock:  Q0_RXCLK2
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.196ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.092ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.196ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[26]/D
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK2
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q0_RXCLK2 rise@8.000ns - Q0_RXCLK2 rise@0.000ns)
+  Data Path Delay:        3.688ns  (logic 0.345ns (9.354%)  route 3.343ns (90.646%))
+  Logic Levels:           2  (LUT6=2)
+  Clock Path Skew:        -0.114ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.145ns = ( 9.145 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.352ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y2   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y39         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.662     1.352    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X132Y185                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X132Y185       FDRE (Prop_fdre_C_Q)         0.259     1.611 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/Q
+                         net (fo=73, routed)          2.818     4.429    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1[2]
+    SLICE_X93Y176        LUT6 (Prop_lut6_I4_O)        0.043     4.472 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/DATA_O[26]_i_2__0/O
+                         net (fo=2, routed)           0.525     4.997    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/n_0_DATA_O[26]_i_2__0
+    SLICE_X92Y178        LUT6 (Prop_lut6_I0_O)        0.043     5.040 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/DATA_O[26]_i_1__0/O
+                         net (fo=1, routed)           0.000     5.040    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern[26]
+    SLICE_X92Y178        FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK2 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y2   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y39         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.548     9.145    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X92Y178                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[26]/C
+                         clock pessimism              0.093     9.238    
+                         clock uncertainty           -0.035     9.203    
+    SLICE_X92Y178        FDRE (Setup_fdre_C_D)        0.034     9.237    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[26]
+  -------------------------------------------------------------------
+                         required time                          9.237    
+                         arrival time                          -5.040    
+  -------------------------------------------------------------------
+                         slack                                  4.196    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.092ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[31]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[31]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q0_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK2
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q0_RXCLK2 rise@0.000ns - Q0_RXCLK2 rise@0.000ns)
+  Data Path Delay:        0.255ns  (logic 0.100ns (39.278%)  route 0.155ns (60.722%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.009ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.660ns
+    Source Clock Delay      (SCD):    0.462ns
+    Clock Pessimism Removal (CPR):    0.189ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y2   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y39         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.294     0.462    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X96Y184                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[31]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X96Y184        FDRE (Prop_fdre_C_Q)         0.100     0.562 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[31]/Q
+                         net (fo=2, routed)           0.155     0.717    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[31]
+    SLICE_X98Y181        SRL16E                                       r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[31]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y2   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y39         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.440     0.660    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X98Y181                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[31]_srl3/CLK
+                         clock pessimism             -0.189     0.471    
+    SLICE_X98Y181        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.154     0.625    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[31]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.625    
+                         arrival time                           0.717    
+  -------------------------------------------------------------------
+                         slack                                  0.092    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q0_RXCLK2
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y2  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X98Y179       u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+High Pulse Width  Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X98Y178       u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[10]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q0_RXCLK3
+  To Clock:  Q0_RXCLK3
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.660ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.083ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.660ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXUSRCLK2
+                            (rising edge-triggered cell GTXE2_CHANNEL clocked by Q0_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/rstd_dly1_reg/D
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK3
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q0_RXCLK3 rise@8.000ns - Q0_RXCLK3 rise@0.000ns)
+  Data Path Delay:        3.043ns  (logic 1.009ns (33.160%)  route 2.034ns (66.840%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.239ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.200ns = ( 9.200 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.532ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y3   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y40         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.842     1.532    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/RXUSRCLK_I
+    GTXE2_CHANNEL_X0Y3                                                r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXUSRCLK2
+  -------------------------------------------------------------------    -------------------
+    GTXE2_CHANNEL_X0Y3   GTXE2_CHANNEL (Prop_gtxe2_channel_RXUSRCLK2_RXRESETDONE)
+                                                      1.009     2.541 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXRESETDONE
+                         net (fo=4, routed)           2.034     4.575    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/RXRESETDONE_I
+    SLICE_X124Y175       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/rstd_dly1_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK3 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y3   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y40         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.603     9.200    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/RX_CLK_I
+    SLICE_X124Y175                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/rstd_dly1_reg/C
+                         clock pessimism              0.093     9.293    
+                         clock uncertainty           -0.035     9.258    
+    SLICE_X124Y175       FDRE (Setup_fdre_C_D)       -0.022     9.236    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_RESET_CONTROLLER/rstd_dly1_reg
+  -------------------------------------------------------------------
+                         required time                          9.236    
+                         arrival time                          -4.575    
+  -------------------------------------------------------------------
+                         slack                                  4.660    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.083ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[20]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q0_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_RXCLK3
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q0_RXCLK3 rise@0.000ns - Q0_RXCLK3 rise@0.000ns)
+  Data Path Delay:        0.214ns  (logic 0.100ns (46.732%)  route 0.114ns (53.268%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.029ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.667ns
+    Source Clock Delay      (SCD):    0.466ns
+    Clock Pessimism Removal (CPR):    0.172ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y3   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y40         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.298     0.466    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X96Y193                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X96Y193        FDRE (Prop_fdre_C_Q)         0.100     0.566 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[20]/Q
+                         net (fo=2, routed)           0.114     0.680    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[20]
+    SLICE_X94Y193        SRL16E                                       r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[20]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y3   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y40         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.447     0.667    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X94Y193                                                     r  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[20]_srl3/CLK
+                         clock pessimism             -0.172     0.495    
+    SLICE_X94Y193        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.102     0.597    u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[20]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.597    
+                         arrival time                           0.680    
+  -------------------------------------------------------------------
+                         slack                                  0.083    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q0_RXCLK3
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y3  u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X94Y191       u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[10]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y191       u_ibert_core/inst/QUAD[0].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q0_TX0
+  To Clock:  Q0_TX0
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.432ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.085ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.600ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.432ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/init_r1_reg/C
+                            (rising edge-triggered cell FDRE clocked by Q0_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/prbs_reg[12]/R
+                            (rising edge-triggered cell FDRE clocked by Q0_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_TX0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q0_TX0 rise@8.000ns - Q0_TX0 rise@0.000ns)
+  Data Path Delay:        3.123ns  (logic 0.266ns (8.517%)  route 2.857ns (91.483%))
+  Logic Levels:           1  (LUT5=1)
+  Clock Path Skew:        -0.106ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.153ns = ( 9.153 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.352ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.662     1.352    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/TX_CLK_I
+    SLICE_X139Y184                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/init_r1_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X139Y184       FDRE (Prop_fdre_C_Q)         0.223     1.575 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/init_r1_reg/Q
+                         net (fo=8, routed)           2.260     3.835    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/init_r1
+    SLICE_X112Y176       LUT5 (Prop_lut5_I4_O)        0.043     3.878 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/pattern_31bit/bit40.p31_40/prbs[30]_i_1/O
+                         net (fo=30, routed)          0.597     4.475    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/n_0_pattern_31bit/bit40.p31_40/prbs[30]_i_1
+    SLICE_X109Y173       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/prbs_reg[12]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_TX0 rise edge)     8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.556     9.153    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/TX_CLK_I
+    SLICE_X109Y173                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/prbs_reg[12]/C
+                         clock pessimism              0.093     9.246    
+                         clock uncertainty           -0.035     9.211    
+    SLICE_X109Y173       FDRE (Setup_fdre_C_R)       -0.304     8.907    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/prbs_reg[12]
+  -------------------------------------------------------------------
+                         required time                          8.907    
+                         arrival time                          -4.475    
+  -------------------------------------------------------------------
+                         slack                                  4.432    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.085ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_7bit/bit40.p7_40/data_o_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by Q0_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[27]/D
+                            (rising edge-triggered cell FDRE clocked by Q0_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q0_TX0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q0_TX0 rise@0.000ns - Q0_TX0 rise@0.000ns)
+  Data Path Delay:        0.183ns  (logic 0.128ns (70.125%)  route 0.055ns (29.875%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.011ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.663ns
+    Source Clock Delay      (SCD):    0.461ns
+    Clock Pessimism Removal (CPR):    0.191ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q0_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.293     0.461    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/TX_CLK_I
+    SLICE_X109Y177                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_7bit/bit40.p7_40/data_o_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X109Y177       FDRE (Prop_fdre_C_Q)         0.100     0.561 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_7bit/bit40.p7_40/data_o_reg[27]/Q
+                         net (fo=1, routed)           0.055     0.616    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/data_o[27]
+    SLICE_X108Y177       LUT6 (Prop_lut6_I5_O)        0.028     0.644 r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/DATA_O[27]_i_1/O
+                         net (fo=1, routed)           0.000     0.644    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern[27]
+    SLICE_X108Y177       FDRE                                         r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q0_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y0   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[0].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.443     0.663    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/TX_CLK_I
+    SLICE_X108Y177                                                    r  u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[27]/C
+                         clock pessimism             -0.191     0.472    
+    SLICE_X108Y177       FDRE (Hold_fdre_C_D)         0.087     0.559    u_ibert_core/inst/QUAD[0].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[27]
+  -------------------------------------------------------------------
+                         required time                         -0.559    
+                         arrival time                           0.644    
+  -------------------------------------------------------------------
+                         slack                                  0.085    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q0_TX0
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/TXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y0  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/TXUSRCLK
+Low Pulse Width   Slow    FDRE/C                  n/a            0.400     4.000   3.600  SLICE_X124Y152      u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/TX_DATA_O_reg[28]/C
+High Pulse Width  Fast    FDRE/C                  n/a            0.350     4.000   3.650  SLICE_X122Y155      u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/TX_DATA_O_reg[0]/C
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q1_RXCLK0
+  To Clock:  Q1_RXCLK0
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.431ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.087ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.431ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[30]/D
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q1_RXCLK0 rise@8.000ns - Q1_RXCLK0 rise@0.000ns)
+  Data Path Delay:        3.510ns  (logic 0.309ns (8.804%)  route 3.201ns (91.196%))
+  Logic Levels:           2  (LUT4=1 LUT6=1)
+  Clock Path Skew:        -0.058ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.155ns = ( 9.155 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.306ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y49         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.616     1.306    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X111Y203                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X111Y203       FDRE (Prop_fdre_C_Q)         0.223     1.529 f  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[1]/Q
+                         net (fo=72, routed)          2.126     3.655    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/I1[1]
+    SLICE_X82Y208        LUT4 (Prop_lut4_I0_O)        0.043     3.698 f  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_31bit/bit40.p31_40/prbs[30]_i_3__0/O
+                         net (fo=71, routed)          1.075     4.773    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/I2
+    SLICE_X89Y205        LUT6 (Prop_lut6_I2_O)        0.043     4.816 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern_clk2/DATA_O[30]_i_1__0/O
+                         net (fo=1, routed)           0.000     4.816    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern[30]
+    SLICE_X89Y205        FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK0 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y49         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.558     9.155    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/RX_CLK_I
+    SLICE_X89Y205                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[30]/C
+                         clock pessimism              0.093     9.248    
+                         clock uncertainty           -0.035     9.213    
+    SLICE_X89Y205        FDRE (Setup_fdre_C_D)        0.034     9.247    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[30]
+  -------------------------------------------------------------------
+                         required time                          9.247    
+                         arrival time                          -4.816    
+  -------------------------------------------------------------------
+                         slack                                  4.431    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.087ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[13]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[13]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q1_RXCLK0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q1_RXCLK0 rise@0.000ns - Q1_RXCLK0 rise@0.000ns)
+  Data Path Delay:        0.216ns  (logic 0.100ns (46.367%)  route 0.116ns (53.633%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.030ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.665ns
+    Source Clock Delay      (SCD):    0.463ns
+    Clock Pessimism Removal (CPR):    0.172ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y49         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.295     0.463    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X92Y207                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[13]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X92Y207        FDRE (Prop_fdre_C_Q)         0.100     0.563 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[13]/Q
+                         net (fo=2, routed)           0.116     0.679    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[13]
+    SLICE_X90Y206        SRL16E                                       r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[13]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK0 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[0]
+    BUFHCE_X1Y49         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr0/O
+                         net (fo=813, routed)         0.445     0.665    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X90Y206                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[13]_srl3/CLK
+                         clock pessimism             -0.172     0.493    
+    SLICE_X90Y206        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.099     0.592    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[13]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.592    
+                         arrival time                           0.679    
+  -------------------------------------------------------------------
+                         slack                                  0.087    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q1_RXCLK0
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y4  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y205       u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y205       u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q1_RXCLK1
+  To Clock:  Q1_RXCLK1
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.385ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.085ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.385ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/D
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK1
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q1_RXCLK1 rise@8.000ns - Q1_RXCLK1 rise@0.000ns)
+  Data Path Delay:        3.505ns  (logic 0.937ns (26.731%)  route 2.568ns (73.269%))
+  Logic Levels:           7  (CARRY4=4 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.108ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.142ns = ( 9.142 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.343ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y5   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y50         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.653     1.343    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X144Y223                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X144Y223       FDRE (Prop_fdre_C_Q)         0.204     1.547 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[2]/Q
+                         net (fo=4, routed)           2.016     3.563    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1[2]
+    SLICE_X92Y223        LUT6 (Prop_lut6_I2_O)        0.126     3.689 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_24/O
+                         net (fo=1, routed)           0.000     3.689    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_i_24
+    SLICE_X92Y223        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.259     3.948 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_16/CO[3]
+                         net (fo=1, routed)           0.000     3.948    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_16
+    SLICE_X92Y224        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.053     4.001 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_11/CO[3]
+                         net (fo=1, routed)           0.007     4.008    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_11
+    SLICE_X92Y225        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.053     4.061 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_8/CO[3]
+                         net (fo=1, routed)           0.000     4.061    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_8
+    SLICE_X92Y226        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.077     4.138 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_7/CO[1]
+                         net (fo=1, routed)           0.267     4.406    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/all_one_or_zero15_in
+    SLICE_X94Y225        LUT5 (Prop_lut5_I0_O)        0.122     4.528 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_2/O
+                         net (fo=1, routed)           0.278     4.805    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_i_2
+    SLICE_X93Y224        LUT5 (Prop_lut5_I0_O)        0.043     4.848 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_1/O
+                         net (fo=1, routed)           0.000     4.848    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/all_one_or_zero0
+    SLICE_X93Y224        FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK1 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y5   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y50         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.545     9.142    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X93Y224                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/C
+                         clock pessimism              0.093     9.235    
+                         clock uncertainty           -0.035     9.200    
+    SLICE_X93Y224        FDRE (Setup_fdre_C_D)        0.034     9.234    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg
+  -------------------------------------------------------------------
+                         required time                          9.234    
+                         arrival time                          -4.848    
+  -------------------------------------------------------------------
+                         slack                                  4.385    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.085ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[29]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[29]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q1_RXCLK1  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK1
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q1_RXCLK1 rise@0.000ns - Q1_RXCLK1 rise@0.000ns)
+  Data Path Delay:        0.210ns  (logic 0.100ns (47.640%)  route 0.110ns (52.360%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.026ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.650ns
+    Source Clock Delay      (SCD):    0.452ns
+    Clock Pessimism Removal (CPR):    0.172ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y5   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y50         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.284     0.452    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X92Y226                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[29]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X92Y226        FDRE (Prop_fdre_C_Q)         0.100     0.552 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[29]/Q
+                         net (fo=2, routed)           0.110     0.662    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[29]
+    SLICE_X90Y226        SRL16E                                       r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[29]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK1 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y5   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[1]
+    BUFHCE_X1Y50         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr1/O
+                         net (fo=813, routed)         0.430     0.650    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X90Y226                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[29]_srl3/CLK
+                         clock pessimism             -0.172     0.478    
+    SLICE_X90Y226        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.099     0.577    u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[29]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.577    
+                         arrival time                           0.662    
+  -------------------------------------------------------------------
+                         slack                                  0.085    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q1_RXCLK1
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y5  u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y223       u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y227       u_ibert_core/inst/QUAD[1].u_q/CH[1].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[32]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q1_RXCLK2
+  To Clock:  Q1_RXCLK2
+
+Setup :            0  Failing Endpoints,  Worst Slack        5.277ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.080ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             5.277ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[37]/D
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK2
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q1_RXCLK2 rise@8.000ns - Q1_RXCLK2 rise@0.000ns)
+  Data Path Delay:        2.669ns  (logic 0.309ns (11.579%)  route 2.360ns (88.421%))
+  Logic Levels:           2  (LUT6=2)
+  Clock Path Skew:        -0.053ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.215ns = ( 9.215 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.361ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y6   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y51         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.671     1.361    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X144Y249                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X144Y249       FDRE (Prop_fdre_C_Q)         0.223     1.584 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1_reg[2]/Q
+                         net (fo=73, routed)          1.609     3.193    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pat_id_r1[2]
+    SLICE_X125Y252       LUT6 (Prop_lut6_I4_O)        0.043     3.236 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/DATA_O[37]_i_2__0/O
+                         net (fo=2, routed)           0.750     3.987    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/n_0_DATA_O[37]_i_2__0
+    SLICE_X125Y246       LUT6 (Prop_lut6_I0_O)        0.043     4.030 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/DATA_O[37]_i_1__0/O
+                         net (fo=1, routed)           0.000     4.030    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/pattern[37]
+    SLICE_X125Y246       FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[37]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK2 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y6   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y51         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.618     9.215    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X125Y246                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[37]/C
+                         clock pessimism              0.093     9.308    
+                         clock uncertainty           -0.035     9.273    
+    SLICE_X125Y246       FDRE (Setup_fdre_C_D)        0.034     9.307    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/patgen_rx/DATA_O_reg[37]
+  -------------------------------------------------------------------
+                         required time                          9.307    
+                         arrival time                          -4.030    
+  -------------------------------------------------------------------
+                         slack                                  5.277    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.080ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[15]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[15]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q1_RXCLK2  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK2
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q1_RXCLK2 rise@0.000ns - Q1_RXCLK2 rise@0.000ns)
+  Data Path Delay:        0.209ns  (logic 0.107ns (51.283%)  route 0.102ns (48.717%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.702ns
+    Source Clock Delay      (SCD):    0.499ns
+    Clock Pessimism Removal (CPR):    0.190ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y6   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y51         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.331     0.499    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X130Y236                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[15]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X130Y236       FDRE (Prop_fdre_C_Q)         0.107     0.606 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[15]/Q
+                         net (fo=2, routed)           0.102     0.708    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[15]
+    SLICE_X130Y235       SRL16E                                       r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[15]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK2 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y6   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[2]
+    BUFHCE_X1Y51         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr2/O
+                         net (fo=813, routed)         0.482     0.702    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/RX_CLK_I
+    SLICE_X130Y235                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[15]_srl3/CLK
+                         clock pessimism             -0.190     0.512    
+    SLICE_X130Y235       SRL16E (Hold_srl16e_CLK_D)
+                                                      0.116     0.628    u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[15]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.628    
+                         arrival time                           0.708    
+  -------------------------------------------------------------------
+                         slack                                  0.080    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q1_RXCLK2
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y6  u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X126Y236      u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[16]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X126Y236      u_ibert_core/inst/QUAD[1].u_q/CH[2].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[16]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q1_RXCLK3
+  To Clock:  Q1_RXCLK3
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.315ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.069ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.358ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.315ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/D
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK3
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q1_RXCLK3 rise@8.000ns - Q1_RXCLK3 rise@0.000ns)
+  Data Path Delay:        3.605ns  (logic 0.974ns (27.018%)  route 2.631ns (72.982%))
+  Logic Levels:           7  (CARRY4=4 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.109ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.158ns = ( 9.158 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.360ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y7   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y52         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.670     1.360    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X142Y247                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[3]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X142Y247       FDRE (Prop_fdre_C_Q)         0.236     1.596 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1_reg[3]/Q
+                         net (fo=3, routed)           1.842     3.438    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r1[3]
+    SLICE_X95Y246        LUT6 (Prop_lut6_I1_O)        0.123     3.561 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_23/O
+                         net (fo=1, routed)           0.000     3.561    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_i_23
+    SLICE_X95Y246        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.267     3.828 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_16/CO[3]
+                         net (fo=1, routed)           0.000     3.828    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_16
+    SLICE_X95Y247        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.053     3.881 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_11/CO[3]
+                         net (fo=1, routed)           0.000     3.881    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_11
+    SLICE_X95Y248        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.053     3.934 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_8/CO[3]
+                         net (fo=1, routed)           0.000     3.934    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_reg_i_8
+    SLICE_X95Y249        CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.077     4.011 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg_i_7/CO[1]
+                         net (fo=1, routed)           0.455     4.466    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/all_one_or_zero15_in
+    SLICE_X97Y247        LUT5 (Prop_lut5_I0_O)        0.122     4.588 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_2/O
+                         net (fo=1, routed)           0.334     4.922    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/n_0_genzero16.all_one_or_zero_i_2
+    SLICE_X98Y246        LUT5 (Prop_lut5_I0_O)        0.043     4.965 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_i_1/O
+                         net (fo=1, routed)           0.000     4.965    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/all_one_or_zero0
+    SLICE_X98Y246        FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK3 rise edge)
+                                                      8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y7   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y52         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.561     9.158    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X98Y246                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg/C
+                         clock pessimism              0.093     9.251    
+                         clock uncertainty           -0.035     9.216    
+    SLICE_X98Y246        FDRE (Setup_fdre_C_D)        0.064     9.280    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/genzero16.all_one_or_zero_reg
+  -------------------------------------------------------------------
+                         required time                          9.280    
+                         arrival time                          -4.965    
+  -------------------------------------------------------------------
+                         slack                                  4.315    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.069ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[7]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[7]_srl3/D
+                            (rising edge-triggered cell SRL16E clocked by Q1_RXCLK3  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_RXCLK3
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q1_RXCLK3 rise@0.000ns - Q1_RXCLK3 rise@0.000ns)
+  Data Path Delay:        0.214ns  (logic 0.107ns (49.981%)  route 0.107ns (50.019%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.029ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.667ns
+    Source Clock Delay      (SCD):    0.466ns
+    Clock Pessimism Removal (CPR):    0.172ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y7   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y52         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.298     0.466    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X98Y246                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X98Y246        FDRE (Prop_fdre_C_Q)         0.107     0.573 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2_reg[7]/Q
+                         net (fo=2, routed)           0.107     0.680    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r2[7]
+    SLICE_X94Y246        SRL16E                                       r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[7]_srl3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_RXCLK3 rise edge)
+                                                      0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y7   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/RXOUTCLK_I[3]
+    BUFHCE_X1Y52         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/rx_ind.NON_K7.u_rxusr3/O
+                         net (fo=813, routed)         0.447     0.667    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/RX_CLK_I
+    SLICE_X94Y246                                                     r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[7]_srl3/CLK
+                         clock pessimism             -0.172     0.495    
+    SLICE_X94Y246        SRL16E (Hold_srl16e_CLK_D)
+                                                      0.116     0.611    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[7]_srl3
+  -------------------------------------------------------------------
+                         required time                         -0.611    
+                         arrival time                           0.680    
+  -------------------------------------------------------------------
+                         slack                                  0.069    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q1_RXCLK3
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/RXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y7  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/u_gtxe2_channel/RXUSRCLK
+Low Pulse Width   Slow    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X94Y246       u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[0]_srl3/CLK
+High Pulse Width  Fast    SRL16E/CLK              n/a            0.642     4.000   3.358  SLICE_X90Y249       u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patchk40/data_r5_reg[24]_srl3/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  Q1_TX0
+  To Clock:  Q1_TX0
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.696ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.092ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.600ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.696ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pat_id_r1_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[12]/D
+                            (rising edge-triggered cell FDRE clocked by Q1_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_TX0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            8.000ns  (Q1_TX0 rise@8.000ns - Q1_TX0 rise@0.000ns)
+  Data Path Delay:        3.290ns  (logic 0.402ns (12.217%)  route 2.888ns (87.783%))
+  Logic Levels:           2  (LUT4=1 LUT5=1)
+  Clock Path Skew:        -0.043ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.219ns = ( 9.219 - 8.000 ) 
+    Source Clock Delay      (SCD):    1.355ns
+    Clock Pessimism Removal (CPR):    0.093ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.587     0.587    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y48         BUFH (Prop_bufh_I_O)         0.103     0.690 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.665     1.355    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/TX_CLK_I
+    SLICE_X122Y203                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pat_id_r1_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X122Y203       FDRE (Prop_fdre_C_Q)         0.236     1.591 f  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pat_id_r1_reg[1]/Q
+                         net (fo=72, routed)          1.450     3.041    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/Q[1]
+    SLICE_X123Y208       LUT4 (Prop_lut4_I3_O)        0.123     3.164 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_31bit/bit40.p31_40/prbs[0]_i_2__2/O
+                         net (fo=21, routed)          1.439     4.602    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/I2
+    SLICE_X132Y203       LUT5 (Prop_lut5_I3_O)        0.043     4.645 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/DATA_O[12]_i_1/O
+                         net (fo=1, routed)           0.000     4.645    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern[12]
+    SLICE_X132Y203       FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[12]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_TX0 rise edge)     8.000     8.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     8.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.531     8.531    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y48         BUFH (Prop_bufh_I_O)         0.066     8.597 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.622     9.219    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/TX_CLK_I
+    SLICE_X132Y203                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[12]/C
+                         clock pessimism              0.093     9.312    
+                         clock uncertainty           -0.035     9.277    
+    SLICE_X132Y203       FDRE (Setup_fdre_C_D)        0.065     9.342    u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/DATA_O_reg[12]
+  -------------------------------------------------------------------
+                         required time                          9.342    
+                         arrival time                          -4.645    
+  -------------------------------------------------------------------
+                         slack                                  4.696    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.092ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/prbs_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by Q1_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/data_o_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by Q1_TX0  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             Q1_TX0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (Q1_TX0 rise@0.000ns - Q1_TX0 rise@0.000ns)
+  Data Path Delay:        0.190ns  (logic 0.128ns (67.322%)  route 0.062ns (32.678%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.011ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.676ns
+    Source Clock Delay      (SCD):    0.472ns
+    Clock Pessimism Removal (CPR):    0.193ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock Q1_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.145     0.145    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y48         BUFH (Prop_bufh_I_O)         0.023     0.168 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.304     0.472    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/TX_CLK_I
+    SLICE_X105Y249                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/prbs_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X105Y249       FDRE (Prop_fdre_C_Q)         0.100     0.572 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/prbs_reg[20]/Q
+                         net (fo=4, routed)           0.062     0.634    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/p_2_in1_in
+    SLICE_X104Y249       LUT2 (Prop_lut2_I1_O)        0.028     0.662 r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/data_o[2]_i_1__1/O
+                         net (fo=1, routed)           0.000     0.662    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/p_39_out[2]
+    SLICE_X104Y249       FDRE                                         r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/data_o_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock Q1_TX0 rise edge)     0.000     0.000 r  
+    GTXE2_CHANNEL_X0Y4   GTXE2_CHANNEL                0.000     0.000 r  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK
+                         net (fo=1, routed)           0.175     0.175    u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/TXOUTCLK_I[0]
+    BUFHCE_X1Y48         BUFH (Prop_bufh_I_O)         0.045     0.220 r  u_ibert_core/inst/QUAD[1].u_q/u_common/u_clocking/local_txusr.NON_K7.u_txusr/O
+                         net (fo=1500, routed)        0.456     0.676    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/TX_CLK_I
+    SLICE_X104Y249                                                    r  u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/data_o_reg[2]/C
+                         clock pessimism             -0.193     0.483    
+    SLICE_X104Y249       FDRE (Hold_fdre_C_D)         0.087     0.570    u_ibert_core/inst/QUAD[1].u_q/CH[3].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_23bit/bit40.p23_40/data_o_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -0.570    
+                         arrival time                           0.662    
+  -------------------------------------------------------------------
+                         slack                                  0.092    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         Q1_TX0
+Waveform:           { 0 4 }
+Period:             8.000
+Sources:            { u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXOUTCLK }
+
+Check Type        Corner  Lib Pin                 Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period        n/a     GTXE2_CHANNEL/TXUSRCLK  n/a            3.875     8.000   4.125  GTXE2_CHANNEL_X0Y4  u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/u_gtxe2_channel/TXUSRCLK
+Low Pulse Width   Slow    FDRE/C                  n/a            0.400     4.000   3.600  SLICE_X126Y203      u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen40.patgen40/pattern_15bit/bit40.p15_40/data_o_reg[11]/C
+High Pulse Width  Fast    FDRE/C                  n/a            0.350     4.000   3.650  SLICE_X144Y204      u_ibert_core/inst/QUAD[1].u_q/CH[0].u_ch/U_PATTERN_HANDLER/TX_DATA_O_reg[10]/C
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  REFCLK0_0
+  To Clock:  REFCLK0_0
+
+Setup :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+Hold  :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+PW    :            0  Failing Endpoints,  Worst Slack        8.462ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         REFCLK0_0
+Waveform:           { 0 5 }
+Period:             10.000
+Sources:            { GTREFCLK0P_I[0] }
+
+Check Type  Corner  Lib Pin                  Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period  n/a     GTXE2_CHANNEL/GTREFCLK0  n/a            1.538     10.000  8.462  GTXE2_CHANNEL_X0Y0  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/GTREFCLK0
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  REFCLK0_1
+  To Clock:  REFCLK0_1
+
+Setup :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+Hold  :               Failing Endpoints,  Worst Slack               ,  Total Violation             
+PW    :            0  Failing Endpoints,  Worst Slack        8.462ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         REFCLK0_1
+Waveform:           { 0 5 }
+Period:             10.000
+Sources:            { GTREFCLK1P_I[0] }
+
+Check Type  Corner  Lib Pin                  Reference Pin  Required  Actual  Slack  Location            Pin
+Min Period  n/a     GTXE2_CHANNEL/GTREFCLK1  n/a            1.538     10.000  8.462  GTXE2_CHANNEL_X0Y0  u_ibert_core/inst/QUAD[0].u_q/CH[0].u_ch/u_gtxe2_channel/GTREFCLK1
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  J_CLK
+  To Clock:  J_CLK
+
+Setup :            0  Failing Endpoints,  Worst Slack       26.420ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.253ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             26.420ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/C
+                            (rising edge-triggered cell FDCE clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/shift_reg_in_reg[0]/CLR
+                            (recovery check against rising-edge clock J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            30.000ns  (J_CLK rise@30.000ns - J_CLK rise@0.000ns)
+  Data Path Delay:        3.271ns  (logic 0.352ns (10.762%)  route 2.919ns (89.238%))
+  Logic Levels:           3  (LUT2=1 LUT6=2)
+  Clock Path Skew:        -0.062ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.749ns = ( 35.749 - 30.000 ) 
+    Source Clock Delay      (SCD):    6.702ns
+    Clock Pessimism Removal (CPR):    0.891ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           5.682     5.682    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.314     5.996 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.706     6.702    u_ibert_core/inst/U_ICON/U_CMD/DRCK_IN
+    SLICE_X57Y301                                                     r  u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X57Y301        FDCE (Prop_fdce_C_Q)         0.223     6.925 r  u_ibert_core/inst/U_ICON/U_CMD/iTARGET_reg[15]/Q
+                         net (fo=4, routed)           0.615     7.540    u_ibert_core/inst/U_ICON/U_CMD/iCORE_ID[3]
+    SLICE_X57Y302        LUT6 (Prop_lut6_I1_O)        0.043     7.583 r  u_ibert_core/inst/U_ICON/U_CMD/CONTROL_OUT[14]_INST_0_i_1/O
+                         net (fo=8, routed)           0.525     8.108    u_ibert_core/inst/U_ICON/U_CMD/n_0_CONTROL_OUT[14]_INST_0_i_1
+    SLICE_X67Y302        LUT6 (Prop_lut6_I5_O)        0.043     8.151 f  u_ibert_core/inst/U_ICON/U_CMD/CONTROL_OUT[8]_INST_0/O
+                         net (fo=23, routed)          0.819     8.970    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/CONTROL_IN_I[3]
+    SLICE_X77Y297        LUT2 (Prop_lut2_I0_O)        0.043     9.013 f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ngwrdrst.grst.g7serrst.wr_rst_asreg_i_1/O
+                         net (fo=36, routed)          0.959     9.973    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/AR[0]
+    SLICE_X75Y307        FDCE                                         f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/shift_reg_in_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock J_CLK rise edge)     30.000    30.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000    30.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           4.816    34.816    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.289    35.105 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.644    35.749    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/CONTROL_IN_I[0]
+    SLICE_X75Y307                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/shift_reg_in_reg[0]/C
+                         clock pessimism              0.891    36.640    
+                         clock uncertainty           -0.035    36.604    
+    SLICE_X75Y307        FDCE (Recov_fdce_C_CLR)     -0.212    36.392    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/shift_reg_in_reg[0]
+  -------------------------------------------------------------------
+                         required time                         36.392    
+                         arrival time                          -9.973    
+  -------------------------------------------------------------------
+                         slack                                 26.420    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.253ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/C
+                            (rising edge-triggered cell FDPE clocked by J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_reg[2]/CLR
+                            (removal check against rising-edge clock J_CLK  {rise@0.000ns fall@15.000ns period=30.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (J_CLK rise@0.000ns - J_CLK rise@0.000ns)
+  Data Path Delay:        0.198ns  (logic 0.100ns (50.592%)  route 0.098ns (49.408%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.014ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    4.222ns
+    Source Clock Delay      (SCD):    3.659ns
+    Clock Pessimism Removal (CPR):    0.549ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           3.219     3.219    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.090     3.309 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.350     3.659    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/CONTROL_IN_I[0]
+    SLICE_X68Y305                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X68Y305        FDPE (Prop_fdpe_C_Q)         0.100     3.759 f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/Q
+                         net (fo=12, routed)          0.098     3.856    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/Q[0]
+    SLICE_X69Y304        FDCE                                         f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_reg[2]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock J_CLK rise edge)      0.000     0.000 r  
+    BSCAN_X0Y0           BSCANE2                      0.000     0.000 r  u_ibert_core/inst/bscan_inst/SERIES7_BSCAN.bscan_inst/DRCK
+                         net (fo=1, routed)           3.737     3.737    u_ibert_core/inst/u_bufr/I1
+    BUFR_X0Y25           BUFR (Prop_bufr_I_O)         0.093     3.830 r  u_ibert_core/inst/u_bufr/SERIES7_BUFR.BUFR_inst/O
+                         net (fo=283, routed)         0.392     4.222    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/CONTROL_IN_I[0]
+    SLICE_X69Y304                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_reg[2]/C
+                         clock pessimism             -0.549     3.673    
+    SLICE_X69Y304        FDCE (Remov_fdce_C_CLR)     -0.069     3.604    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -3.604    
+                         arrival time                           3.856    
+  -------------------------------------------------------------------
+                         slack                                  0.253    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  dclk_mmcm
+  To Clock:  dclk_mmcm
+
+Setup :            0  Failing Endpoints,  Worst Slack        7.054ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.128ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             7.054ns  (required time - arrival time)
+  Source:                 u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_asreg_reg/PRE
+                            (recovery check against rising-edge clock dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (dclk_mmcm rise@10.000ns - dclk_mmcm rise@0.000ns)
+  Data Path Delay:        2.690ns  (logic 0.266ns (9.887%)  route 2.424ns (90.113%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        -0.012ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.275ns = ( 15.275 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.667ns
+    Clock Pessimism Removal (CPR):    0.379ns
+  Clock Uncertainty:      0.066ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.112ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.906     0.906 r  u_ibufgds/O
+                         net (fo=1, routed)           1.081     1.987    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.077     2.064 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           2.130     4.194    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.093     4.287 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       1.380     5.667    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/MA_DCLK_I
+    SLICE_X80Y299                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X80Y299        FDRE (Prop_fdre_C_Q)         0.223     5.890 f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_reg[0]/Q
+                         net (fo=206, routed)         1.242     7.132    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/SR[0]
+    SLICE_X77Y297        LUT2 (Prop_lut2_I1_O)        0.043     7.175 f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ngwrdrst.grst.g7serrst.wr_rst_asreg_i_1/O
+                         net (fo=36, routed)          1.182     8.357    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/AR[0]
+    SLICE_X79Y314        FDPE                                         f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_asreg_reg/PRE
+  -------------------------------------------------------------------    -------------------
+
+                         (clock dclk_mmcm rise edge)
+                                                     10.000    10.000 r  
+    AD12                                              0.000    10.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000    10.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.803    10.803 r  u_ibufgds/O
+                         net (fo=1, routed)           0.986    11.789    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.073    11.862 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           2.005    13.867    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.083    13.950 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       1.325    15.275    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/MA_DCLK_I
+    SLICE_X79Y314                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_asreg_reg/C
+                         clock pessimism              0.379    15.655    
+                         clock uncertainty           -0.066    15.588    
+    SLICE_X79Y314        FDPE (Recov_fdpe_C_PRE)     -0.178    15.410    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_asreg_reg
+  -------------------------------------------------------------------
+                         required time                         15.410    
+                         arrival time                          -8.357    
+  -------------------------------------------------------------------
+                         slack                                  7.054    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.128ns  (arrival time - required time)
+  Source:                 u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/C
+                            (rising edge-triggered cell FDPE clocked by dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_reg[0]/CLR
+                            (removal check against rising-edge clock dclk_mmcm  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (dclk_mmcm rise@0.000ns - dclk_mmcm rise@0.000ns)
+  Data Path Delay:        0.356ns  (logic 0.100ns (28.086%)  route 0.256ns (71.914%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.297ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    3.044ns
+    Source Clock Delay      (SCD):    2.513ns
+    Clock Pessimism Removal (CPR):    0.233ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.388     0.388 r  u_ibufgds/O
+                         net (fo=1, routed)           0.503     0.891    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.050     0.941 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           0.940     1.881    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     1.907 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       0.606     2.513    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/MA_DCLK_I
+    SLICE_X76Y298                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X76Y298        FDPE (Prop_fdpe_C_Q)         0.100     2.613 f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/Q
+                         net (fo=16, routed)          0.256     2.869    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/I5[0]
+    SLICE_X77Y301        FDCE                                         f  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock dclk_mmcm rise edge)
+                                                      0.000     0.000 r  
+    AD12                                              0.000     0.000 r  SYSCLKP_I
+                         net (fo=0)                   0.000     0.000    SYSCLKP_I
+    AD12                 IBUFDS (Prop_ibufds_I_O)     0.470     0.470 r  u_ibufgds/O
+                         net (fo=1, routed)           0.553     1.023    u_ibert_core/inst/sysclk_int
+    MMCME2_ADV_X1Y1      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.053     1.076 r  u_ibert_core/inst/SYSCLK_DIVIDER.U_GT_MMCM/CLKOUT0
+                         net (fo=1, routed)           1.007     2.083    u_ibert_core/inst/dclk_mmcm
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.030     2.113 r  u_ibert_core/inst/SYSCLK_DIVIDER.u_bufg_dclk/O
+                         net (fo=13798, routed)       0.931     3.044    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/MA_DCLK_I
+    SLICE_X77Y301                                                     r  u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_reg[0]/C
+                         clock pessimism             -0.233     2.810    
+    SLICE_X77Y301        FDCE (Remov_fdce_C_CLR)     -0.069     2.741    u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/Q_reg_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -2.741    
+                         arrival time                           2.869    
+  -------------------------------------------------------------------
+                         slack                                  0.128    
+
+
+
+
+

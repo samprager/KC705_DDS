@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1402167632">
+  <File Type="RDS-UTIL-PB" Name="xilinx_pcie_2_1_ep_7x_utilization_synth.pb"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL" Name="xilinx_pcie_2_1_ep_7x_utilization_synth.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="xilinx_pcie_2_1_ep_7x_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="xilinx_pcie_2_1_ep_7x.tcl"/>
+  <File Type="RDS-RDS" Name="xilinx_pcie_2_1_ep_7x.vds"/>
+  <File Type="RDS-DCP" Name="xilinx_pcie_2_1_ep_7x.dcp"/>
+  <File Type="VDS-TIMING-PB" Name="xilinx_pcie_2_1_ep_7x_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="xilinx_pcie_2_1_ep_7x.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/EP_MEM.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/EP_MEM.v"/>
+        <Attr Name="ImportTime" Val="1402167597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO_TX_ENGINE.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO_TX_ENGINE.v"/>
+        <Attr Name="ImportTime" Val="1402167599"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO_RX_ENGINE.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO_RX_ENGINE.v"/>
+        <Attr Name="ImportTime" Val="1402167598"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO_EP_MEM_ACCESS.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO_EP_MEM_ACCESS.v"/>
+        <Attr Name="ImportTime" Val="1402167597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO_TO_CTRL.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO_TO_CTRL.v"/>
+        <Attr Name="ImportTime" Val="1402167598"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO_EP.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO_EP.v"/>
+        <Attr Name="ImportTime" Val="1402167597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/kc705_pcie_x8_gen2/kc705_pcie_x8_gen2.xci">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/support/kc705_pcie_x8_gen2_pipe_clock.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/support/kc705_pcie_x8_gen2_pipe_clock.v"/>
+        <Attr Name="ImportTime" Val="1402167603"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/PIO.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/PIO.v"/>
+        <Attr Name="ImportTime" Val="1402167599"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/support/kc705_pcie_x8_gen2_support.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/support/kc705_pcie_x8_gen2_support.v"/>
+        <Attr Name="ImportTime" Val="1402167602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/pcie_app_7x.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/pcie_app_7x.v"/>
+        <Attr Name="ImportTime" Val="1402167600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/example_design/xilinx_pcie_2_1_ep_7x.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/xilinx_pcie_2_1_ep_7x.v"/>
+        <Attr Name="ImportTime" Val="1402167600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/kc705_pcie_x8_gen2/hierarchy.txt">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/hierarchy.txt"/>
+        <Attr Name="ImportTime" Val="1402167601"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="xilinx_pcie_2_1_ep_7x"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/xilinx_pcie_7x_ep_x8g2_KC705_REVC.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../kc705_pcie.srcs/sources_1/ip/kc705_pcie_x8_gen2/example_design/xilinx_pcie_7x_ep_x8g2_KC705_REVC.xdc"/>
+        <Attr Name="ImportTime" Val="1402167602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

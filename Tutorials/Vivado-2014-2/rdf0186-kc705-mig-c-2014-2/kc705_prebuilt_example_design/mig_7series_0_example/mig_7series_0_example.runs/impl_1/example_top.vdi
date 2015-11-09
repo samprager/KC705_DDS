@@ -1,0 +1,609 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 928826 on Thu Jun  5 18:17:50 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Jun 07 13:30:32 2014
+# Process ID: 15172
+# Log file: C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/example_top.vdi
+# Journal file: C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source example_top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/vio_twm_ddrx_synth_1/vio_twm_ddrx.dcp' for cell 'CHIPSCOPE_INST.u_vio_twm_ddrx'
+INFO: [Project 1-454] Reading design checkpoint 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/mig_7series_0_synth_1/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/ila_ddrx_native_synth_1/ila_ddrx_native.dcp' for cell 'CHIPSCOPE_INST.u_ila_ddrx_native'
+INFO: [Netlist 29-17] Analyzing 2307 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[11]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593934]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[10]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593927]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[9]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593920]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[8]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593913]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[3]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593906]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[2]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593899]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[1]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593892]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[0]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593885]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[15]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593962]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_basic[5]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593442]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[20]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593969]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[21]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593976]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[22]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593983]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/init_calib_complete' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:586831]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ui_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:586894]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ui_clk_sync_rst' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:586901]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[12]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593941]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[13]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593948]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[14]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593955]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[849]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596695]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[848]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596688]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[0]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592521]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[1]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592529]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[2]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592537]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[3]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592545]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[4]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592553]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_pi_counter_read_val[5]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592561]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[847]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596681]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[0]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592569]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[1]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592576]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[2]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592583]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[3]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592590]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[4]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592597]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[5]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592604]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[6]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592611]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[7]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592618]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/dbg_po_counter_read_val[8]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:592625]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[846]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596674]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[845]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596667]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[844]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596660]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[843]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596653]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[842]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596646]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[841]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596639]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[763]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:596272]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_7series_0/ddr3_ila_rdpath[23]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/.Xil/Vivado-15172-XCOJAMESM22/dcp_3/mig_7series_0.edf:593990]
+Feature available: Internal_bitstream
+Parsing XDC File [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/constrs_1/imports/par/example_top.xdc]
+Finished Parsing XDC File [C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/constrs_1/imports/par/example_top.xdc]
+Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/vio_twm_ddrx/vio_twm_ddrx.xdc] for cell 'CHIPSCOPE_INST.u_vio_twm_ddrx/inst'
+Finished Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/vio_twm_ddrx/vio_twm_ddrx.xdc] for cell 'CHIPSCOPE_INST.u_vio_twm_ddrx/inst'
+Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:822]
+INFO: [Timing 38-2] Deriving generated clocks [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:822]
+set_max_delay: Time (s): cpu = 00:00:38 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.930 ; gain = 520.156
+INFO: [Vivado 12-3489] Using the max delay datapath only value '5.000' scoped to cell 'u_mig_7series_0' from the checkpoint. [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:823]
+Finished Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/ila_ddrx_native/constraints/ila.xdc] for cell 'CHIPSCOPE_INST.u_ila_ddrx_native'
+Finished Parsing XDC File [c:/kc705_mig/mig_7series_0_example/mig_7series_0_example.srcs/sources_1/ip/ila_ddrx_native/constraints/ila.xdc] for cell 'CHIPSCOPE_INST.u_ila_ddrx_native'
+INFO: [Project 1-538] Ignoring constraints in dcp 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/vio_twm_ddrx_synth_1/vio_twm_ddrx.dcp'
+INFO: [Project 1-538] Ignoring constraints in dcp 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/mig_7series_0_synth_1/mig_7series_0.dcp'
+INFO: [Project 1-538] Ignoring constraints in dcp 'C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/ila_ddrx_native_synth_1/ila_ddrx_native.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1490 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 940 instances
+  IOBUFDS_DCIEN => IOBUFDS_DCIEN (IBUFDS_IBUFDISABLE_INT, IBUFDS_IBUFDISABLE_INT, INV, OBUFTDS_DCIEN, OBUFTDS_DCIEN): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 30 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 447 instances
+
+link_design: Time (s): cpu = 00:03:11 ; elapsed = 00:03:09 . Memory (MB): peak = 1361.168 ; gain = 1168.586
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1361.168 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+INFO: [IP_Flow 19-3806] Generating IP xilinx.com:ip:labtools_xsdb_master_lib:3.0 for dbg_hub_CV.
+INFO: [Common 17-87] Messaging disabled: WARNING limit exceeded.
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1361.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.288 . Memory (MB): peak = 1361.996 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 240496519
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:03:26 . Memory (MB): peak = 1361.996 ; gain = 0.828
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 22d1dd716
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:03:31 . Memory (MB): peak = 1361.996 ; gain = 0.828
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 394 cells.
+Phase 3 Constant Propagation | Checksum: 167acb3b8
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:03:38 . Memory (MB): peak = 1361.996 ; gain = 0.828
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 2216 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 581 unconnected cells.
+Phase 4 Sweep | Checksum: 15333d564
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:03:44 . Memory (MB): peak = 1361.996 ; gain = 0.828
+Ending Logic Optimization Task | Checksum: 15333d564
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:03:45 . Memory (MB): peak = 1361.996 ; gain = 0.828
+Implement Debug Cores | Checksum: 240496519
+Logic Optimization | Checksum: 289b8953e
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Will skip clock gating for clocks with period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 40 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 1 Total Ports: 80
+Ending PowerOpt Patch Enables Task | Checksum: 156ab95d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 156ab95d1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:36 . Memory (MB): peak = 1565.797 ; gain = 203.801
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:21 ; elapsed = 00:04:24 . Memory (MB): peak = 1565.797 ; gain = 204.629
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1565.797 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 116d2ea5d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2 Placer Initialization
+
+Phase 2.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.238 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.206 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.1 Mandatory Logic Optimization | Checksum: e1bf1eca
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.2 Build Super Logic Region (SLR) Database
+Phase 2.1.2 Build Super Logic Region (SLR) Database | Checksum: e1bf1eca
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.3 Add Constraints
+Phase 2.1.3 Add Constraints | Checksum: e1bf1eca
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.4 Build Shapes/ HD Config
+
+Phase 2.1.4.1 Build Macros
+Phase 2.1.4.1 Build Macros | Checksum: 12b0a505a
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.4 Build Shapes/ HD Config | Checksum: 12b0a505a
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.5.1 Pre-Place Cells
+Phase 2.1.5.1 Pre-Place Cells | Checksum: e475a6f9
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 1565.797 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.5.2 IO & Clk Clean Up
+WARNING: [Place 30-575] Sub-optimal placement for a clock-capable IO pin and MMCM pair. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_clk_ibuf/diff_input_clk.u_ibufg_sys_clk (IBUFDS.O) is locked to IOB_X1Y76
+	u_mig_7series_0/u_mig_7series_0_mig/u_iodelay_ctrl/clk_ref_mmcm_gen.mmcm_i (MMCME2_ADV.CLKIN1) is provisionally placed by clockplacer on MMCME2_ADV_X1Y0
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The MMCM is placed in the same clock region as the CCIO pin. If the IOB is driving multiple MMCMs, all MMCMs must be placed in the same clock region, one clock region above or one clock region below the IOB. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+Phase 2.1.5.2 IO & Clk Clean Up | Checksum: e475a6f9
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:46 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.5.3 Implementation Feasibility check On IDelay
+Phase 2.1.5.3 Implementation Feasibility check On IDelay | Checksum: e475a6f9
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:46 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.5.4 Commit IO Placement
+Phase 2.1.5.4 Commit IO Placement | Checksum: ec0ee2c3
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:46 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1355a1453
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:46 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.6 Build Placer Netlist Model
+
+Phase 2.1.6.1 Place Init Design
+
+Phase 2.1.6.1.1 Init Lut Pin Assignment
+Phase 2.1.6.1.1 Init Lut Pin Assignment | Checksum: 20ccbbb94
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:52 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.6.1.2 Build Clock Data
+Phase 2.1.6.1.2 Build Clock Data | Checksum: 224d0a489
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:02:22 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.6.1.3 setBudgets in placeInitDesign
+Phase 2.1.6.1.3 setBudgets in placeInitDesign | Checksum: 1377fb015
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:02:27 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.6.1 Place Init Design | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:03 ; elapsed = 00:02:27 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.6 Build Placer Netlist Model | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:03 ; elapsed = 00:02:28 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 2.1.7 Constrain Clocks/Macros
+
+Phase 2.1.7.1 Constrain Global/Regional Clocks
+Phase 2.1.7.1 Constrain Global/Regional Clocks | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:02:28 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1.7 Constrain Clocks/Macros | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:02:28 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2.1 Placer Initialization Core | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:02:28 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 2 Placer Initialization | Checksum: 17e2e1b23
+
+Time (s): cpu = 00:04:04 ; elapsed = 00:02:28 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 1e5507eaf
+
+Time (s): cpu = 00:06:13 ; elapsed = 00:03:54 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 1e5507eaf
+
+Time (s): cpu = 00:06:13 ; elapsed = 00:03:54 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 178055ad3
+
+Time (s): cpu = 00:06:51 ; elapsed = 00:04:19 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 1342d1962
+
+Time (s): cpu = 00:06:52 ; elapsed = 00:04:20 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 4.4 Timing Path Optimizer
+Phase 4.4 Timing Path Optimizer | Checksum: 13ad44810
+
+Time (s): cpu = 00:07:09 ; elapsed = 00:04:29 . Memory (MB): peak = 1565.797 ; gain = 0.000
+
+Phase 4.5 Commit Small Macros & Core Logic
+
+Phase 4.5.1 setBudgets
+Phase 4.5.1 setBudgets | Checksum: 1a140fa37
+
+Time (s): cpu = 00:07:10 ; elapsed = 00:04:31 . Memory (MB): peak = 1565.797 ; gain = 0.000
+Phase 4.5 Commit Small Macros & Core Logic | Checksum: 1ce3d2a76
+
+Time (s): cpu = 00:07:41 ; elapsed = 00:05:01 . Memory (MB): peak = 1591.355 ; gain = 25.559
+
+Phase 4.6 Re-assign LUT pins
+Phase 4.6 Re-assign LUT pins | Checksum: 1ce3d2a76
+
+Time (s): cpu = 00:07:46 ; elapsed = 00:05:06 . Memory (MB): peak = 1596.270 ; gain = 30.473
+Phase 4 Detail Placement | Checksum: 1ce3d2a76
+
+Time (s): cpu = 00:07:46 ; elapsed = 00:05:06 . Memory (MB): peak = 1596.270 ; gain = 30.473
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 2bf3640c8
+
+Time (s): cpu = 00:07:47 ; elapsed = 00:05:07 . Memory (MB): peak = 1596.270 ; gain = 30.473
+
+Phase 5.2 Post Placement Optimization
+
+Phase 5.2.1 Post Placement Timing Optimization
+
+Phase 5.2.1.1 Restore Best Placement
+Phase 5.2.1.1 Restore Best Placement | Checksum: 142e75216
+
+Time (s): cpu = 00:08:55 ; elapsed = 00:06:03 . Memory (MB): peak = 1604.078 ; gain = 38.281
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.149. For the most accurate timing information please run report_timing.
+Phase 5.2.1 Post Placement Timing Optimization | Checksum: 142e75216
+
+Time (s): cpu = 00:08:55 ; elapsed = 00:06:03 . Memory (MB): peak = 1604.078 ; gain = 38.281
+Phase 5.2 Post Placement Optimization | Checksum: 142e75216
+
+Time (s): cpu = 00:08:56 ; elapsed = 00:06:03 . Memory (MB): peak = 1604.078 ; gain = 38.281
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: 142e75216
+
+Time (s): cpu = 00:08:56 ; elapsed = 00:06:03 . Memory (MB): peak = 1604.078 ; gain = 38.281
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: 142e75216
+
+Time (s): cpu = 00:08:56 ; elapsed = 00:06:04 . Memory (MB): peak = 1604.078 ; gain = 38.281
+Phase 5.4 Placer Reporting | Checksum: 142e75216
+
+Time (s): cpu = 00:08:57 ; elapsed = 00:06:04 . Memory (MB): peak = 1604.078 ; gain = 38.281
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: 96308f7f
+
+Time (s): cpu = 00:08:57 ; elapsed = 00:06:04 . Memory (MB): peak = 1604.078 ; gain = 38.281
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 96308f7f
+
+Time (s): cpu = 00:08:57 ; elapsed = 00:06:05 . Memory (MB): peak = 1604.078 ; gain = 38.281
+Ending Placer Task | Checksum: 7989afa7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:06:05 . Memory (MB): peak = 1604.078 ; gain = 38.281
+INFO: [Common 17-83] Releasing license: Implementation
+49 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:09:03 ; elapsed = 00:06:10 . Memory (MB): peak = 1604.078 ; gain = 38.281
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1604.078 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1604.078 ; gain = 0.000
+report_clock_utilization: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1604.078 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1604.078 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: b30655e9
+
+Time (s): cpu = 00:02:48 ; elapsed = 00:02:12 . Memory (MB): peak = 1820.328 ; gain = 131.691
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: b30655e9
+
+Time (s): cpu = 00:02:49 ; elapsed = 00:02:13 . Memory (MB): peak = 1820.328 ; gain = 131.691
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: 6d298e15
+
+Time (s): cpu = 00:03:44 ; elapsed = 00:02:47 . Memory (MB): peak = 1897.332 ; gain = 208.695
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.142  | TNS=0      | WHS=-0.473 | THS=-3.76e+03|
+
+Phase 2 Router Initialization | Checksum: 6d298e15
+
+Time (s): cpu = 00:04:08 ; elapsed = 00:03:04 . Memory (MB): peak = 1897.332 ; gain = 208.695
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 70849690
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:03:19 . Memory (MB): peak = 1899.176 ; gain = 210.539
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 4943
+ Number of Nodes with overlaps = 439
+ Number of Nodes with overlaps = 39
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: ff1d500d
+
+Time (s): cpu = 00:05:40 ; elapsed = 00:03:55 . Memory (MB): peak = 1899.176 ; gain = 210.539
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.0266 | TNS=0      | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 134c6bb2e
+
+Time (s): cpu = 00:05:43 ; elapsed = 00:03:57 . Memory (MB): peak = 1899.176 ; gain = 210.539
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 134c6bb2e
+
+Time (s): cpu = 00:05:46 ; elapsed = 00:04:01 . Memory (MB): peak = 1917.531 ; gain = 228.895
+Phase 4.1.2 GlobIterForTiming | Checksum: 12d60dd69
+
+Time (s): cpu = 00:05:48 ; elapsed = 00:04:02 . Memory (MB): peak = 1917.531 ; gain = 228.895
+Phase 4.1 Global Iteration 0 | Checksum: 12d60dd69
+
+Time (s): cpu = 00:05:48 ; elapsed = 00:04:02 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 153
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:02 ; elapsed = 00:04:13 . Memory (MB): peak = 1917.531 ; gain = 228.895
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.136  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:04:14 . Memory (MB): peak = 1917.531 ; gain = 228.895
+Phase 4 Rip-up And Reroute | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:04:14 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:12 ; elapsed = 00:04:19 . Memory (MB): peak = 1917.531 ; gain = 228.895
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.142  | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:13 ; elapsed = 00:04:19 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:13 ; elapsed = 00:04:19 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:26 ; elapsed = 00:04:27 . Memory (MB): peak = 1917.531 ; gain = 228.895
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.142  | TNS=0      | WHS=0.049  | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:26 ; elapsed = 00:04:27 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 4.55862 %
+  Global Horizontal Routing Utilization  = 5.22825 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:04:28 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 1610d27f6
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:04:28 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: bda147c9
+
+Time (s): cpu = 00:06:33 ; elapsed = 00:04:34 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.142  | TNS=0      | WHS=0.049  | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: bda147c9
+
+Time (s): cpu = 00:06:33 ; elapsed = 00:04:34 . Memory (MB): peak = 1917.531 ; gain = 228.895
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: bda147c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:04:34 . Memory (MB): peak = 1917.531 ; gain = 228.895
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:04:34 . Memory (MB): peak = 1917.531 ; gain = 228.895
+INFO: [Common 17-83] Releasing license: Implementation
+63 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:06:52 ; elapsed = 00:04:46 . Memory (MB): peak = 1917.531 ; gain = 313.453
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1917.531 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1917.531 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/kc705_mig/mig_7series_0_example/mig_7series_0_example.runs/impl_1/example_top_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2008.477 ; gain = 90.945
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:01:13 ; elapsed = 00:00:43 . Memory (MB): peak = 2080.711 ; gain = 72.234
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2171.078 ; gain = 90.367
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 11 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./example_top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:02:42 ; elapsed = 00:02:33 . Memory (MB): peak = 2570.582 ; gain = 399.504
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 07 13:54:13 2014...

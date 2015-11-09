@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="c:/kc705_mig/ready_for_download/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="dbg_rddata_valid_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dbg_rddata_valid_r</obj_property>
+      <obj_property name="ObjectShortName">dbg_rddata_valid_r</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_rddata_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dbg_rddata_r[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_rddata_r[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_tg_compare_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dbg_tg_compare_error</obj_property>
+      <obj_property name="ObjectShortName">dbg_tg_compare_error</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_cmp_data_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dbg_cmp_data_valid</obj_property>
+      <obj_property name="ObjectShortName">dbg_cmp_data_valid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_cmp_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dbg_cmp_error</obj_property>
+      <obj_property name="ObjectShortName">dbg_cmp_error</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

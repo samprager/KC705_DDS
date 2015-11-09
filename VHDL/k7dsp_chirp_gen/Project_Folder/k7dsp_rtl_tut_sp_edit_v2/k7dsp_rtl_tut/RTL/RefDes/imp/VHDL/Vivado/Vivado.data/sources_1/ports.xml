@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="2">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="gpio_led">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="gpio_dip_sw">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="cha_p">
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="cha_n">
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="chb_p">
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="chb_n">
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="dac_data_p">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="dac_data_n">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="cpu_reset" Dir="IN"/>
+		<Port Id="sysclk_p" Dir="IN"/>
+		<Port Id="sysclk_n" Dir="IN"/>
+		<Port Id="gpio_led_c" Dir="OUT"/>
+		<Port Id="gpio_led_e" Dir="OUT"/>
+		<Port Id="gpio_led_n" Dir="OUT"/>
+		<Port Id="gpio_led_s" Dir="OUT"/>
+		<Port Id="gpio_led_w" Dir="OUT"/>
+		<Port Id="gpio_sw_c" Dir="IN"/>
+		<Port Id="gpio_sw_e" Dir="IN"/>
+		<Port Id="gpio_sw_n" Dir="IN"/>
+		<Port Id="gpio_sw_s" Dir="IN"/>
+		<Port Id="gpio_sw_w" Dir="IN"/>
+		<Port Id="clk_ab_p" Dir="IN"/>
+		<Port Id="clk_ab_n" Dir="IN"/>
+		<Port Id="dac_dclk_p" Dir="OUT"/>
+		<Port Id="dac_dclk_n" Dir="OUT"/>
+		<Port Id="dac_frame_p" Dir="OUT"/>
+		<Port Id="dac_frame_n" Dir="OUT"/>
+		<Port Id="txenable" Dir="OUT"/>
+		<Port Id="spi_sclk" Dir="OUT"/>
+		<Port Id="spi_sdata" Dir="OUT"/>
+		<Port Id="adc_n_en" Dir="OUT"/>
+		<Port Id="adc_sdo" Dir="IN"/>
+		<Port Id="adc_reset" Dir="OUT"/>
+		<Port Id="cdce_n_en" Dir="OUT"/>
+		<Port Id="cdce_sdo" Dir="IN"/>
+		<Port Id="cdce_n_reset" Dir="OUT"/>
+		<Port Id="cdce_n_pd" Dir="OUT"/>
+		<Port Id="ref_en" Dir="OUT"/>
+		<Port Id="pll_status" Dir="IN"/>
+		<Port Id="dac_n_en" Dir="OUT"/>
+		<Port Id="dac_sdo" Dir="IN"/>
+		<Port Id="mon_n_en" Dir="OUT"/>
+		<Port Id="mon_sdo" Dir="IN"/>
+		<Port Id="mon_n_reset" Dir="OUT"/>
+		<Port Id="mon_n_int" Dir="IN"/>
+		<Port Id="prsnt_m2c_l" Dir="IN"/>
+	</Ifc>
+</Interface>
+
