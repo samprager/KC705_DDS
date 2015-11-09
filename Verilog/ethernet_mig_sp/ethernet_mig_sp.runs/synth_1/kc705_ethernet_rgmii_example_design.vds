@@ -1,0 +1,1094 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 928826 on Thu Jun  5 18:17:50 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Jun 07 13:01:11 2014
+# Process ID: 5260
+# Log file: C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/kc705_ethernet_rgmii_example_design.vds
+# Journal file: C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source kc705_ethernet_rgmii_example_design.tcl
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7k325tffg900-2
+# set_property target_language Verilog [current_project]
+# set_property board_part xilinx.com:kc705:part0:1.0 [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# read_ip C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+# set_property used_in_implementation false [get_files c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp]
+# set_property used_in_implementation false [get_files -all c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp]
+# set_property used_in_implementation false [get_files -all c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii.xdc]
+# set_property used_in_implementation false [get_files -all c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc]
+# set_property used_in_implementation false [get_files -all c:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_board.xdc]
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property is_locked true [get_files C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci]
+# read_verilog -library xil_defaultlib {
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v
+#   C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v
+# }
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v]
+# read_xdc C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc
+# set_property used_in_implementation false [get_files C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+# read_xdc C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc
+# set_property used_in_implementation false [get_files C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+# set_property processing_order LATE [get_files C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# read_xdc dont_buffer.xdc
+# set_property used_in_implementation false [get_files dont_buffer.xdc]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.cache/wt [current_project]
+# set_property parent.project_dir C:/kc705_ethernet/kc705_ethernet_rgmii_example [current_project]
+# catch { write_hwdef -file kc705_ethernet_rgmii_example_design.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top kc705_ethernet_rgmii_example_design -part xc7k325tffg900-2
+Command: synth_design -top kc705_ethernet_rgmii_example_design -part xc7k325tffg900-2
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 245.230 ; gain = 106.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:10265]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (1#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:10265]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:616]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (2#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:616]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_sync_block' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
+	Parameter INITIALISE bound to: 1'b0 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:3014]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (3#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:3014]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_sync_block' (4#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_reset_sync' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
+	Parameter INITIALISE bound to: 1'b1 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FDPE' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:2954]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDPE' (5#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:2954]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_reset_sync' (6#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_clk_wiz' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter CLKOUT1_DIVIDE bound to: 10 - type: integer 
+	Parameter CLKOUT2_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 5.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (7#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_clk_wiz' (8#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' (9#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_resets' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_resets' (10#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
+	Parameter STARTUP bound to: 0 - type: integer 
+	Parameter UPDATE_SPEED bound to: 1 - type: integer 
+	Parameter MDIO_RD bound to: 2 - type: integer 
+	Parameter MDIO_POLL_CHECK bound to: 3 - type: integer 
+	Parameter MDIO_1G bound to: 4 - type: integer 
+	Parameter MDIO_10_100 bound to: 5 - type: integer 
+	Parameter MDIO_RGMII_RD bound to: 6 - type: integer 
+	Parameter MDIO_RGMII_RD_POLL bound to: 7 - type: integer 
+	Parameter MDIO_RGMII bound to: 8 - type: integer 
+	Parameter MDIO_DELAY_RD bound to: 9 - type: integer 
+	Parameter MDIO_DELAY_RD_POLL bound to: 10 - type: integer 
+	Parameter MDIO_DELAY bound to: 11 - type: integer 
+	Parameter MDIO_RESTART bound to: 12 - type: integer 
+	Parameter MDIO_LOOPBACK bound to: 13 - type: integer 
+	Parameter MDIO_STATS bound to: 14 - type: integer 
+	Parameter MDIO_STATS_POLL_CHECK bound to: 15 - type: integer 
+	Parameter RESET_MAC_TX bound to: 16 - type: integer 
+	Parameter RESET_MAC_RX bound to: 17 - type: integer 
+	Parameter CNFG_MDIO bound to: 18 - type: integer 
+	Parameter CNFG_FLOW bound to: 19 - type: integer 
+	Parameter CNFG_FILTER bound to: 22 - type: integer 
+	Parameter CNFG_LO_ADDR bound to: 20 - type: integer 
+	Parameter CNFG_HI_ADDR bound to: 21 - type: integer 
+	Parameter CHECK_SPEED bound to: 25 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter SET_DATA bound to: 1 - type: integer 
+	Parameter INIT bound to: 32'sb00000000000000000000000000000010 
+	Parameter POLL bound to: 3 - type: integer 
+	Parameter READ bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter DONE bound to: 3 - type: integer 
+	Parameter CONFIG_MANAGEMENT_ADD bound to: 17'b00000010100000000 
+	Parameter CONFIG_FLOW_CTRL_ADD bound to: 17'b00000010000001100 
+	Parameter RECEIVER_ADD bound to: 17'b00000010000000100 
+	Parameter TRANSMITTER_ADD bound to: 17'b00000010000001000 
+	Parameter SPEED_CONFIG_ADD bound to: 17'b00000010000010000 
+	Parameter CONFIG_UNI0_CTRL_ADD bound to: 17'b00000011100000000 
+	Parameter CONFIG_UNI1_CTRL_ADD bound to: 17'b00000011100000100 
+	Parameter CONFIG_ADDR_CTRL_ADD bound to: 17'b00000011100001000 
+	Parameter MDIO_CONTROL bound to: 17'b00000010100000100 
+	Parameter MDIO_TX_DATA bound to: 17'b00000010100001000 
+	Parameter MDIO_RX_DATA bound to: 17'b00000010100001100 
+	Parameter MDIO_OP_RD bound to: 2'b10 
+	Parameter MDIO_OP_WR bound to: 2'b01 
+	Parameter PHY_ADDR bound to: 8'b00000111 
+	Parameter PHY_CONTROL_REG bound to: 8'b00000000 
+	Parameter PHY_STATUS_REG bound to: 8'b00000001 
+	Parameter PHY_ABILITY_REG bound to: 8'b00000100 
+	Parameter PHY_1000BASET_CONTROL_REG bound to: 8'b00001001 
+	Parameter PHY_MODE_CTL_REG bound to: 8'b00010100 
+	Parameter PHY_MODE_STS_REG bound to: 8'b00011011 
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' (11#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_fifo_block' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_clocking' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV__parameterized0' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter CLKOUT1_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT2_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 8.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 5.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 90.000000 - type: float 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV__parameterized0' (11#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_clocking' (12#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_resets' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_resets' (13#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:12244]
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (14#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:12244]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/.Xil/Vivado-5260-XCOJAMESM22/realtime/kc705_ethernet_rgmii_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii' (15#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/.Xil/Vivado-5260-XCOJAMESM22/realtime/kc705_ethernet_rgmii_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support' (16#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
+	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
+	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
+	Parameter IDLE_s bound to: 4'b0000 
+	Parameter QUEUE1_s bound to: 4'b0001 
+	Parameter QUEUE2_s bound to: 4'b0010 
+	Parameter QUEUE3_s bound to: 4'b0011 
+	Parameter START_DATA1_s bound to: 4'b0100 
+	Parameter DATA_PRELOAD1_s bound to: 4'b0101 
+	Parameter DATA_PRELOAD2_s bound to: 4'b0110 
+	Parameter WAIT_HANDSHAKE_s bound to: 4'b0111 
+	Parameter FRAME_s bound to: 4'b1000 
+	Parameter HANDSHAKE_s bound to: 4'b1001 
+	Parameter FINISH_s bound to: 4'b1010 
+	Parameter DROP_ERR_s bound to: 4'b1011 
+	Parameter DROP_s bound to: 4'b1100 
+	Parameter RETRANSMIT_ERR_s bound to: 4'b1101 
+	Parameter RETRANSMIT_s bound to: 4'b1111 
+	Parameter WAIT_s bound to: 2'b00 
+	Parameter DATA_s bound to: 2'b01 
+	Parameter EOF_s bound to: 2'b10 
+	Parameter OVFLOW_s bound to: 2'b11 
+INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:243]
+INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:264]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_bram_tdp' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
+	Parameter DATA_WIDTH bound to: 9 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter RAM_DEPTH bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_bram_tdp' (17#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
+INFO: [Synth 8-226] default block is never used [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:318]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' (18#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
+	Parameter WAIT_s bound to: 3'b000 
+	Parameter QUEUE1_s bound to: 3'b001 
+	Parameter QUEUE2_s bound to: 3'b010 
+	Parameter QUEUE3_s bound to: 3'b011 
+	Parameter QUEUE_SOF_s bound to: 3'b100 
+	Parameter SOF_s bound to: 3'b101 
+	Parameter DATA_s bound to: 3'b110 
+	Parameter EOF_s bound to: 3'b111 
+	Parameter IDLE_s bound to: 3'b000 
+	Parameter FRAME_s bound to: 3'b001 
+	Parameter GF_s bound to: 3'b010 
+	Parameter BF_s bound to: 3'b011 
+	Parameter OVFLOW_s bound to: 3'b100 
+INFO: [Synth 8-226] default block is never used [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:251]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' (19#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' (20#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_fifo_block' (21#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+	Parameter IDLE bound to: 3'b000 
+	Parameter HEADER bound to: 3'b001 
+	Parameter SIZE bound to: 3'b010 
+	Parameter DATA bound to: 3'b011 
+	Parameter OVERHEAD bound to: 3'b100 
+	Parameter PKT_ADJUST bound to: 18 - type: integer 
+	Parameter VLAN_HEADER bound to: -2130690046 - type: integer 
+	Parameter HEADER_LENGTH bound to: 11 - type: integer 
+	Parameter BW_1G bound to: 230 - type: integer 
+	Parameter BW_100M bound to: 23 - type: integer 
+	Parameter BW_10M bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'LUT6' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001101010101010 
+INFO: [Synth 8-256] done synthesizing module 'LUT6' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized0' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000001000001101001101 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized0' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized1' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000110000110000 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized1' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized2' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000001000001 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized2' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized3' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized3' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized4' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000100000001000001 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized4' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized5' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000000000001 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized5' (22#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' (23#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+	Parameter IDLE bound to: 2'b00 
+	Parameter INFO bound to: 2'b01 
+	Parameter LOOK bound to: 2'b10 
+	Parameter PKT bound to: 2'b11 
+	Parameter PKT_ADJUST bound to: 18 - type: integer 
+	Parameter VLAN_HEADER bound to: -2130690046 - type: integer 
+	Parameter HEADER_LENGTH bound to: 11 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized6' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000001000000 
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized6' (23#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' (24#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_mux' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_mux' (25#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pipe' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:28398]
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D' (26#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:28398]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pipe' (27#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_address_swap' [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
+	Parameter IDLE bound to: 3'b000 
+	Parameter WAIT bound to: 3'b001 
+	Parameter READ_DEST bound to: 3'b010 
+	Parameter READ_SRC bound to: 3'b011 
+	Parameter READ_DEST2 bound to: 3'b100 
+	Parameter READ_SRC2 bound to: 3'b101 
+	Parameter READ bound to: 3'b110 
+	Parameter WRITE_SLOT1 bound to: 2'b01 
+	Parameter WRITE_SLOT2 bound to: 2'b10 
+	Parameter WRITE bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:158]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_address_swap' (28#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' (29#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design' (30#1) [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 286.215 ; gain = 147.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/ConfigModes.xml
+Feature available: Internal_bitstream
+
+Processing XDC Constraints
+Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/.Xil/Vivado-5260-XCOJAMESM22/dcp/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+Finished Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/.Xil/Vivado-5260-XCOJAMESM22/dcp/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:109]
+Finished Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc].
+Resolution: To avoid this message, exclude constraints listed in [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc]
+Finished Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc]
+Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+Finished Parsing XDC File [C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 24 instances were transformed.
+  BUFGCE => BUFGCTRL: 6 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 547.914 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for tri_mode_ethernet_mac_i. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_touch.xdc, line 9).
+Applied set_property BUFFER_TYPE = NONE for rgmii_tx_ctl. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txc. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rx_ctl. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxc. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for mdio. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for mdc. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[3]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[2]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[1]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[0]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[3]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[2]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[1]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[0]. (constraint file  C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.runs/synth_1/dont_buffer.xdc, line 4).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 547.914 ; gain = 408.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 547.914 ; gain = 408.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'axi_state_reg' in module 'kc705_ethernet_rgmii_axi_lite_sm'
+INFO: [Synth 8-802] inferred FSM for state register 'idelay_reset_cnt_reg' in module 'kc705_ethernet_rgmii_support_resets'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'kc705_ethernet_rgmii_rx_client_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_state_reg' in module 'kc705_ethernet_rgmii_axi_pat_gen'
+INFO: [Synth 8-3354] encoded FSM with state register 'axi_state_reg' using encoding 'one-hot' in module 'kc705_ethernet_rgmii_axi_lite_sm'
+INFO: [Synth 8-3354] encoded FSM with state register 'idelay_reset_cnt_reg' using encoding 'one-hot' in module 'kc705_ethernet_rgmii_support_resets'
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'kc705_ethernet_rgmii_rx_client_fifo'
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_state_reg' using encoding 'one-hot' in module 'kc705_ethernet_rgmii_axi_pat_gen'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 3     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 4     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               37 Bit    Registers := 1     
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	               30 Bit    Registers := 1     
+	               28 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 11    
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 17    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 113   
++---RAMs : 
+	              36K Bit         RAMs := 2     
++---Muxes : 
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     34 Bit        Muxes := 1     
+	  25 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 1     
+	  27 Input     25 Bit        Muxes := 1     
+	  25 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 5     
+	  13 Input     14 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 7     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	  25 Input      8 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 38    
+	  10 Input      4 Bit        Muxes := 7     
+	  14 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 42    
+	   6 Input      3 Bit        Muxes := 3     
+	   8 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 55    
+	   4 Input      2 Bit        Muxes := 11    
+	  25 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 129   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module kc705_ethernet_rgmii_example_design 
+Detailed RTL Component Info : 
++---Registers : 
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               30 Bit    Registers := 1     
+	               28 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module kc705_ethernet_rgmii_sync_block 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_reset_sync 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_clk_wiz 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_example_design_clocks 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module kc705_ethernet_rgmii_example_design_resets 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
+Module kc705_ethernet_rgmii_axi_lite_sm 
+Detailed RTL Component Info : 
++---Registers : 
+	               37 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               21 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 1     
+	  25 Input     32 Bit        Muxes := 1     
+	  27 Input     25 Bit        Muxes := 1     
+	  25 Input     17 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input     11 Bit        Muxes := 1     
+	  25 Input      8 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	  25 Input      2 Bit        Muxes := 1     
+	  25 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 27    
+Module kc705_ethernet_rgmii_support_clocking 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_support_resets 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  13 Input     14 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module kc705_ethernet_rgmii_support 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_bram_tdp 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
++---RAMs : 
+	              36K Bit         RAMs := 1     
+Module kc705_ethernet_rgmii_tx_client_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               12 Bit    Registers := 6     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 31    
++---Muxes : 
+	  10 Input      4 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 34    
+	   4 Input      2 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 25    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+Module kc705_ethernet_rgmii_rx_client_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	  13 Input      8 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 11    
+	   2 Input      2 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+Module kc705_ethernet_rgmii_ten_100_1g_eth_fifo 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_fifo_block 
+Detailed RTL Component Info : 
+Module kc705_ethernet_rgmii_axi_pat_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	  10 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 12    
+Module kc705_ethernet_rgmii_axi_pat_check 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 18    
+	   2 Input      1 Bit        Muxes := 9     
+Module kc705_ethernet_rgmii_axi_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module kc705_ethernet_rgmii_axi_pipe 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module kc705_ethernet_rgmii_address_swap 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 24    
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 30    
+Module kc705_ethernet_rgmii_basic_pat_gen 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 558.766 ; gain = 419.816
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 558.805 ; gain = 419.855
+---------------------------------------------------------------------------------
+Finished Parallel Reinfer  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 558.805 ; gain = 419.855
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM:
++------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+-----------------------------------------------+
+|Module Name                         | RTL Object                                                     | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG      | RAMB18 | RAMB36 | Hierarchical Name                             | 
++------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+-----------------------------------------------+
+|kc705_ethernet_rgmii_bram_tdp       | mem_reg                                                        | 4 K X 9                | W |   | 4 K X 9(WRITE_FIRST)   |   | R | Port A and B | 0      | 1      | kc705_ethernet_rgmii_bram_tdp/extram          | 
+|kc705_ethernet_rgmii_example_design | trimac_fifo_block/user_side_FIFO/tx_fifo_i/tx_ramgen_i/mem_reg | 4 K X 9                | W |   | 4 K X 9(WRITE_FIRST)   |   | R | Port A and B | 0      | 1      | kc705_ethernet_rgmii_example_design/extram__3 | 
+|kc705_ethernet_rgmii_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_ramgen_i/mem_reg | 4 K X 9                | W |   | 4 K X 9(WRITE_FIRST)   |   | R | Port A and B | 0      | 1      | kc705_ethernet_rgmii_example_design/extram__5 | 
++------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+--------------+--------+--------+-----------------------------------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+Distributed RAM: 
++------------+------------------------------------------------------------------+--------------------+----------------------+--------------+---------------------------------------+
+|Module Name | RTL Object                                                       | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name                     | 
++------------+------------------------------------------------------------------+--------------------+----------------------+--------------+---------------------------------------+
+|            | \basic_pat_gen_inst/axi_pipe_inst/RAM64X1D_inst_last             | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[0].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[1].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[2].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[3].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[4].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[5].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[6].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/axi_pipe_inst/ram_loop[7].RAM64X1D_inst      | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[0].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[1].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[2].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[3].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[4].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[5].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[6].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[7].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
+|            | \basic_pat_gen_inst/address_swap_inst/ram_loop[8].RAM64X1D_inst  | User Instantiated  | -                    | RAM64X1D X 1 | ->kc705_ethernet_rgmii_example_design | 
++------------+------------------------------------------------------------------+--------------------+----------------------+--------------+---------------------------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Mutiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (basic_pat_gen_insti_15/\basic_pat_gen_inst/axi_pat_gen_inst/FSM_onehot_gen_state_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_lite_controller/mdio_reg_addr_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_lite_controlleri_0/\axi_lite_controller/FSM_onehot_axi_state_reg[0] )
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/FSM_onehot_axi_state_reg[0] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/addr_reg[16] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/addr_reg[15] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/addr_reg[14] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/addr_reg[13] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/addr_reg[12] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/mdio_reg_addr_reg[7] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/mdio_reg_addr_reg[6] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\axi_lite_controller/mdio_reg_addr_reg[5] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_addr_diff_reg[1] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\trimac_fifo_block/user_side_FIFO/tx_fifo_i/wr_addr_diff_reg[0] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_addr_diff_reg[1] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_addr_diff_reg[0] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+INFO: [Synth 8-3332] Sequential element (\basic_pat_gen_inst/axi_pat_gen_inst/FSM_onehot_gen_state_reg[0] ) is unused and will be removed from module kc705_ethernet_rgmii_example_design.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 577.551 ; gain = 438.602
+---------------------------------------------------------------------------------
+Finished Parallel Area Opt  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 577.551 ; gain = 438.602
+Finished Parallel Section  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 577.551 ; gain = 438.602
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 624.328 ; gain = 485.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 626.418 ; gain = 487.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_ramgen_i/mem_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 643.871 ; gain = 504.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 643.871 ; gain = 504.922
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 643.871 ; gain = 504.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 643.871 ; gain = 504.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++------------------------------------+----------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                         | RTL Name                                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------------------------------+----------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|kc705_ethernet_rgmii_example_design | axi_lite_controller/count_shift_reg[20]                              | 21     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|kc705_ethernet_rgmii_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_axis_fifo_tdata_reg[7] | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|kc705_ethernet_rgmii_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_data_bram_reg[7]       | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
++------------------------------------+----------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------+----------+
+|      |BlackBox name        |Instances |
++------+---------------------+----------+
+|1     |kc705_ethernet_rgmii |         1|
++------+---------------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |kc705_ethernet_rgmii |     1|
+|2     |BUFGCE               |     6|
+|3     |CARRY4               |    46|
+|4     |IDELAYCTRL           |     1|
+|5     |LUT1                 |    97|
+|6     |LUT2                 |   138|
+|7     |LUT3                 |   192|
+|8     |LUT4                 |   189|
+|9     |LUT5                 |   148|
+|10    |LUT6                 |   280|
+|11    |MMCME2_ADV           |     2|
+|12    |MUXF7                |     1|
+|13    |RAM64X1D             |    18|
+|14    |RAMB36E1             |     1|
+|15    |RAMB36E1_1           |     1|
+|16    |SRL16E               |    16|
+|17    |SRLC32E              |     1|
+|18    |FDPE                 |    45|
+|19    |FDRE                 |   982|
+|20    |FDSE                 |    21|
+|21    |IBUF                 |     9|
+|22    |IBUFDS               |     1|
+|23    |OBUF                 |     9|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------------+-------------------------------------------+------+
+|      |Instance                                       |Module                                     |Cells |
++------+-----------------------------------------------+-------------------------------------------+------+
+|1     |top                                            |                                           |  2339|
+|2     |  rx_stats_sync                                |kc705_ethernet_rgmii_sync_block__3         |     5|
+|3     |  tx_stats_sync                                |kc705_ethernet_rgmii_sync_block__4         |     5|
+|4     |  axi_lite_controller                          |kc705_ethernet_rgmii_axi_lite_sm           |   546|
+|5     |    update_speed_sync_inst                     |kc705_ethernet_rgmii_sync_block__5         |     5|
+|6     |  basic_pat_gen_inst                           |kc705_ethernet_rgmii_basic_pat_gen         |   595|
+|7     |    address_swap_inst                          |kc705_ethernet_rgmii_address_swap          |   140|
+|8     |    axi_pat_check_inst                         |kc705_ethernet_rgmii_axi_pat_check         |   179|
+|9     |    axi_pat_gen_inst                           |kc705_ethernet_rgmii_axi_pat_gen           |   235|
+|10    |    axi_pipe_inst                              |kc705_ethernet_rgmii_axi_pipe              |    41|
+|11    |  example_clocks                               |kc705_ethernet_rgmii_example_design_clocks |    20|
+|12    |    lock_sync                                  |kc705_ethernet_rgmii_sync_block__1         |     5|
+|13    |    mmcm_reset_gen                             |kc705_ethernet_rgmii_reset_sync__9         |     5|
+|14    |    clock_generator                            |kc705_ethernet_rgmii_clk_wiz               |     4|
+|15    |  example_resets                               |kc705_ethernet_rgmii_example_design_resets |    61|
+|16    |    dcm_sync                                   |kc705_ethernet_rgmii_sync_block__2         |     5|
+|17    |    glbl_reset_gen                             |kc705_ethernet_rgmii_reset_sync__10        |     5|
+|18    |    axi_lite_reset_gen                         |kc705_ethernet_rgmii_reset_sync__11        |     5|
+|19    |    gtx_reset_gen                              |kc705_ethernet_rgmii_reset_sync__12        |     5|
+|20    |    chk_reset_gen                              |kc705_ethernet_rgmii_reset_sync__13        |     5|
+|21    |  trimac_fifo_block                            |kc705_ethernet_rgmii_fifo_block            |   851|
+|22    |    rx_mac_reset_gen                           |kc705_ethernet_rgmii_reset_sync__16        |     5|
+|23    |    tx_mac_reset_gen                           |kc705_ethernet_rgmii_reset_sync            |     5|
+|24    |    trimac_sup_block                           |kc705_ethernet_rgmii_support               |   203|
+|25    |      tri_mode_ethernet_mac_support_clocking_i |kc705_ethernet_rgmii_support_clocking      |     3|
+|26    |      tri_mode_ethernet_mac_support_resets_i   |kc705_ethernet_rgmii_support_resets        |    60|
+|27    |        idelayctrl_reset_gen                   |kc705_ethernet_rgmii_reset_sync__14        |     5|
+|28    |        lock_sync                              |kc705_ethernet_rgmii_sync_block__6         |     5|
+|29    |        gtx_mmcm_reset_gen                     |kc705_ethernet_rgmii_reset_sync__15        |     5|
+|30    |    user_side_FIFO                             |kc705_ethernet_rgmii_ten_100_1g_eth_fifo   |   638|
+|31    |      rx_fifo_i                                |kc705_ethernet_rgmii_rx_client_fifo        |   274|
+|32    |        resync_wr_store_frame_tog              |kc705_ethernet_rgmii_sync_block__12        |     5|
+|33    |        sync_rd_addr_tog                       |kc705_ethernet_rgmii_sync_block            |     5|
+|34    |        rx_ramgen_i                            |kc705_ethernet_rgmii_bram_tdp_0            |     8|
+|35    |      tx_fifo_i                                |kc705_ethernet_rgmii_tx_client_fifo        |   364|
+|36    |        resync_rd_tran_frame_tog               |kc705_ethernet_rgmii_sync_block__7         |     5|
+|37    |        resync_wr_frame_in_fifo                |kc705_ethernet_rgmii_sync_block__8         |     5|
+|38    |        resync_wr_frames_in_fifo               |kc705_ethernet_rgmii_sync_block__9         |     5|
+|39    |        resync_fif_valid_tog                   |kc705_ethernet_rgmii_sync_block__10        |     5|
+|40    |        resync_rd_txfer_tog                    |kc705_ethernet_rgmii_sync_block__11        |     5|
+|41    |        tx_ramgen_i                            |kc705_ethernet_rgmii_bram_tdp              |     5|
++------+-----------------------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 643.871 ; gain = 504.922
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 643.871 ; gain = 504.922
+INFO: [Netlist 29-17] Analyzing 84 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 24 instances were transformed.
+  BUFGCE => BUFGCTRL: 6 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+120 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 643.871 ; gain = 447.070
+# write_checkpoint kc705_ethernet_rgmii_example_design.dcp
+# report_utilization -file kc705_ethernet_rgmii_example_design_utilization_synth.rpt -pb kc705_ethernet_rgmii_example_design_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 643.871 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 07 13:02:18 2014...

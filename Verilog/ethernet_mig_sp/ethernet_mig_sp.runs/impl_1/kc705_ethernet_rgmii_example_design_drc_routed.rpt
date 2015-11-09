@@ -1,0 +1,54 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 928826 Thu Jun  5 18:17:50 MDT 2014
+| Date         : Sat Jun 07 13:06:23 2014
+| Host         : XCOJAMESM22 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc
+-----------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 3
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'mdio' relative to clock clkout1 for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of [get_pins example_clocks/clock_generator/mmcm_adv_inst/CLKOUT1]] 5.000 [get_ports mdio]
+C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc (Line: 127)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 1.000 ns has been defined on port 'mdc' relative to clock clkout1 for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of [get_pins example_clocks/clock_generator/mmcm_adv_inst/CLKOUT1]] 1.000 [get_ports mdc]
+C:/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc (Line: 144)
+Related violations: <none>
+
+
