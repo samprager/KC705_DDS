@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="1" Path="C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.xpr">
+<Project Version="7" Minor="1" Path="E:/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="cd7b8868a3c5460aa1b8000fff113af3"/>
@@ -116,7 +116,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v"/>
           <Attr Name="ImportTime" Val="1402167608"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -125,7 +125,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/common/kc705_ethernet_rgmii_sync_block.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/common/kc705_ethernet_rgmii_sync_block.v"/>
           <Attr Name="ImportTime" Val="1402167610"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -134,7 +134,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/common/kc705_ethernet_rgmii_reset_sync.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/common/kc705_ethernet_rgmii_reset_sync.v"/>
           <Attr Name="ImportTime" Val="1402167610"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -143,7 +143,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet_rgmii_example/kc705_ethernet_rgmii_example.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci"/>
           <Attr Name="ImportTime" Val="1402171222"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -166,7 +166,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support_resets.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support_resets.v"/>
           <Attr Name="ImportTime" Val="1402167605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -175,7 +175,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support_clocking.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support_clocking.v"/>
           <Attr Name="ImportTime" Val="1402167605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -184,7 +184,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v"/>
           <Attr Name="ImportTime" Val="1402167610"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -193,7 +193,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v"/>
           <Attr Name="ImportTime" Val="1402167608"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -237,7 +237,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/support/kc705_ethernet_rgmii_support.v"/>
           <Attr Name="ImportTime" Val="1402167605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -246,7 +246,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v"/>
           <Attr Name="ImportTime" Val="1402167607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -255,7 +255,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v"/>
           <Attr Name="ImportTime" Val="1402167607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -264,7 +264,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v"/>
           <Attr Name="ImportTime" Val="1402167607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -273,7 +273,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v"/>
           <Attr Name="ImportTime" Val="1402167606"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -282,7 +282,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v"/>
           <Attr Name="ImportTime" Val="1402167607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -291,7 +291,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_clk_wiz.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_clk_wiz.v"/>
           <Attr Name="ImportTime" Val="1402167608"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -300,7 +300,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v"/>
           <Attr Name="ImportTime" Val="1402167608"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -317,7 +317,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v"/>
           <Attr Name="ImportTime" Val="1402167607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -326,7 +326,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_fifo_block.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_fifo_block.v"/>
           <Attr Name="ImportTime" Val="1402167609"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -335,7 +335,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design_resets.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design_resets.v"/>
           <Attr Name="ImportTime" Val="1402167605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -344,7 +344,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design_clocks.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design_clocks.v"/>
           <Attr Name="ImportTime" Val="1402167605"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -353,7 +353,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v"/>
           <Attr Name="ImportTime" Val="1402167606"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -362,7 +362,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design.v"/>
           <Attr Name="ImportTime" Val="1402167609"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -383,7 +383,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_example_design.xdc"/>
           <Attr Name="ImportTime" Val="1402167611"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -391,7 +391,7 @@
       </File>
       <File Path="$PSRCDIR/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_user_phytiming.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/example_design/kc705_ethernet_rgmii_user_phytiming.xdc"/>
           <Attr Name="ImportTime" Val="1402167611"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -407,7 +407,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/imports/simulation/kc705_ethernet_rgmii_frame_typ.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/simulation/kc705_ethernet_rgmii_frame_typ.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/simulation/kc705_ethernet_rgmii_frame_typ.v"/>
           <Attr Name="ImportTime" Val="1402167612"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -415,7 +415,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/simulation/demo_tb.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/simulation/demo_tb.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx FPGA Programs/DesignsForVivado/DesignsForVivado2014-2/kc705_ethernet/kc705_ethernet.srcs/sources_1/ip/kc705_ethernet_rgmii/simulation/demo_tb.v"/>
           <Attr Name="ImportTime" Val="1402167612"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -453,6 +453,7 @@
         <Option Name="TopModule" Val="demo_tb"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SimMode" Val="post-implementation"/>
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
