@@ -44,11 +44,11 @@ Thumbs.db
 
 # Reloc files #
 ######################
-# *.reloc
+*.reloc
 
 # MIG files #
 ######################
-# *.mem
+*.mem
 
 # SIM files #
 ######################
