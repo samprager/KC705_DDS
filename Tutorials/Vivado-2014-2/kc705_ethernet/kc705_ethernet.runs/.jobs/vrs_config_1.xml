@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="kc705_ethernet_rgmii_synth_1" LaunchDir="C:/kc705_ethernet/kc705_ethernet.runs/kc705_ethernet_rgmii_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-
