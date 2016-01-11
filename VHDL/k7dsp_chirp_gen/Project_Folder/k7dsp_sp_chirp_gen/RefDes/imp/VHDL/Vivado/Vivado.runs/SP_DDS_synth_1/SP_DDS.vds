@@ -1,0 +1,322 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Jun 26 17:54:09 2015
+# Process ID: 1688
+# Log file: C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1/SP_DDS.vds
+# Journal file: C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1\vivado.jou
+#-----------------------------------------------------------
+source SP_DDS.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7k325tffg900-2
+# set_property target_language VHDL [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property default_lib xil_defaultlib [current_project]
+# read_ip c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'SP_DDS' generated file not found 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SP_DDS' generated file not found 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SP_DDS' generated file not found 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SP_DDS' generated file not found 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_funcsim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SP_DDS' generated file not found 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_funcsim.vhdl'. Please regenerate to continue.
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property is_locked true [get_files c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS.xci]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.cache/wt [current_project]
+# set_property parent.project_dir C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado [current_project]
+# catch { write_hwdef -file SP_DDS.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top SP_DDS -part xc7k325tffg900-2 -mode out_of_context
+Command: synth_design -top SP_DDS -part xc7k325tffg900-2 -mode out_of_context
+
+Starting synthesis...
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 237.648 ; gain = 104.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SP_DDS' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/synth/SP_DDS.vhd:70]
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0.vhd:112' bound to instance 'U0' of component 'dds_compiler_v6_0' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/synth/SP_DDS.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0__parameterized0' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0.vhd:222]
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:148' bound to instance 'i_synth' of component 'dds_compiler_v6_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_viv__parameterized0' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv' (1#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized0' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized0' (1#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_core' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_v6_0_rdy' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_rdy.vhd:127]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_rdy' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_rdy.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized2' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized2' (1#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_rdy' (2#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_rdy.vhd:127]
+INFO: [Synth 8-3491] module 'sin_cos' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:149' bound to instance 'i_rom' of component 'sin_cos' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:1026]
+INFO: [Synth 8-638] synthesizing module 'sin_cos__parameterized0' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:183]
+INFO: [Synth 8-4472] Detected and applied attribute rom_style = distributed [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:490]
+INFO: [Synth 8-4472] Detected and applied attribute rom_style = block [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:491]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_phase_in_zero_del' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1245]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized4' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized4' (2#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_addr_reg_c' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1338]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_original_sin_ms' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1574]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized6' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized6' (2#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_original_sin_ls' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1586]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized8' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized8' (2#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_original_cos_ms' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1598]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_original_cos_ls' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1610]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_cardinal_sin_ms' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1629]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_cardinal_sin_ls' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1641]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_cardinal_cos_ms' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1653]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_cardinal_cos_ls' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:1665]
+INFO: [Synth 8-256] done synthesizing module 'sin_cos__parameterized0' (3#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/sin_cos.vhd:183]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_final_sin' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:1159]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized10' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized10' (3#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_final_cos' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:1171]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_sin_op' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:1199]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized12' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized12' (3#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_cos_op' of component 'xbip_pipe_v3_0_viv' [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:1215]
+WARNING: [Synth 8-3848] Net RFD in module/entity dds_compiler_v6_0_core does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_core' (4#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:205]
+WARNING: [Synth 8-3848] Net m_axis_data_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:229]
+WARNING: [Synth 8-3848] Net m_axis_data_tuser in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:230]
+WARNING: [Synth 8-3848] Net m_axis_phase_tdata in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:234]
+WARNING: [Synth 8-3848] Net m_axis_phase_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:235]
+WARNING: [Synth 8-3848] Net m_axis_phase_tuser in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:236]
+WARNING: [Synth 8-3848] Net s_phase_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:484]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0_viv__parameterized0' (5#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:272]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_v6_0__parameterized0' (6#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'SP_DDS' (7#1) [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/synth/SP_DDS.vhd:70]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 387.652 ; gain = 254.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/ConfigModes.xml
+
+Processing XDC Constraints
+Parsing XDC File [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+---------------------------------------------------------------------------------
+Start RTL Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 537.051 ; gain = 403.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 537.051 ; gain = 403.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 537.051 ; gain = 403.996
+---------------------------------------------------------------------------------
+Trying to map ROM "sin_cos_lut" into Block RAM due to explicit "ram_style" or "rom_style" specification
+Trying to map ROM "sin_cos_lut" into Block RAM due to explicit "ram_style" or "rom_style" specification
+WARNING: [Synth 8-3848] Net RFD in module/entity dds_compiler_v6_0_core does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_core.vhd:193]
+WARNING: [Synth 8-3848] Net m_axis_data_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:229]
+WARNING: [Synth 8-3848] Net m_axis_data_tuser in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:230]
+WARNING: [Synth 8-3848] Net m_axis_phase_tdata in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:234]
+WARNING: [Synth 8-3848] Net m_axis_phase_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:235]
+WARNING: [Synth 8-3848] Net m_axis_phase_tuser in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:236]
+WARNING: [Synth 8-3848] Net s_phase_tlast in module/entity dds_compiler_v6_0_viv__parameterized0 does not have driver. [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/dds_compiler_v6_0/hdl/dds_compiler_v6_0_viv.vhd:484]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 542.688 ; gain = 409.633
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:47 ; elapsed = 00:01:48 . Memory (MB): peak = 559.191 ; gain = 426.137
+---------------------------------------------------------------------------------
+Finished Parallel Reinfer  : Time (s): cpu = 00:01:47 ; elapsed = 00:01:48 . Memory (MB): peak = 559.191 ; gain = 426.137
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:47 ; elapsed = 00:01:48 . Memory (MB): peak = 575.438 ; gain = 442.383
+---------------------------------------------------------------------------------
+Finished Parallel Area Opt  : Time (s): cpu = 00:01:47 ; elapsed = 00:01:48 . Memory (MB): peak = 575.438 ; gain = 442.383
+Finished Parallel Section  : Time (s): cpu = 00:01:47 ; elapsed = 00:01:48 . Memory (MB): peak = 575.438 ; gain = 442.383
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:55 ; elapsed = 00:01:56 . Memory (MB): peak = 631.469 ; gain = 498.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:55 ; elapsed = 00:01:56 . Memory (MB): peak = 632.477 ; gain = 499.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |CARRY4      |     8|
+|2     |LUT2        |     9|
+|3     |LUT3        |    35|
+|4     |LUT4        |    15|
+|5     |LUT5        |    38|
+|6     |LUT6        |    23|
+|7     |RAMB18E1_1  |     1|
+|8     |RAMB36E1_10 |     1|
+|9     |RAMB36E1_11 |     1|
+|10    |RAMB36E1_12 |     1|
+|11    |RAMB36E1_13 |     1|
+|12    |RAMB36E1_7  |     1|
+|13    |RAMB36E1_8  |     1|
+|14    |RAMB36E1_9  |     1|
+|15    |SRL16E      |     5|
+|16    |FDRE        |   156|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 642.117 ; gain = 509.063
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing XDC File [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:54 ; elapsed = 00:01:57 . Memory (MB): peak = 642.273 ; gain = 452.023
+# rename_ref -prefix_all SP_DDS_
+INFO: [Coretcl 2-1174] Renamed 19 cell refs.
+# write_checkpoint -noxdef SP_DDS.dcp
+# report_utilization -file SP_DDS_utilization_synth.rpt -pb SP_DDS_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 642.273 ; gain = 0.000
+# if { [catch {
+#   file copy -force C:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.runs/SP_DDS_synth_1/SP_DDS.dcp c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS.dcp
+#   write_verilog -force -mode synth_stub c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_stub.v
+#   write_vhdl -force -mode synth_stub c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_stub.vhdl
+#   write_verilog -force -mode funcsim c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_funcsim.v
+#   write_vhdl -force -mode funcsim c:/k7dsp_rtl_tut_sp_edit_v2/RTL/RefDes/imp/VHDL/Vivado/Vivado.srcs/sources_1/ip/SP_DDS/SP_DDS_funcsim.vhdl
+# } _RESULT ] } { 
+#   send_msg_id runtcl-3 error "Unable to successfully create or copy supporting IP files."
+#   return -code error
+# }
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 26 17:56:08 2015...

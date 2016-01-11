@@ -1,0 +1,13 @@
+# Output products list for <duc_imf1>
+demo_tb\tb_duc_imf1.vhd
+duc_imf1.asy
+duc_imf1.gise
+duc_imf1.mif
+duc_imf1.ngc
+duc_imf1.vhd
+duc_imf1.vho
+duc_imf1.xco
+duc_imf1.xise
+duc_imf1_flist.txt
+duc_imf1_readme.txt
+duc_imf1_xmdf.tcl

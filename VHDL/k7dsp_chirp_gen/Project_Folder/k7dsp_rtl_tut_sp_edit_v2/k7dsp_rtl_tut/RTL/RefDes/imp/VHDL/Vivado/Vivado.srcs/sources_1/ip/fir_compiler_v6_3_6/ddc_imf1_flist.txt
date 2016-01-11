@@ -1,0 +1,13 @@
+# Output products list for <ddc_imf1>
+ddc_imf1.asy
+ddc_imf1.gise
+ddc_imf1.mif
+ddc_imf1.ngc
+ddc_imf1.vhd
+ddc_imf1.vho
+ddc_imf1.xco
+ddc_imf1.xise
+ddc_imf1_flist.txt
+ddc_imf1_readme.txt
+ddc_imf1_xmdf.tcl
+demo_tb\tb_ddc_imf1.vhd

@@ -1,0 +1,16 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.3.0 (win64) Build 303429 Tue Aug 27 21:51:50 MDT 2013
+| Date         : Wed Aug 28 16:06:23 2013
+| Host         : Grande64 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg900-2
+-------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'complex_multiplier'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of complex_multiplier (xilinx.com:ip:cmpy:6.0) from (Rev. 1) to (Rev. 2)
+

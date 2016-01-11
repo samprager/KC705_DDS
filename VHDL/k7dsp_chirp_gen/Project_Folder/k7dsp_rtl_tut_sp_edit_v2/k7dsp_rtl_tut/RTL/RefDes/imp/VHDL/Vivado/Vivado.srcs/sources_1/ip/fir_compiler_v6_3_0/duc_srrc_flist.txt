@@ -1,0 +1,13 @@
+# Output products list for <duc_srrc>
+demo_tb\tb_duc_srrc.vhd
+duc_srrc.asy
+duc_srrc.gise
+duc_srrc.mif
+duc_srrc.ngc
+duc_srrc.vhd
+duc_srrc.vho
+duc_srrc.xco
+duc_srrc.xise
+duc_srrc_flist.txt
+duc_srrc_readme.txt
+duc_srrc_xmdf.tcl

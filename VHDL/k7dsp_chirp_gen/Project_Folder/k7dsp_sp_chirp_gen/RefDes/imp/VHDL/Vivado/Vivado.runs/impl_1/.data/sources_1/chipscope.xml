@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<ChipScope Version="1" Minor="3">
+	<Core Id="ila_dac_baseband_ADC" Type="labtools_ila_v2">
+		<CoreStatus isImpl="1" isFromHDL="1"/>
+		<CoreParams Id="DebugCoreParams">
+			<Option Id="CDATADEPTH">2048</Option>
+			<Option Id="CTRIGINEN">0</Option>
+			<Option Id="CTRIGOUTEN">0</Option>
+		</CoreParams>
+		<Port Type="CLK" Index="0" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="0" Width="16">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="1" Width="16">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="2" Width="16">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="3" Width="16">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="4" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="5" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE" Index="6" Width="14">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+	</Core>
+	<Core Id="vio_inst" Type="labtools_vio_v2">
+		<CoreStatus isImpl="1" isFromHDL="1"/>
+		<CoreParams Id="DebugCoreParams">
+			<Option Id="CENPROBEINACTIVITY">1</Option>
+		</CoreParams>
+		<Port Type="CLK" Index="0" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_IN" Index="0" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_IN" Index="1" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_IN" Index="2" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_IN" Index="3" Width="32">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_IN" Index="4" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="0" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="1" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="2" Width="5">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="3" Width="16">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="4" Width="32">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="5" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="6" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="7" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="8" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+		<Port Type="PROBE_OUT" Index="9" Width="1">
+			<PortParams Id="DebugPortParams">
+			</PortParams>
+		</Port>
+	</Core>
+	<Core Id="dbg_hub" Type="labtools_xsdbmasterlib_v2">
+		<CoreStatus isImpl="1" isFromHDL="0" srcNetlist="cs/dbg_hub_1/dbg_hub.edn" srcXdc="cs/dbg_hub_1/dbg_hub.xdc"/>
+		<CoreParams Id="DebugCoreParams">
+			<Option Id="CUSERSCANCHAIN">1</Option>
+		</CoreParams>
+	</Core>
+	<UnassignedNets>
+	</UnassignedNets>
+</ChipScope>
+
