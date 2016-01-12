@@ -1,0 +1,5 @@
+
+Fix for Bitstream generation error:
+
+ERROR: [Drc 23-20] Rule violation (RTRES-1) Backbone resources - 1 net(s) have CLOCK_DEDICATED_ROUTE set to BACKBONE but do not use backbone resources. The problem net(s) are clk_in1.
+http://www.xilinx.com/support/answers/60480.html

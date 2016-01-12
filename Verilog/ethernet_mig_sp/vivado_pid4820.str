@@ -1,0 +1,96 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 4820
+
+Current time: 	1/11/16 4:13:01 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1276x777
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	Sam
+User directory: E:/KC705_DDS/Verilog/ethernet_mig_sp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 337 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.7s
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'E:\KC705_DDS\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr' : addNotify
+// Tcl Message: open_project {E:\KC705_DDS\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 394 MB. GUI used memory: 25 MB. Current time: 1/11/16 4:13:04 PM
+// [GUI Memory]: 28 mb (+27077kb) [00:00:25]
+// [Engine Memory]: 446 mb (+315947kb) [00:00:25]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 52 mb (+24487kb) [00:00:39]
+// [Engine Memory]: 495 mb (+51847kb) [00:00:42]
+// [GUI Memory]: 64 mb (+12736kb) [00:00:43]
+// [Engine Memory]: 510 mb (+15663kb) [00:00:43]
+// [GUI Memory]: 64 mb (+563kb) [00:00:45]
+// [Engine Memory]: 519 mb (+8814kb) [00:00:45]
+// [Engine Memory]: 524 mb (+6017kb) [00:00:48]
+// [Engine Memory]: 525 mb (+1032kb) [00:00:49]
+// [GUI Memory]: 70 mb (+6436kb) [00:00:50]
+// [GUI Memory]: 77 mb (+6630kb) [00:00:50]
+// Tcl Message: open_project {E:\KC705_DDS\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'. 
+// [Engine Memory]: 528 mb (+3125kb) [00:00:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 33 MB. Current time: 1/11/16 4:13:41 PM
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 870.617 ; gain = 126.023 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 529 mb (+1249kb) [00:00:54]
+dismissDialog("Opening project 'E:\\KC705_DDS\\Verilog\\ethernet_mig_sp\\ethernet_mig_sp.xpr'"); // co:P (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 534 mb (+4874kb) [00:00:57]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 540 mb (+5894kb) [00:00:59]
+// [GUI Memory]: 77 mb (+636kb) [00:00:59]
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 5); // u:k (w:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (kc705_ethernet_rgmii_example_design.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kc705_ethernet_rgmii_example_design.xdc]", 6, false); // u:k (w:JPanel, cg:JFrame)
+// [GUI Memory]: 82 mb (+5320kb) [00:01:24]
+// [GUI Memory]: 84 mb (+1931kb) [00:01:24]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kc705_ethernet_rgmii_example_design.xdc]", 6, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// [Engine Memory]: 541 mb (+1294kb) [00:01:29]
