@@ -1,0 +1,329 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 1112
+
+Current time: 	1/11/16 11:44:14 AM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	radar
+User directory: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 417 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\GitRepos\KC705_DDS\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB. GUI used memory: 27 MB. Current time: 1/11/16 11:44:16 AM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 mb (+50122kb) [00:00:07]
+// [Engine Memory]: 493 mb (+365984kb) [00:00:07]
+// [GUI Memory]: 71 mb (+22351kb) [00:00:07]
+// [Engine Memory]: 495 mb (+1282kb) [00:00:07]
+// [Engine Memory]: 496 mb (+1867kb) [00:00:07]
+// [Engine Memory]: 510 mb (+14245kb) [00:00:07]
+// [Engine Memory]: 511 mb (+1191kb) [00:00:08]
+// [GUI Memory]: 72 mb (+541kb) [00:00:08]
+// [GUI Memory]: 78 mb (+5798kb) [00:00:08]
+// [GUI Memory]: 83 mb (+5798kb) [00:00:08]
+// [Engine Memory]: 515 mb (+3719kb) [00:00:08]
+// Tcl Message: open_project {C:\GitRepos\KC705_DDS\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'. 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 517 mb (+2658kb) [00:00:08]
+dismissDialog("Opening project 'C:\\GitRepos\\KC705_DDS\\Verilog\\ethernet_mig_sp\\ethernet_mig_sp.xpr'"); // co:P (cg:JFrame)
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 869.953 ; gain = 73.676 
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 524 mb (+6909kb) [00:00:16]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 535 mb (+11288kb) [00:02:04]
+// [Engine Memory]: 538 mb (+3284kb) [00:02:04]
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 19, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// HMemoryUtils.trashcanNow. Engine heap size: 538 MB. GUI used memory: 33 MB. Current time: 1/11/16 11:46:16 AM
+// co:P (cg:JFrame):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, P:JDialog)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 557 mb (+20131kb) [00:02:10]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci 
+// Tcl Message: [Mon Jan 11 11:46:21 2016] Launched impl_1... Run output will be captured here: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/runme.log 
+// 'g' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// N:an (cg:JFrame): Implementation Failed: addNotify
+// N:an (cg:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// o:an (cg:JFrame): Reset and Re-run: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Reset and Re-run"); // a:JButton (JPanel:JComponent, o:an)
+// co:P (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Reset and Re-run"); // o:an (cg:JFrame)
+dismissDialog("Reset and Re-run"); // o:an (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// [GUI Memory]: 86 mb (+3472kb) [00:02:20]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// co:P (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci 
+// Tcl Message: [Mon Jan 11 11:46:30 2016] Launched impl_1... Run output will be captured here: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/runme.log 
+// 'g' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // co:P (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 37 MB. Current time: 1/11/16 11:46:31 AM
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+// [Engine Memory]: 563 mb (+5816kb) [00:02:22]
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // N:an (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+// [Engine Memory]: 565 mb (+2826kb) [00:02:25]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+// [Engine Memory]: 589 mb (+24559kb) [00:02:31]
+// [Engine Memory]: 591 mb (+1957kb) [00:02:31]
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// az:a (cg:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 20 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, az:a)
+dismissDialog("Launch Run Critical Messages"); // az:a (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, kc705_ethernet_rgmii_example_design (kc705_ethernet_rgmii_example_design.v)]", 1); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 11); // u:k (w:JPanel, cg:JFrame)
+// TclEventType: RUN_FAILED
+// N:an (cg:JFrame): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // N:an (cg:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // h:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 10); // u:k (w:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 10); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 14); // u:k (w:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 15); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kc705_ethernet_rgmii_example_design.xdc]", 16, false); // u:k (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, kc705_ethernet_rgmii_example_design.xdc]", 16, false, false, false, false, false, true); // u:k (w:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // w:X (v:w, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ag:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:co (cg:JFrame):  Run Simulation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target Simulation [get_files C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mig_7series_0'... 
+// TclEventType: LOAD_FEATURE
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, e:co)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 606 mb (+16736kb) [00:04:11]
+// Tcl Message: generate_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 926.715 ; gain = 0.000 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_xsim -simset sim_1 -mode behavioral 
+// Elapsed time: 10 seconds
+selectCodeEditor("kc705_ethernet_rgmii_example_design.xdc", 208, 95); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: LAUNCH_SIM_LOG
+selectCodeEditor("kc705_ethernet_rgmii_example_design.xdc", 455, 77); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 92 mb (+5734kb) [00:04:40]
+// Elapsed time: 17 seconds
+selectCodeEditor("kc705_ethernet_rgmii_example_design.xdc", 500, 410); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+// [Engine Memory]: 617 mb (+11104kb) [00:04:54]
+// [Engine Memory]: 624 mb (+7135kb) [00:04:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 41 MB. Current time: 1/11/16 11:49:06 AM
+// Elapsed time: 11 seconds
+selectCodeEditor("kc705_ethernet_rgmii_example_design.xdc", 576, 408); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 93 mb (+1292kb) [00:05:09]
+// [GUI Memory]: 95 mb (+1764kb) [00:05:09]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis 
+// [GUI Memory]: 96 mb (+1164kb) [00:05:15]
+// Tcl Message: Compiling module xil_defaultlib.mig_7series_v2_1_ddr_byte_lane(A... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_byte_lane(A... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_4lanes(... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_mc_phy(BYTE... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_mc_phy_wrap... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_prbs_gen(TC... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_init(tC... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_wrcal(T... 
+// Tcl Message: Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_wrlvl(T... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_ck_addr... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_oclkdel... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_dqs_fou... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_rdlvl(T... Compiling module xil_defaultlib.mig_7series_v2_1_ddr_phy_prbs_rd... 
+// Tcl Message: Compiling module xil_defaultlib.kc705_ethernet_rgmii_axi_pat_che... Compiling module xil_defaultlib.kc705_ethernet_rgmii_axi_mux Compiling module xil_defaultlib.kc705_ethernet_rgmii_axi_pipe_de... Compiling module xil_defaultlib.kc705_ethernet_rgmii_address_swa... Compiling module xil_defaultlib.kc705_ethernet_rgmii_basic_pat_g... Compiling module xil_defaultlib.kc705_ethernet_rgmii_example_des... Compiling module xil_defaultlib.ddr3_model_default Compiling module xil_defaultlib.demo_tb Compiling module xil_defaultlib.glbl Waiting for 12 sub-compilation(s) to finish... 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot demo_tb_behav 
+// Tcl Message: INFO: [Runs 36-26] xelab completed. INFO: [Vivado 12-1390] *** Running xsim     with args "demo_tb_behav -key {Behavioral:sim_1:Functional:demo_tb} -tclbatch {demo_tb.tcl} -view {C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/demo_tb_behav.wcfg} -log {demo_tb_behav.log}" 
+// Tcl Message: Vivado Simulator 2014.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// [GUI Memory]: 100 mb (+4645kb) [00:06:02]
+// [Engine Memory]: 625 mb (+1490kb) [00:06:02]
+// [Engine Memory]: 627 mb (+1798kb) [00:06:02]
+// [Engine Memory]: 631 mb (+3997kb) [00:06:02]
+// [Engine Memory]: 631 mb (+40kb) [00:06:02]
+// [GUI Memory]: 102 mb (+1435kb) [00:06:03]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 fs 
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Waveform: addNotify
+// [Engine Memory]: 633 mb (+2613kb) [00:06:03]
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [Vivado 12-1395] XSim completed. Design snapshot 'demo_tb_behav' loaded. INFO: [Vivado 12-3703] XSim simulation ran for 1000ns 
+// Tcl Message: launch_xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:01:53 . Memory (MB): peak = 946.484 ; gain = 19.770 
+// [Engine Memory]: 642 mb (+9244kb) [00:06:04]
+// Elapsed time: 52 seconds
+dismissDialog("Run Simulation"); // e:co (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 103 mb (+1811kb) [00:06:06]
+// [Engine Memory]: 642 mb (+77kb) [00:06:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "demo_tb_behav.wcfg"); // u:aC
+// [Engine Memory]: 642 mb (+229kb) [00:06:10]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// co:P (cg:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, P:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// co:P (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Jan 11 11:50:24 2016] Launched synth_1... Run output will be captured here: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // co:P (cg:JFrame)
+selectCodeEditor(PAResourceItoN.LogView_MONITOR, 618, 13); // K:aU (JPanel:JComponent, cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// N:an (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// co:P (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci 
+// Tcl Message: [Mon Jan 11 11:51:06 2016] Launched impl_1... Run output will be captured here: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // co:P (cg:JFrame)
+// [GUI Memory]: 107 mb (+3535kb) [00:07:05]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// N:an (cg:JFrame): Implementation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB. GUI used memory: 53 MB. Current time: 1/11/16 11:56:21 AM
+// [Engine Memory]: 652 mb (+10162kb) [00:12:25]
+// Elapsed time: 371 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, N:an)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // N:an (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci 
+// Tcl Message: [Mon Jan 11 11:57:21 2016] Launched impl_1... Run output will be captured here: C:/GitRepos/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// N:an (cg:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 40 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log", false); // h:JCheckBox (JPanel:JComponent, N:an): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:an)
+dismissDialog("Bitstream Generation Failed"); // N:an (cg:JFrame)

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="1" Path="E:/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.xpr">
+<Project Version="7" Minor="1" Path="D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="cd7b8868a3c5460aa1b8000fff113af3"/>
@@ -291,6 +291,12 @@
           <Attr Name="ProcessingOrder" Val="LATE"/>
         </FileInfo>
       </File>
+      <File Path="$PIOPLANDIR/constrs_1/designprops.xml">
+        <FileInfo SFType="CompatPartsDb"/>
+      </File>
+      <File Path="$PIOPLANDIR/constrs_1/usercols.xml">
+        <FileInfo SFType="UserColsDb"/>
+      </File>
       <Config>
         <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
@@ -499,4 +505,5 @@
       </Strategy>
     </Run>
   </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
 </Project>

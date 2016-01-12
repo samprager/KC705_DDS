@@ -1,10 +1,10 @@
 -- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
--- Date        : Tue Jan 05 18:13:09 2016
--- Host        : SP-W7X64-VM running 64-bit Service Pack 1  (build 7601)
--- Command     : write_vhdl -force -mode synth_stub {C:/Users/Sam/Vivado
---               Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0_stub.vhdl}
+-- Date        : Mon Jan 11 12:04:36 2016
+-- Host        : radar-PC running 64-bit Service Pack 1  (build 7601)
+-- Command     : write_vhdl -force -mode synth_stub
+--               D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0_stub.vhdl
 -- Design      : mig_7series_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7k325tffg900-2

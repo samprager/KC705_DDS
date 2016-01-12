@@ -1,0 +1,147 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 6364
+
+Current time: 	1/11/16 11:40:06 AM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	radar
+User directory: C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 416 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\GitRepos\KC705_DDS_2\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 mb (+62666kb) [00:00:06]
+// [Engine Memory]: 441 mb (+311028kb) [00:00:06]
+// [Engine Memory]: 459 mb (+18780kb) [00:00:06]
+// [GUI Memory]: 73 mb (+11198kb) [00:00:06]
+// [Engine Memory]: 470 mb (+12054kb) [00:00:06]
+// [Engine Memory]: 548 mb (+80822kb) [00:00:07]
+// [Engine Memory]: 552 mb (+5169kb) [00:00:07]
+// [GUI Memory]: 74 mb (+984kb) [00:00:07]
+// [GUI Memory]: 81 mb (+7474kb) [00:00:07]
+// [GUI Memory]: 87 mb (+6374kb) [00:00:07]
+// Tcl Message: open_project {C:\GitRepos\KC705_DDS_2\Verilog\ethernet_mig_sp\ethernet_mig_sp.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/KC705_DDS/Verilog/ethernet_mig_sp' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 552 MB. GUI used memory: 36 MB. Current time: 1/11/16 11:40:09 AM
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 890.207 ; gain = 94.293 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 558 mb (+6115kb) [00:00:08]
+dismissDialog("Opening project 'C:\\GitRepos\\KC705_DDS_2\\Verilog\\ethernet_mig_sp\\ethernet_mig_sp.xpr'"); // co:P (cg:JFrame)
+// [Engine Memory]: 559 mb (+561kb) [00:00:09]
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 560 mb (+1658kb) [00:01:20]
+// [Engine Memory]: 561 mb (+331kb) [00:01:23]
+// [Engine Memory]: 562 mb (+1220kb) [00:01:23]
+// Elapsed time: 77 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 19, false); // w:X (v:w, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// an:bF (cg:JFrame): OOC module run(s) is/are Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, an:bF)
+// co:P (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("OOC module run(s) is/are Out-of-date"); // an:bF (cg:JFrame)
+dismissDialog("OOC module run(s) is/are Out-of-date"); // an:bF (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run mig_7series_0_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// co:P (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'... 
+// TclEventType: LOAD_FEATURE
+// [Engine Memory]: 566 mb (+4194kb) [00:01:35]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 589 mb (+24154kb) [00:01:40]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 590 mb (+1417kb) [00:01:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 37 MB. Current time: 1/11/16 11:41:43 AM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 590 mb (+151kb) [00:01:42]
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci INFO: [Memdata 28-152] Did  not create MIG processor data. C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci 
+// Tcl Message: [Mon Jan 11 11:41:44 2016] Launched mig_7series_0_synth_1, synth_1... Run output will be captured here: mig_7series_0_synth_1: C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/runme.log synth_1: C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/runme.log [Mon Jan 11 11:41:44 2016] Launched impl_1... Run output will be captured here: C:/GitRepos/KC705_DDS_2/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 900.695 ; gain = 5.961 
+// Elapsed time: 14 seconds
+dismissDialog("Starting Design Runs"); // co:P (cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (w:JPanel, cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OOC_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, P:JDialog)
+// Tcl Message: reset_run mig_7series_0_synth_1 
+// Tcl Message: reset_run synth_1 
+// [Engine Memory]: 598 mb (+7561kb) [00:02:30]

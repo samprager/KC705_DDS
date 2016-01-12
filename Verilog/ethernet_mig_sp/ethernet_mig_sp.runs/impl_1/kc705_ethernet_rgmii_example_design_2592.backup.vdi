@@ -1,0 +1,631 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Jan 11 13:47:39 2016
+# Process ID: 9052
+# Log file: D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/kc705_ethernet_rgmii_example_design.vdi
+# Journal file: D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source kc705_ethernet_rgmii_example_design.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp' for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+INFO: [Project 1-454] Reading design checkpoint 'D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp' for cell 'u_mig_example_top/u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 970 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_example_top/u_mig_7series_0/init_calib_complete' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/.Xil/Vivado-9052-radar-PC/dcp_3/mig_7series_0.edf:646564]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_example_top/u_mig_7series_0/ui_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/.Xil/Vivado-9052-radar-PC/dcp_3/mig_7series_0.edf:646662]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'u_mig_example_top/u_mig_7series_0/ui_clk_sync_rst' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/.Xil/Vivado-9052-radar-PC/dcp_3/mig_7series_0.edf:646669]
+Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+Finished Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_board.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+Finished Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_board.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:817]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:817]
+set_max_delay: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1135.598 ; gain = 484.180
+INFO: [Vivado 12-3489] Using the max delay datapath only value '5.000' scoped to cell 'u_mig_example_top/u_mig_7series_0' from the checkpoint. [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:818]
+Finished Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+WARNING: [Constraints 18-1056] Clock 'sys_clk_p' completely overrides clock 'sys_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:109]
+extra characters after close-brace
+CRITICAL WARNING: [Designutils 20-1307] Command '{ IOB_IBUF0 LIOI_I0 LIOI_ILOGIC0_D IOI_ILOGIC0_O LIOI_I2GCLK_TOP0 HCLK_CMT_MUX_OUT_FREQ_REF0 HCLK_CMT_FREQ_REF_NS0 MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS { CMT_TOP_R_UPPER_T_FREQ_BB0 CMT_TOP_R_UPPER_T_PLLE2_CLKIN1 } MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS CMT_R_LOWER_B_CLK_FREQ_BB3 CMT_LR_LOWER_B_MMCM_CLKIN1 }' is not supported in the xdc constraint file. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:118]
+CRITICAL WARNING: [Common 17-163] Missing value for option 'value', please type 'set_property -help' for usage info. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:120]
+extra characters after close-brace
+CRITICAL WARNING: [Designutils 20-1307] Command '{ IOB_IBUF0 LIOI_I0 LIOI_ILOGIC0_D IOI_ILOGIC0_O LIOI_I2GCLK_TOP0 HCLK_CMT_MUX_OUT_FREQ_REF0 HCLK_CMT_FREQ_REF_NS0 MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS  { MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS CMT_R_LOWER_B_CLK_FREQ_BB3 CMT_LR_LOWER_B_MMCM_CLKIN1 }  CMT_TOP_R_UPPER_T_FREQ_BB0 CMT_TOP_R_UPPER_T_PLLE2_CLKIN1 }' is not supported in the xdc constraint file. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:121]
+INFO: [Timing 38-2] Deriving generated clocks [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:144]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_iserdes_clk_8' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:210]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clkout1' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:211]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_oserdes_clk_15' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:212]
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:218]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:218]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_input_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:218]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:219]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:219]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_input_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:219]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:238]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:238]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:238]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:239]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:239]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:239]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:240]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:240]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:240]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:241]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:241]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:241]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:242]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:242]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:242]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:243]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:243]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:243]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:244]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:244]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:244]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:245]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:245]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:245]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-627] No clocks matched 'kc705_ethernet_rgmii_rgmii_rx_clk'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+CRITICAL WARNING: [Vivado 12-1387] No valid object(s) found for set_output_delay constraint with option '-clock [get_clocks kc705_ethernet_rgmii_rgmii_rx_clk]'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object.
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_8 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:270]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_11 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:271]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_9 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:272]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_12 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:273]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_10 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:274]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_13 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:275]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_11 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:276]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_14 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:277]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_15 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:278]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_16 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:279]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_17 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:280]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_12 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:281]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_18 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:282]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_13 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:283]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_19 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:284]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_14 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:285]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_20 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:286]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: iserdes_clkdiv_15 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:287]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: oserdes_clkdiv_21 [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:288]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+INFO: [Project 1-538] Ignoring constraints in dcp 'd:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp'
+INFO: [Project 1-538] Ignoring constraints in dcp 'D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp'
+Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'kc705_ethernet_rgmii_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc:30]
+Finished Parsing XDC File [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/inst'
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 540 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  IOBUFDS_DCIEN => IOBUFDS_DCIEN (IBUFDS_IBUFDISABLE_INT, IBUFDS_IBUFDISABLE_INT, INV, OBUFTDS_DCIEN, OBUFTDS_DCIEN): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 424 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 42 instances
+
+link_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1228.199 ; gain = 1041.414
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.352 . Memory (MB): peak = 1229.422 ; gain = 1.195
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 2447ceabe
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1229.422 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-10] Eliminated 317 cells.
+Phase 2 Constant Propagation | Checksum: 2606889a0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1229.422 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 1382 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 400 unconnected cells.
+Phase 3 Sweep | Checksum: 2bd904356
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.422 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 2bd904356
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1229.422 ; gain = 0.000
+Implement Debug Cores | Checksum: 212a79b35
+Logic Optimization | Checksum: 212a79b35
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Will skip clock gating for clocks with period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 3 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 2 newly gated: 0 Total Ports: 6
+Ending PowerOpt Patch Enables Task | Checksum: 15f31cce4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 15f31cce4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.551 ; gain = 68.129
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 37 Warnings, 17 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1297.551 ; gain = 69.352
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.336 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 13f188ef6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.324 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2 Placer Initialization
+
+Phase 2.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.1 Mandatory Logic Optimization | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.2 Build Super Logic Region (SLR) Database
+Phase 2.1.2 Build Super Logic Region (SLR) Database | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.3 Add Constraints
+Phase 2.1.3 Add Constraints | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.4 Build Shapes/ HD Config
+
+Phase 2.1.4.1 Build Macros
+Phase 2.1.4.1 Build Macros | Checksum: 1c8913f63
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.4 Build Shapes/ HD Config | Checksum: 1c8913f63
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.5.1 Pre-Place Cells
+Phase 2.1.5.1 Pre-Place Cells | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1297.551 ; gain = 0.000
+WARNING: [Constraints 18-1056] Clock 'sys_clk_p' completely overrides clock 'sys_clk'.
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_iserdes_clk_8' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:210]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clkout1' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:211]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_oserdes_clk_15' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:212]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'kc705_ethernet_rgmii_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc:30]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.5.2 IO & Clk Clean Up
+Phase 2.1.5.2 IO & Clk Clean Up | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.5.3 Implementation Feasibility check On IDelay
+Phase 2.1.5.3 Implementation Feasibility check On IDelay | Checksum: fee61ba6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.5.4 Commit IO Placement
+Phase 2.1.5.4 Commit IO Placement | Checksum: 14c871bd
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: de73957a
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.6 Build Placer Netlist Model
+
+Phase 2.1.6.1 Place Init Design
+
+Phase 2.1.6.1.1 Init Lut Pin Assignment
+Phase 2.1.6.1.1 Init Lut Pin Assignment | Checksum: 1d9ecd786
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.6.1.2 Build Clock Data
+Phase 2.1.6.1.2 Build Clock Data | Checksum: 110e94f9c
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.6.1.3 setBudgets in placeInitDesign
+Phase 2.1.6.1.3 setBudgets in placeInitDesign | Checksum: 160d1a6d8
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.6.1 Place Init Design | Checksum: 11843cdc1
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.6 Build Placer Netlist Model | Checksum: 11843cdc1
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 2.1.7 Constrain Clocks/Macros
+
+Phase 2.1.7.1 Constrain Global/Regional Clocks
+Phase 2.1.7.1 Constrain Global/Regional Clocks | Checksum: 1ced96fba
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1.7 Constrain Clocks/Macros | Checksum: 1a9991a9e
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2.1 Placer Initialization Core | Checksum: 1a9991a9e
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 2 Placer Initialization | Checksum: 1a9991a9e
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 216a1c2d7
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 216a1c2d7
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 203dea1a7
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:46 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 29abf9637
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:46 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 4.4 Timing Path Optimizer
+Phase 4.4 Timing Path Optimizer | Checksum: 1d1430402
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:48 . Memory (MB): peak = 1297.551 ; gain = 0.000
+
+Phase 4.5 Commit Small Macros & Core Logic
+
+Phase 4.5.1 setBudgets
+Phase 4.5.1 setBudgets | Checksum: 259326b90
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:48 . Memory (MB): peak = 1297.551 ; gain = 0.000
+Phase 4.5 Commit Small Macros & Core Logic | Checksum: 1b8f99a61
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:54 . Memory (MB): peak = 1332.676 ; gain = 35.125
+
+Phase 4.6 Re-assign LUT pins
+Phase 4.6 Re-assign LUT pins | Checksum: 1b8f99a61
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:55 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Phase 4 Detail Placement | Checksum: 1b8f99a61
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:55 . Memory (MB): peak = 1335.496 ; gain = 37.945
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 13a4ff543
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:56 . Memory (MB): peak = 1335.496 ; gain = 37.945
+
+Phase 5.2 Post Placement Optimization
+
+Phase 5.2.1 Post Placement Timing Optimization
+
+Phase 5.2.1.1 Restore Best Placement
+Phase 5.2.1.1 Restore Best Placement | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:02 . Memory (MB): peak = 1335.496 ; gain = 37.945
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-12.763. For the most accurate timing information please run report_timing.
+Phase 5.2.1 Post Placement Timing Optimization | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:02 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Phase 5.2 Post Placement Optimization | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:02 . Memory (MB): peak = 1335.496 ; gain = 37.945
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Phase 5.4 Placer Reporting | Checksum: 125fce008
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: f1a824d5
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: f1a824d5
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Ending Placer Task | Checksum: 88d9d0cb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:03 . Memory (MB): peak = 1335.496 ; gain = 37.945
+INFO: [Common 17-83] Releasing license: Implementation
+66 Infos, 38 Warnings, 17 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:05 . Memory (MB): peak = 1335.496 ; gain = 37.945
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1335.496 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.312 . Memory (MB): peak = 1335.496 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 120e4b5d5
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:52 . Memory (MB): peak = 1578.887 ; gain = 178.730
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 120e4b5d5
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:52 . Memory (MB): peak = 1578.887 ; gain = 178.730
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: cf73f3fe
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:02 . Memory (MB): peak = 1635.395 ; gain = 235.238
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=-3.55  | THS=-2.29e+03|
+
+Phase 2 Router Initialization | Checksum: cf73f3fe
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:07 . Memory (MB): peak = 1635.395 ; gain = 235.238
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 12947edb7
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:09 . Memory (MB): peak = 1635.395 ; gain = 235.238
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2089
+ Number of Nodes with overlaps = 107
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 3c24b6e1
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:15 . Memory (MB): peak = 1635.395 ; gain = 235.238
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 160656976
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:15 . Memory (MB): peak = 1635.395 ; gain = 235.238
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 160656976
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:16 . Memory (MB): peak = 1635.395 ; gain = 235.238
+Phase 4.1.2 GlobIterForTiming | Checksum: 160656976
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:16 . Memory (MB): peak = 1635.395 ; gain = 235.238
+Phase 4.1 Global Iteration 0 | Checksum: 160656976
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:16 . Memory (MB): peak = 1635.395 ; gain = 235.238
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:17 . Memory (MB): peak = 1635.395 ; gain = 235.238
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:18 . Memory (MB): peak = 1635.395 ; gain = 235.238
+Phase 4 Rip-up And Reroute | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:18 . Memory (MB): peak = 1635.395 ; gain = 235.238
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:19 . Memory (MB): peak = 1635.395 ; gain = 235.238
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5 Delay CleanUp | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:20 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:20 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 133e00c87
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:23 . Memory (MB): peak = 1665.977 ; gain = 265.820
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=-4.92  | THS=-309   |
+
+Phase 7 Post Hold Fix | Checksum: e437ff66
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:23 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.08592 %
+  Global Horizontal Routing Utilization  = 2.08004 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 69.3694%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 70.2703%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 63.2353%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 69.1176%, No Congested Regions.
+Phase 8 Route finalize | Checksum: e437ff66
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:23 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: e437ff66
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:23 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: b64832f1
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:25 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Phase 11 Post Router Timing
+
+Phase 11.1 Update Timing
+Phase 11.1 Update Timing | Checksum: b64832f1
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:27 . Memory (MB): peak = 1665.977 ; gain = 265.820
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-11.6  | TNS=-933   | WHS=-4.92  | THS=-309   |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 11 Post Router Timing | Checksum: b64832f1
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:27 . Memory (MB): peak = 1665.977 ; gain = 265.820
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: b64832f1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:27 . Memory (MB): peak = 1665.977 ; gain = 265.820
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:01:27 . Memory (MB): peak = 1665.977 ; gain = 265.820
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 39 Warnings, 17 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:03 ; elapsed = 00:01:29 . Memory (MB): peak = 1665.977 ; gain = 330.480
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1665.977 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1665.977 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/impl_1/kc705_ethernet_rgmii_example_design_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1723.215 ; gain = 57.238
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1723.215 ; gain = 0.000
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1753.543 ; gain = 30.328
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 11 13:51:26 2016...

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc} rfile:../../../ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc id:1 order:EARLY} [current_design]
+set_property SRC_FILE_INFO {cfile:d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc rfile:../../../ethernet_mig_sp.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc id:1 order:EARLY} [current_design]
 set_property src_info {type:XDC file:1 line:728 export:INPUT save:INPUT read:READ} [current_design]
 set_property LOC PHASER_OUT_PHY_X1Y3 [get_cells  -hier -filter {NAME =~ */ddr_phy_4lanes_2.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out}]
 set_property src_info {type:XDC file:1 line:729 export:INPUT save:INPUT read:READ} [current_design]

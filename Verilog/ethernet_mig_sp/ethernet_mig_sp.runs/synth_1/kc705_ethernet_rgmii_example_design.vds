@@ -2,106 +2,102 @@
 # Vivado v2014.2 (64-bit)
 # SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
 # IP Build 924643 on Fri May 30 09:20:16 MDT 2014
-# Start of session at: Tue Jan 05 19:43:55 2016
-# Process ID: 576
-# Log file: C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/kc705_ethernet_rgmii_example_design.vds
-# Journal file: C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1\vivado.jou
+# Start of session at: Mon Jan 11 14:19:19 2016
+# Process ID: 5420
+# Log file: D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/kc705_ethernet_rgmii_example_design.vds
+# Journal file: D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source kc705_ethernet_rgmii_example_design.tcl
 # set_param gui.test TreeTableDev
-# set_param iopl.placeGlobalClockInstsInIOPlacer 0
-# set_param iopl.placeRegionalClockInstsInIOPlacer 0
 # set_msg_config -id {HDL 9-1061} -limit 100000
 # set_msg_config -id {HDL 9-1654} -limit 100000
-# set_msg_config -id {Synth 8-256} -limit 10000
-# set_msg_config -id {Synth 8-638} -limit 10000
 # create_project -in_memory -part xc7k325tffg900-2
 # set_property target_language Verilog [current_project]
 # set_property board_part xilinx.com:kc705:part0:1.0 [current_project]
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_property default_lib xil_defaultlib [current_project]
-# add_files -quiet {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp}}
-# set_property used_in_implementation false [get_files {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp}}]
-# read_ip {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci}}
+# add_files -quiet D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp
+# set_property used_in_implementation false [get_files D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/mig_7series_0_synth_1/mig_7series_0.dcp]
+# read_ip D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
-# set_property used_in_implementation false [get_files {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp}}]
-# set_property used_in_implementation false [get_files -all {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp}}]
-# set_property used_in_implementation false [get_files -all {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii.xdc}}]
-# set_property used_in_implementation false [get_files -all {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_ooc.xdc}}]
-# set_property used_in_implementation false [get_files -all {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc}}]
-# set_property used_in_implementation false [get_files -all {{c:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_board.xdc}}]
+# set_property used_in_implementation false [get_files d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp]
+# set_property used_in_implementation false [get_files -all d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.dcp]
+# set_property used_in_implementation false [get_files -all d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii.xdc]
+# set_property used_in_implementation false [get_files -all d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/synth/kc705_ethernet_rgmii_board.xdc]
 # set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
-# set_property is_locked true [get_files {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci}}]
+# set_property is_locked true [get_files D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/ip/kc705_ethernet_rgmii/kc705_ethernet_rgmii.xci]
 # read_verilog -library xil_defaultlib {
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v}
-#   {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v}
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v
+#   D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v
 # }
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v]
-WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v]
-# read_xdc {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc}}
-# set_property used_in_implementation false [get_files {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc}}]
-# read_xdc {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc}}
-# set_property used_in_implementation false [get_files {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc}}]
-# set_property processing_order LATE [get_files {{C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc}}]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v]
+# read_xdc D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc
+# set_property used_in_implementation false [get_files D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+# read_xdc D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc
+# set_property used_in_implementation false [get_files D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+# set_property processing_order LATE [get_files D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
 # read_xdc dont_touch.xdc
 # set_property used_in_implementation false [get_files dont_touch.xdc]
 # read_xdc dont_buffer.xdc
 # set_property used_in_implementation false [get_files dont_buffer.xdc]
 # set_param synth.vivado.isSynthRun true
-# set_property webtalk.parent_dir {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.cache/wt} [current_project]
-# set_property parent.project_dir {C:/Users/Sam/Vivado Projects/ethernet_mig_sp} [current_project]
+# set_property webtalk.parent_dir D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.cache/wt [current_project]
+# set_property parent.project_dir D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp [current_project]
 # catch { write_hwdef -file kc705_ethernet_rgmii_example_design.hwdef }
 INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
 # synth_design -top kc705_ethernet_rgmii_example_design -part xc7k325tffg900-2
@@ -111,14 +107,14 @@ Starting synthesis...
 
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
-WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_tg with formal parameter declaration list [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:166]
-WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_axi4_wrapper with formal parameter declaration list [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:201]
-WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_axi4_wrapper with formal parameter declaration list [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:208]
+WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_tg with formal parameter declaration list [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:166]
+WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_axi4_wrapper with formal parameter declaration list [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:201]
+WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v2_1_axi4_wrapper with formal parameter declaration list [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:208]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 251.996 ; gain = 87.313
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 247.809 ; gain = 114.535
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
-INFO: [Synth 8-638] synthesizing module 'mig_example_top' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:74]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
+INFO: [Synth 8-638] synthesizing module 'mig_example_top' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:74]
 	Parameter BEGIN_ADDRESS bound to: 0 - type: integer 
 	Parameter END_ADDRESS bound to: 16777215 - type: integer 
 	Parameter PRBS_EADDR_MASK_POS bound to: -16777216 - type: integer 
@@ -174,9 +170,9 @@ INFO: [Synth 8-638] synthesizing module 'mig_example_top' [C:/Users/Sam/Vivado P
 	Parameter MASK_SIZE bound to: 8 - type: integer 
 	Parameter DBG_WR_STS_WIDTH bound to: 40 - type: integer 
 	Parameter DBG_RD_STS_WIDTH bound to: 40 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'mig_7series_0' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/realtime/mig_7series_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_0' (1#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/realtime/mig_7series_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_tg' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_0' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/realtime/mig_7series_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_0' (1#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/realtime/mig_7series_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_tg' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v:69]
 	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 30 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 512 - type: integer 
@@ -196,7 +192,7 @@ INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_tg' [C:/Users/Sam
 	Parameter RD_STS_WIDTH bound to: 16 - type: integer 
 	Parameter WDG_TIMER_WIDTH bound to: 11 - type: integer 
 	Parameter WR_STS_WIDTH bound to: 16 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_wrapper' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_wrapper' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:69]
 	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 30 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 512 - type: integer 
@@ -223,10 +219,10 @@ INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_axi4_wrapper' [C:/User
 	Parameter AXI_RDDAT_LST bound to: 6'b000011 
 	Parameter AXI_RDDAT_WT bound to: 6'b000100 
 	Parameter AXI_RDTO bound to: 6'b000101 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:374]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:664]
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_axi4_wrapper' (2#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:69]
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_tg' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:374]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:664]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_axi4_wrapper' (2#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_wrapper.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_tg' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:68]
 	Parameter C_AXI_ADDR_WIDTH bound to: 30 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 512 - type: integer 
 	Parameter C_AXI_NBURST_SUPPORT bound to: 0 - type: integer 
@@ -251,10 +247,10 @@ INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_tg' [C:/Users/Sam/Viva
 	Parameter TG_RD_CMD bound to: 9'b000000101 
 	Parameter TG_RD_DATA bound to: 9'b000000110 
 	Parameter TG_UPDT_CNTR bound to: 9'b000000111 
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_data_gen_chk' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_data_gen_chk' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v:69]
 	Parameter C_AXI_DATA_WIDTH bound to: 512 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_data_gen_chk' (3#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v:69]
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_data_gen_chk' (3#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_data_gen_chk.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: SPARTAN6 - type: string 
 	Parameter ADDR_WIDTH bound to: 30 - type: integer 
@@ -266,8 +262,8 @@ INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi' [C:/
 	Parameter PRBS_SADDR_MASK_POS bound to: 8192 - type: integer 
 	Parameter PRBS_EADDR bound to: 8192 - type: integer 
 	Parameter PRBS_SADDR bound to: 8192 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi' (4#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
-INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi__parameterized0' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi' (4#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi__parameterized0' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX7 - type: string 
 	Parameter ADDR_WIDTH bound to: 30 - type: integer 
@@ -279,15 +275,15 @@ INFO: [Synth 8-638] synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi__para
 	Parameter PRBS_SADDR_MASK_POS bound to: 8192 - type: integer 
 	Parameter PRBS_EADDR bound to: 16777215 - type: integer 
 	Parameter PRBS_SADDR bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi__parameterized0' (4#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:232]
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_tg' (5#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:68]
-INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_axi4_tg' (6#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v:69]
-WARNING: [Synth 8-689] width (1) of port connection 'axi_wlock' does not match port width (2) of module 'mig_7series_v2_1_axi4_tg' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:849]
-WARNING: [Synth 8-689] width (1) of port connection 'axi_wd_wid' does not match port width (4) of module 'mig_7series_v2_1_axi4_tg' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:856]
-WARNING: [Synth 8-689] width (1) of port connection 'axi_rlock' does not match port width (2) of module 'mig_7series_v2_1_axi4_tg' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:875]
-INFO: [Synth 8-256] done synthesizing module 'mig_example_top' (7#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:74]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_cmd_prbs_gen_axi__parameterized0' (4#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_cmd_prbs_gen_axi.v:71]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:232]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_tg' (5#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_tg.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v2_1_axi4_tg' (6#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/traffic_gen/mig_7series_v2_1_axi4_tg.v:69]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_wlock' does not match port width (2) of module 'mig_7series_v2_1_axi4_tg' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:849]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_wd_wid' does not match port width (4) of module 'mig_7series_v2_1_axi4_tg' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:856]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_rlock' does not match port width (2) of module 'mig_7series_v2_1_axi4_tg' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:875]
+INFO: [Synth 8-256] done synthesizing module 'mig_example_top' (7#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/mig_7series_0_example_select_srcs/mig_example_top.v:74]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
 INFO: [Synth 8-638] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:10265]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter DIFF_TERM bound to: FALSE - type: string 
@@ -302,7 +298,7 @@ INFO: [Synth 8-638] synthesizing module 'BUFGCE' [C:/Xilinx/Vivado/2014.2/script
 	Parameter IS_CE_INVERTED bound to: 1'b0 
 	Parameter IS_I_INVERTED bound to: 1'b0 
 INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (9#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:616]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_sync_block' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_sync_block' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
 	Parameter INITIALISE bound to: 1'b0 
 	Parameter DEPTH bound to: 5 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:3014]
@@ -311,8 +307,8 @@ INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2014.2/scripts/
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
 INFO: [Synth 8-256] done synthesizing module 'FDRE' (10#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:3014]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_sync_block' (11#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_reset_sync' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_sync_block' (11#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_sync_block.v:63]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_reset_sync' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
 	Parameter INITIALISE bound to: 1'b1 
 	Parameter DEPTH bound to: 5 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'FDPE' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:2954]
@@ -321,8 +317,8 @@ INFO: [Synth 8-638] synthesizing module 'FDPE' [C:/Xilinx/Vivado/2014.2/scripts/
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_PRE_INVERTED bound to: 1'b0 
 INFO: [Synth 8-256] done synthesizing module 'FDPE' (12#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:2954]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_reset_sync' (13#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_clk_wiz' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_reset_sync' (13#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/common/kc705_ethernet_rgmii_reset_sync.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_clk_wiz' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
 INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
@@ -373,11 +369,11 @@ INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2014.2/sc
 	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
 	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
 INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (14#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_clk_wiz' (15#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' (16#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_resets' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_resets' (17#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_clk_wiz' (15#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_clk_wiz.v:72]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_clocks' (16#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_clocks.v:56]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_example_design_resets' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design_resets' (17#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design_resets.v:54]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
 	Parameter STARTUP bound to: 0 - type: integer 
 	Parameter UPDATE_SPEED bound to: 1 - type: integer 
 	Parameter MDIO_RD bound to: 2 - type: integer 
@@ -429,10 +425,10 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' [C:/U
 	Parameter PHY_1000BASET_CONTROL_REG bound to: 8'b00001001 
 	Parameter PHY_MODE_CTL_REG bound to: 8'b00010100 
 	Parameter PHY_MODE_STS_REG bound to: 8'b00011011 
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' (18#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_fifo_block' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_clocking' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_lite_sm' (18#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/axi_lite_sm/kc705_ethernet_rgmii_axi_lite_sm.v:64]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_fifo_block' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_clocking' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
 INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV__parameterized0' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
@@ -483,17 +479,17 @@ INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV__parameterized0' [C:/Xilinx/
 	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
 	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
 INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV__parameterized0' (18#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15990]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_clocking' (19#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_resets' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_resets' (20#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_clocking' (19#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_clocking.v:67]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_support_resets' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support_resets' (20#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support_resets.v:57]
 INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:12244]
 INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (21#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:12244]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/realtime/kc705_ethernet_rgmii_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii' (22#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/realtime/kc705_ethernet_rgmii_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support' (23#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/realtime/kc705_ethernet_rgmii_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii' (22#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/realtime/kc705_ethernet_rgmii_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_support' (23#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/support/kc705_ethernet_rgmii_support.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
 	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
 	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
 	Parameter IDLE_s bound to: 4'b0000 
 	Parameter QUEUE1_s bound to: 4'b0001 
@@ -514,16 +510,16 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' [C
 	Parameter DATA_s bound to: 2'b01 
 	Parameter EOF_s bound to: 2'b10 
 	Parameter OVFLOW_s bound to: 2'b11 
-INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:243]
-INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:264]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_bram_tdp' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
+INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:243]
+INFO: [Synth 8-4472] Detected and applied attribute ASYNC_REG = TRUE [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:264]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_bram_tdp' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
 	Parameter DATA_WIDTH bound to: 9 - type: integer 
 	Parameter ADDR_WIDTH bound to: 12 - type: integer 
 	Parameter RAM_DEPTH bound to: 4096 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_bram_tdp' (24#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
-INFO: [Synth 8-226] default block is never used [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:318]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' (25#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_bram_tdp' (24#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_bram_tdp.v:66]
+INFO: [Synth 8-226] default block is never used [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:318]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_tx_client_fifo' (25#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_tx_client_fifo.v:100]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
 	Parameter WAIT_s bound to: 3'b000 
 	Parameter QUEUE1_s bound to: 3'b001 
 	Parameter QUEUE2_s bound to: 3'b010 
@@ -537,11 +533,11 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' [C
 	Parameter GF_s bound to: 3'b010 
 	Parameter BF_s bound to: 3'b011 
 	Parameter OVFLOW_s bound to: 3'b100 
-INFO: [Synth 8-226] default block is never used [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:251]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' (26#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' (27#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_fifo_block' (28#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
+INFO: [Synth 8-226] default block is never used [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:251]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_rx_client_fifo' (26#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_rx_client_fifo.v:111]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_ten_100_1g_eth_fifo' (27#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/fifo/kc705_ethernet_rgmii_ten_100_1g_eth_fifo.v:71]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_fifo_block' (28#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_fifo_block.v:90]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
 	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
 	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
 	Parameter MAX_SIZE bound to: 16'b0000000111110100 
@@ -549,7 +545,7 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' [C:
 	Parameter ENABLE_VLAN bound to: 1'b0 
 	Parameter VLAN_ID bound to: 12'b000000000010 
 	Parameter VLAN_PRIORITY bound to: 3'b010 
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
 	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
 	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
 	Parameter MAX_SIZE bound to: 16'b0000000111110100 
@@ -589,8 +585,8 @@ INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized4' (29#1) [C:/X
 INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized5' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000000000001 
 INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized5' (29#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' (30#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_gen' (30#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_gen.v:66]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
 	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
 	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
 	Parameter MAX_SIZE bound to: 16'b0000000111110100 
@@ -608,16 +604,16 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' [C:
 INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized6' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000001000000 
 INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized6' (30#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:15910]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' (31#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_mux' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_mux' (32#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pipe' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pat_check' (31#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pat_check.v:61]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_mux' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_mux' (32#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_mux.v:57]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_axi_pipe' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
 INFO: [Synth 8-638] synthesizing module 'RAM64X1D' [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:28398]
 	Parameter IS_WCLK_INVERTED bound to: 1'b0 
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 INFO: [Synth 8-256] done synthesizing module 'RAM64X1D' (33#1) [C:/Xilinx/Vivado/2014.2/scripts/rt/data/unisim_comp.v:28398]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pipe' (34#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
-INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_address_swap' [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_axi_pipe' (34#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_axi_pipe.v:58]
+INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_address_swap' [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
 	Parameter IDLE bound to: 3'b000 
 	Parameter WAIT bound to: 3'b001 
 	Parameter READ_DEST bound to: 3'b010 
@@ -628,12 +624,12 @@ INFO: [Synth 8-638] synthesizing module 'kc705_ethernet_rgmii_address_swap' [C:/
 	Parameter WRITE_SLOT1 bound to: 2'b01 
 	Parameter WRITE_SLOT2 bound to: 2'b10 
 	Parameter WRITE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:158]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_address_swap' (35#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' (36#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
-INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design' (37#1) [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
+INFO: [Synth 8-226] default block is never used [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:158]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_address_swap' (35#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_address_swap.v:59]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_basic_pat_gen' (36#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/pat_gen/kc705_ethernet_rgmii_basic_pat_gen.v:67]
+INFO: [Synth 8-256] done synthesizing module 'kc705_ethernet_rgmii_example_design' (37#1) [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/sources_1/imports/example_design/kc705_ethernet_rgmii_example_design.v:133]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 290.703 ; gain = 126.020
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 287.555 ; gain = 154.281
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Optimization
@@ -656,22 +652,103 @@ Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/kintex7/IO
 Loading device configuration modes from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/kintex7/ConfigModes.xml
 
 Processing XDC Constraints
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/dcp/mig_7series_0_in_context.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/dcp/mig_7series_0_in_context.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/dcp_2/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-576-SP-W7X64-VM/dcp_2/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
-WARNING: [Constraints 18-619] A clock with name 'sys_clk_p' already exists, overwriting the previous clock with the same name. [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:111]
-INFO: [Timing 38-2] Deriving generated clocks [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:122]
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc].
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/dcp/mig_7series_0_in_context.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/dcp/mig_7series_0_in_context.xdc] for cell 'u_mig_example_top/u_mig_7series_0'
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/dcp_2/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/.Xil/Vivado-5420-radar-PC/dcp_2/kc705_ethernet_rgmii_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk_p' already exists, overwriting the previous clock with the same name. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:109]
+INFO: [Timing 38-2] Deriving generated clocks [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:140]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_iserdes_clk_8' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:206]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_clkout1' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:207]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_oserdes_clk_15' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:208]
+WARNING: [Vivado 12-508] No pins matched 'u_mig_example_top/u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_ck_gen_loop[0].ddr_ck_gen.ddr_ck/C'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:209]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_8'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:252]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:252]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_8'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:252]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:252]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_11'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:253]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:253]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_11'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:253]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:253]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_9'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:254]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:254]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_9'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:254]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:254]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_12'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:255]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:255]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_12'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:255]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:255]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_10'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:256]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:256]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_10'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:256]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:256]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_13'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:257]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:257]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_13'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:257]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:257]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_11'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:258]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:258]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_11'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:258]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:258]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_14'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:259]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:259]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_14'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:259]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:259]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_15'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:260]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:260]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_15'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:260]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:260]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_16'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:261]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:261]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_16'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:261]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:261]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_17'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:262]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:262]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_17'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:262]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:262]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_12'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:263]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:263]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_12'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:263]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:263]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_18'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_18'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:264]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_13'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_13'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:265]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_19'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_19'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:266]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_14'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_14'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:267]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_20'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:268]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:268]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_20'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:268]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:268]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clk_15'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:269]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:269]
+WARNING: [Vivado 12-627] No clocks matched 'iserdes_clkdiv_15'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:269]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:269]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clk_21'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:270]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:270]
+WARNING: [Vivado 12-627] No clocks matched 'oserdes_clkdiv_21'. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:270]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc:270]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_example_design.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc].
 Resolution: To avoid this message, exclude constraints listed in [.Xil/kc705_ethernet_rgmii_example_design_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc]
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc]
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc]
-Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
-Finished Parsing XDC File [C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc]
+Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
+Finished Parsing XDC File [D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.srcs/constrs_1/imports/example_design/kc705_ethernet_rgmii_user_phytiming.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -687,149 +764,149 @@ Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg900-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 575.641 ; gain = 410.957
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 580.074 ; gain = 446.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for tri_mode_ethernet_mac_i. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc}, line 9).
-Applied set_property BUFFER_TYPE = NONE for rgmii_tx_ctl. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_txc. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rx_ctl. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rxc. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for mdio. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for mdc. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_txd[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_txd[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_txd[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_txd[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 4).
-Applied set_property BUFFER_TYPE = NONE for glbl_rst. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for sys_clk_p. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for sys_clk_n. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for init_calib_complete. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[63]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[62]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[61]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[60]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[59]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[58]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[57]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[56]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[55]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[54]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[53]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[52]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[51]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[50]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[49]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[48]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[47]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[46]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[45]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[44]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[43]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[42]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[41]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[40]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[39]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[38]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[37]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[36]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[35]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[34]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[33]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[32]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[31]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[30]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[29]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[28]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[27]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[26]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[25]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[24]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[23]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[22]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[21]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[20]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[19]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[18]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[17]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[16]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[7]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[6]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[5]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[4]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[7]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[6]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[5]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[4]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[7]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[6]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[5]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[4]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[3]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[2]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
-Applied set_property BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  {C:/Users/Sam/Vivado Projects/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc}, line 5).
+Applied set_property DONT_TOUCH = true for tri_mode_ethernet_mac_i. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_touch.xdc, line 9).
+Applied set_property BUFFER_TYPE = NONE for rgmii_tx_ctl. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txc. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rx_ctl. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxc. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for mdio. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for mdc. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_txd[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for rgmii_rxd[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 4).
+Applied set_property BUFFER_TYPE = NONE for glbl_rst. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for sys_clk_p. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for sys_clk_n. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ras_n. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_cas_n. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for init_calib_complete. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[63]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[62]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[61]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[60]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[59]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[58]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[57]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[56]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[55]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[54]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[53]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[52]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[51]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[50]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[49]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[48]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[47]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[46]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[45]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[44]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[43]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[42]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[41]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[40]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[39]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[38]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[37]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[36]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[35]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[34]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[33]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[32]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[31]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[30]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[29]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[28]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[27]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[26]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[25]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[24]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[23]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[22]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[21]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[20]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[19]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[18]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[17]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[16]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[15]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[14]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[13]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[12]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[11]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[10]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[9]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[8]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[7]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[6]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[5]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[4]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dq[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[7]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[6]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[5]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[4]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_n[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[7]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[6]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[5]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[4]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dqs_p[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[13]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[12]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[11]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[9]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[8]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[7]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[6]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[5]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[4]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ba[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ba[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ba[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ck_p[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_ck_n[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_cke[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_cs_n[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[7]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[6]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[5]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[4]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[3]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[2]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[1]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_dm[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
+Applied set_property BUFFER_TYPE = NONE for ddr3_odt[0]. (constraint file  D:/Prager/KC705_DDS/Verilog/ethernet_mig_sp/ethernet_mig_sp.runs/synth_1/dont_buffer.xdc, line 5).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 575.641 ; gain = 410.957
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 580.074 ; gain = 446.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 575.641 ; gain = 410.957
+Finished RTL Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 580.074 ; gain = 446.801
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'axi_state_reg' in module 'kc705_ethernet_rgmii_axi_lite_sm'
 INFO: [Synth 8-802] inferred FSM for state register 'idelay_reset_cnt_reg' in module 'kc705_ethernet_rgmii_support_resets'
@@ -860,8 +937,8 @@ Detailed RTL Component Info :
 	   2 Input      6 Bit       Adders := 3     
 	   2 Input      5 Bit       Adders := 2     
 	   2 Input      4 Bit       Adders := 7     
-	   3 Input      3 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 6     
+	   3 Input      3 Bit       Adders := 1     
 	   2 Input      2 Bit       Adders := 3     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 12    
@@ -892,10 +969,10 @@ Detailed RTL Component Info :
 	   2 Input    512 Bit        Muxes := 2     
 	   2 Input     37 Bit        Muxes := 1     
 	   2 Input     34 Bit        Muxes := 1     
-	   4 Input     32 Bit        Muxes := 1     
 	  25 Input     32 Bit        Muxes := 1     
 	   2 Input     32 Bit        Muxes := 10    
 	   6 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
 	   2 Input     30 Bit        Muxes := 1     
 	  27 Input     25 Bit        Muxes := 1     
 	  25 Input     17 Bit        Muxes := 1     
@@ -903,35 +980,35 @@ Detailed RTL Component Info :
 	  13 Input     14 Bit        Muxes := 1     
 	   2 Input     12 Bit        Muxes := 7     
 	   2 Input     11 Bit        Muxes := 1     
-	  10 Input      9 Bit        Muxes := 2     
 	   2 Input      9 Bit        Muxes := 12    
-	  13 Input      8 Bit        Muxes := 1     
+	  10 Input      9 Bit        Muxes := 2     
 	   9 Input      8 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 19    
 	  25 Input      8 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 15    
 	   7 Input      6 Bit        Muxes := 1     
-	  10 Input      6 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 5     
-	  25 Input      5 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
 	   2 Input      5 Bit        Muxes := 9     
+	  25 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 42    
-	  14 Input      4 Bit        Muxes := 1     
 	  10 Input      4 Bit        Muxes := 7     
-	   6 Input      3 Bit        Muxes := 3     
-	   3 Input      3 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
 	   8 Input      3 Bit        Muxes := 4     
 	   2 Input      3 Bit        Muxes := 48    
+	   6 Input      3 Bit        Muxes := 3     
 	   9 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 61    
 	  25 Input      2 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 11    
-	   2 Input      2 Bit        Muxes := 61    
-	   5 Input      1 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 169   
-	   4 Input      1 Bit        Muxes := 4     
-	   6 Input      1 Bit        Muxes := 1     
 	   3 Input      1 Bit        Muxes := 2     
 	  25 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -973,8 +1050,8 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 23    
 +---Muxes : 
 	   2 Input    512 Bit        Muxes := 2     
-	  10 Input      9 Bit        Muxes := 2     
 	   2 Input      9 Bit        Muxes := 12    
+	  10 Input      9 Bit        Muxes := 2     
 	   2 Input      8 Bit        Muxes := 4     
 	   2 Input      7 Bit        Muxes := 14    
 	   7 Input      6 Bit        Muxes := 1     
@@ -1084,12 +1161,12 @@ Detailed RTL Component Info :
 	   2 Input     11 Bit        Muxes := 1     
 	  25 Input      8 Bit        Muxes := 1     
 	  25 Input      5 Bit        Muxes := 1     
-	   4 Input      2 Bit        Muxes := 2     
 	  25 Input      2 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 3     
-	  25 Input      1 Bit        Muxes := 10    
+	   4 Input      2 Bit        Muxes := 2     
 	   4 Input      1 Bit        Muxes := 3     
 	   2 Input      1 Bit        Muxes := 27    
+	  25 Input      1 Bit        Muxes := 10    
 Module kc705_ethernet_rgmii_support_clocking 
 Detailed RTL Component Info : 
 Module kc705_ethernet_rgmii_support_resets 
@@ -1250,14 +1327,14 @@ BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:25 . Memory (MB): peak = 578.352 ; gain = 413.668
+Workers Ready, Starting Parallel Section  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 580.094 ; gain = 446.820
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 578.352 ; gain = 413.668
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 580.094 ; gain = 446.820
 ---------------------------------------------------------------------------------
-Finished Parallel Reinfer  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 578.352 ; gain = 413.668
+Finished Parallel Reinfer  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 580.094 ; gain = 446.820
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
@@ -1415,10 +1492,10 @@ WARNING: [Synth 8-3332] Sequential element (\data_axi_wr.axi_wd_data_reg[402] ) 
 WARNING: [Synth 8-3332] Sequential element (\data_axi_wr.axi_wd_data_reg[401] ) is unused and will be removed from module mig_7series_v2_1_axi4_wrapper.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 598.906 ; gain = 434.223
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 601.711 ; gain = 468.438
 ---------------------------------------------------------------------------------
-Finished Parallel Area Opt  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 598.906 ; gain = 434.223
-Finished Parallel Section  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 598.906 ; gain = 434.223
+Finished Parallel Area Opt  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 601.711 ; gain = 468.438
+Finished Parallel Section  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 601.711 ; gain = 468.438
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -1428,17 +1505,17 @@ Start Applying XDC Timing Constraints
 WARNING: [Synth 8-565] redefining clock 'sys_clk_p'
 INFO: Moved 4 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 644.195 ; gain = 479.512
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 645.898 ; gain = 512.625
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 649.078 ; gain = 484.395
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 650.773 ; gain = 517.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4480] The timing for the instance \trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_ramgen_i/mem_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 700.410 ; gain = 535.727
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 702.141 ; gain = 568.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1456,7 +1533,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:06 . Memory (MB): peak = 700.410 ; gain = 535.727
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 702.141 ; gain = 568.867
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1469,13 +1546,13 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:06 . Memory (MB): peak = 700.410 ; gain = 535.727
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 702.141 ; gain = 568.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:07 . Memory (MB): peak = 700.410 ; gain = 535.727
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 702.141 ; gain = 568.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
@@ -1589,10 +1666,10 @@ Report Instance Areas:
 |48    |        data_gen_chk_inst                      |mig_7series_v2_1_data_gen_chk                     |   214|
 +------+-----------------------------------------------+--------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 700.410 ; gain = 535.727
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 702.141 ; gain = 568.867
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1608 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 700.410 ; gain = 535.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 702.141 ; gain = 568.867
 INFO: [Netlist 29-17] Analyzing 93 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -1604,10 +1681,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 18 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-132 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+173 Infos, 148 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 700.410 ; gain = 501.598
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 702.141 ; gain = 511.777
 # write_checkpoint kc705_ethernet_rgmii_example_design.dcp
 # report_utilization -file kc705_ethernet_rgmii_example_design_utilization_synth.rpt -pb kc705_ethernet_rgmii_example_design_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 700.410 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Jan 05 19:45:09 2016...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 702.141 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 11 14:19:55 2016...

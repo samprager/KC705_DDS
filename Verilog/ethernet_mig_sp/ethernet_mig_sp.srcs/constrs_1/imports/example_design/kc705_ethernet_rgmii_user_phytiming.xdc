@@ -1,4 +1,3 @@
-set rx_clk_var [get_clocks -of [get_ports rgmii_rxc]]
 
 ## If the interface timing constraints cannot be met then these can be relaxed by adjusting the values in this
 ## xdc file which is set to be processed after all other xdc files
@@ -16,5 +15,11 @@ set rx_clk_var [get_clocks -of [get_ports rgmii_rxc]]
 # the value shown is the default used by the IP
 # increasing this value will improve the hold timing but will also add jitter.
 #set_property IDELAY_VALUE 12 [get_cells {trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/*/rgmii_interface/delay_rgmii_rx* trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i/*/rgmii_interface/rxdata_bus[*].delay_rgmii_rx*}]
+
+
+
+
+
+
 
 
