@@ -2,4 +2,50 @@
 Fix for Bitstream generation error:
 
 ERROR: [Drc 23-20] Rule violation (RTRES-1) Backbone resources - 1 net(s) have CLOCK_DEDICATED_ROUTE set to BACKBONE but do not use backbone resources. The problem net(s) are clk_in1.
+
 http://www.xilinx.com/support/answers/60480.html
+
+Check Error With:
+get_property route [get_nets clk_in1]
+{ IOB_IBUF0 LIOI_I0 LIOI_ILOGIC0_D IOI_ILOGIC0_O IOI_LOGIC_OUTS18_1 INT_INTERFACE_LOGIC_OUTS_L18 WW2BEG0 NR1BEG0 LV18 LV18 { LV18 LV18 LV18 LV18 SW6BEG0 ER1BEG1 CLK0 CMT_R_LOWER_B_CLK_IN1_INT CMT_LR_LOWER_B_MMCM_CLKIN1 }  SW6BEG0 ER1BEG1 CLK1 CMT_TOP_R_UPPER_T_PLLE2_CLK_IN1_INT CMT_TOP_R_UPPER_T_PLLE2_CLKIN1 }
+
+1) Open the implemented design and from the Tcl console perform the following:
+
+report_drc -file pre_wa_drc_chk.rpt
+
+-This performs a DRC check and shows the DRC reported by write_bitstream.
+
+route_design -unroute
+
+-Unroutes the entire design.
+
+route_design -nets [get_nets clk_in1]
+
+-Routes the net reported in the DRC error only.
+
+set_property IS_ROUTE_FIXED 1 [get_nets clk_in1]
+
+-Locks the net.
+
+route_design
+
+-Routes the rest of the design.
+
+report_drc -file post_wa_drc_chk.rpt 
+
+-DRC error no longer reported.
+
+2) Now you will need to create a route constraint to add to the XDC file to ensure that the tools will successfully route the design and that this clk net will be placed on the backbone routing as required.
+
+get_property route [get_nets clk_in1]
+{ IOB_IBUF0 LIOI_I0 LIOI_ILOGIC0_D IOI_ILOGIC0_O LIOI_I2GCLK_TOP0 HCLK_CMT_MUX_OUT_FREQ_REF0 HCLK_CMT_FREQ_REF_NS0 MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS { CMT_TOP_R_UPPER_T_FREQ_BB0 CMT_TOP_R_UPPER_T_PLLE2_CLKIN1 } MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS CMT_R_LOWER_B_CLK_FREQ_BB3 CMT_LR_LOWER_B_MMCM_CLKIN1 }
+
+This shows the connections for the clk_in1 net. You can see the Backbone is used, and see BB referenced in names.
+
+3) To make this workaround push button in the flow, you need to add an XDC constraint as follows:
+
+set_property route 
+{ IOB_IBUF0 LIOI_I0 LIOI_ILOGIC0_D IOI_ILOGIC0_O LIOI_I2GCLK_TOP0 HCLK_CMT_MUX_OUT_FREQ_REF0 HCLK_CMT_FREQ_REF_NS0 MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS  { MMCM_CLK_FREQ_BB_REBUF0_NS PLL_CLK_FREQ_BB0_NS CMT_R_LOWER_B_CLK_FREQ_BB3 CMT_LR_LOWER_B_MMCM_CLKIN1 }  CMT_TOP_R_UPPER_T_FREQ_BB0 CMT_TOP_R_UPPER_T_PLLE2_CLKIN1 } [get_nets clk_in1]
+
+
+With this added, the design will implement and allow bitstream generation.
