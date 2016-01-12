@@ -210,7 +210,8 @@ int main() {
     }
     currdevp = alldevsp;
     
-    device = pcap_lookupdev(errbuf);
+    //device = pcap_lookupdev(errbuf);
+    device = "en4";
     if(device == NULL)
         pcap_fatal("pcap_lookupdev", errbuf);
     
